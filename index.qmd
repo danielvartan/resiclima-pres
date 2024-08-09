@@ -1,0 +1,934 @@
+## Hi there! 👋 {.smaller}
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+:::: {.columns}
+::: {.column width="70%"}
+This presentation aims to introduce the concepts of generative science, complex systems, and agent-based models. We will explore the key principles and tools used in this field, along with potential applications of these techniques in socio-ecological studies.
+
+Here is our itinerary:
+
+1. **Introduction**
+1. **Key concepts about complex systems**
+1. **A new method approach of doing science? The generative science**
+1. **Entering the world of Agent-based models**
+1. **Examples and case studies**
+1. **Final remarks**
+:::
+
+::: {.column width="30%"}
+![](images/welcome-path.png){fig-align="center" style="width: 85%;"}
+:::
+::::
+
+::: {.notes}
+## Time
+
+1. **Introduction** (1 min.)
+1. **Key concepts  about complex systems** (3 min.)
+1. **A new method approach of doing science? The generative science** (5 min.)
+1. **Entering the world of Agent-based models** (5 min.)
+1. **Examples and case studies** (5 min.)
+1. **Final remarks** (2 min.)
+
+## General notes
+
+- Add the Sustentarea + RESISCLIMA + CNPq logos.
+- 20 minutes for presentation.
+- 10 minutes for questions.
+- Cut the fluff.
+- Focus on the key messages.
+- 50% theory, 50% practice.
+- Include practical cases in the middle to avoid fatigue.
+- Top-down approach.
+:::
+
+
+<!-- --- -->
+
+
+## Key concepts in complex systems
+
+## {background-image="images/national-geographic-2016-clip.gif" background-position="top left" background-size="100%"}
+
+<!-- https://new.express.adobe.com/ -->
+<!-- https://youtu.be/V4f_1_r80RY?si=pX0Ra6m-tB7-FQ7R -->
+<!-- https://youtu.be/6zjMsvzOsHw?si=IeNeHGnT72ZFvi0c -->
+<!-- https://youtu.be/L_u4IcRy2dw?si=j7CEPy-yWOj1UiaC -->
+<!-- https://youtu.be/KnndQgIUraQ?si=o1QTE7cDYkAFhW6A -->
+
+<!-- ## {background-image="images/complexity-explorer-figure-10.jpg" background-position="top left" background-size="100%" -->
+
+## Complexity _versus_ complicatedness {.smaller}
+
+## Types of complexity {.smaller}
+
+::: {.notes}
+
+:::
+
+## Complex structures {.nostretch .smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
+[...] just because maximum entropy has low complexity does not mean that low entropy has maximum complexity. It's actually more like this tea and milk. I mean, holding it like this is not very interesting. But as I pour the milk in, the two start to mix and these beautiful patterns emerge. They arise in an instant, and before you know it, they're gone back to being featureless. Both low and high entropy are low in complexity. **It's in the middle where complex structures appear and thrive**.
+:::
+
+::: {.column width="50%"}
+![](images/muller-2023-clip.gif){fig-align="center" width=100% style="padding-top: 25px;"}
+:::
+::::
+
+::: footer
+[@muller2023]
+:::
+
+::: {.notes}
+"Entropy is the expected value of surprise." [@starmer2021]
+
+"In the physical sciences, the entropy associated with a situation is a measure of the degree of randomness, or of “shuffledness” if you will, in the situation; and the tendency of physical systems to become less and less organized, to become more and more perfectly shuffled, is so basic that Eddington argues that it is primarily this tendency which gives time its arrow—which would reveal to us, for example, whether a movie of the physical world is being run forward or backward." [@shannon1998]
+
+"That information be measured by entropy is, after all, natural when we remember that information, in communication theory, is associated with the amount of freedom of choice we have in constructing messages. Thus for a communication source one can say, just as he would also say it of a thermodynamic ensemble, “This situation is highly organized, it is not characterized by a large degree of randomness or of choice—that is to say, the information (or the entropy) is low." [@shannon1998]
+:::
+
+## What is a complex system? {.nostretch .smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+There are several definitions.
+
+* "Systems that don't yield to compact forms of representation or description" (David Krakauer in @mitchell2013);
+* "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman in @mitchell2013);
+* Systems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).
+* Dialectics at its finest (my working definition).
+:::
+
+::: {.column width="50%"}
+![](images/entangled-threads.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+[@muller2023]
+:::
+
+## Complexity science {.nostretch .smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
+* (System theory) Science or discipline that investigates models, principles, and laws that are valid to systems in general [@bertalanffy1968];
+* (System theory) "The attempt of a reductionist scientific tradition to come to terms with complexity, nonlinearity, and change through sophisticated mathematical and computational techniques, _a groping toward a more dialectical understanding_ that is held back by its philosophical biases and the institutional and economic contexts of its development" [@levins1998].
+:::
+
+::: {.column width="50%"}
+![](images/american-chopper.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+:::
+::::
+
+## *Quem te viu, quem te vê* {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
+Whereas artificial-intelligence researchers seek to understand the mind by mimicking it on a computer, proponents of artificial life hope to gain insights into a broad range of biological phenomena. **And just as artificial intelligence has generated more portentous rhetoric than tangible results**, so has artificial life. (1995)
+:::
+
+::: {.column width="50%"}
+![](images/horgan-2015-figure-1.jpg){fig-align="center" width=70% style="font-size: 1em; padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@horgan1995, p. 106]
+:::
+
+## Complexity science {.smaller}
+
+![](images/sayama-2015-figure-1.png){fig-align="center" width=70% style="font-size: 1em; padding-top: 25px;"}
+
+::: footer
+[@sayama2015]
+:::
+
+::: {.notes}
+"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015]
+:::
+
+## Reducionism *versus* compression {.smaller}
+
+::: {style="font-size: 0.9em;"}
+[...] where does complexity science fit? Well, complexity science is very quantitative, by and large, it's very historical, we're studying you know, adaptive agents, and it's very **compressive**, because we're looking for mathematical theories that capture essential regularities. **But what we are not is reductionist**.
+
+**We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
+:::
+
+![](images/krakauer-2023-figure-1.png){fig-align="center" width=75% style="padding-top: 5px;"}
+
+::: footer
+[@krakauer2023]
+:::
+
+## The 7 basics for complex adaptive systems {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+The seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:
+
+1. Aggregation (property).
+1. Nonlinearity (property).
+1. Flows (property).
+1. Diversity (property).
+1. Tags (mechanism).
+1. Internal models (mechanism).
+1. Building blocks (mechanism).
+:::
+::: {.column width="50%"}
+"Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution." [@rodriguesneto2022]
+
+[Add figure 1.16 from @holland1996]
+:::
+::::
+
+## Chaos {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 25px;"}
+"Systems in which this is the case are said to be **sensitively dependent on initial conditions**. With a few more qualifications, to be considered presently, sensitive dependence can serve as an acceptable definition of chaos, and it is the one that I shall choose."
+:::
+
+::: {.column width="50%"}
+![](images/lorentz-attractor.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+:::
+::::
+
+::: footer
+[@lorenz2008] (Animation by [Jake VanderPlas](https://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/))
+:::
+
+::: {.notes}
+See: Camilo (cap. 2).
+:::
+
+## Chaos {.smaller}
+
+Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
+
+The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions.
+
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+
+::: footer
+[@mitchell2009]
+:::
+
+::: {.notes}
+"Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R." [@mitchell2009]
+:::
+
+## Chaos {.smaller}
+
+Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
+
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+
+::: footer
+[@mitchell2009]
+:::
+
+::: {.notes}
+See also: @muller2020 .
+:::
+
+## Pseudonoise
+
+"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
+
+[Add Micromotives and macrobehavior - see @schelling2006]
+
+## Feedback {.smaller}
+
+::: {.notes}
+See: Rand's slides.
+:::
+
+## Adaptation {.smaller}
+
+## Emergence
+
+"You are dealing with an emergence phenomenon when there is no *need* to look under the hood." [@krakauer2023]
+
+"There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents." [@epstein1999]
+
+## Emergence {visibility="hidden"}
+
+"One singular deception of this sort, which often occurs, is to mistake the sensation produced by our own unclearness of thought for a character of the object we are thinking. Instead of perceiving that the obscurity is purely subjective, we fancy that we contemplate a quality of the object which is essentially mysterious; and if our conception be afterward presented to us in a clear form we do not recognize it as the same, owing to the absence of the feeling of unintelligibility."
+
+::: footer
+[@peirce2011]
+:::
+
+## Emergence
+
+[Smiley: eye - eye - mouth]
+
+## Emergence
+
+**How can something be more than the sum of its parts?**
+
+- A molecule of $\text{H}_2\text{O}$ is water?
+- Can you understand a anthill by studying a single ant?
+- Are you just a collection of cells?
+
+
+<!-- --- -->
+
+
+## Generative science: a new approach to doing science
+
+Induction: inferring from particular data a general theory.
+
+Deduction: reasoning from first principles to a general theory
+
+Generative: using first principles to generate a particular set of data that can create a general theory
+
+## How it differs from traditional scientific methods {.smaller}
+
+"Simulation is *a third way of doing science*. Like deduction, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical induction, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as *an aid intuition*."
+
+Induction and deduction combined. Deduction is used to generate data that can be analyzed inductively.
+
+::: footer
+[@axelrod1997, p. 24]
+:::
+
+## Unintended or unforeseen consequences {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 25px;"}
+Here we recognize the basic idea of generative science which is **to generate apparently unanticipated and infinite behavior** based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.
+
+Possible states, even if unlikely: by modelling such interactions, it can suggest that **properties exist in the system that had not been noticed in the real world situation**.
+:::
+::: {.column width="50%" style="padding-top: 100px;"}
+![](images/encontro.gif){fig-align="center"}
+:::
+::::
+
+::: footer
+[@dodig-crnkovic2013a]
+:::
+
+
+<!-- --- -->
+
+
+## Exploring agent-based models
+
+Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**.
+
+::: footer
+[@wilensky2015, p. 22]
+:::
+
+## What is a model? {.smaller}
+
+A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical).
+
+A good model is simple, valid, and robust.
+
+[Add modeling diagram workflow]
+
+::: footer
+[@sayama2015]
+:::
+
+::: {.notes}
+See: Rand (Units 1 & 7).
+:::
+
+## What is a model? {.smaller}
+
+"*All models are wrong*, but some are useful" [@box1979, p. 202]
+
+![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
+
+## Types of models {.smaller}
+
+- Equation-based models (EBM) (Mathematical models) (e.g., The ideal gas law: $\text{pV} = \text{nRT}$) [see @avegliano2023; @sayama2015].
+- Statistical models: it can be viewed as a subset of mathematical modeling, but is not really the same | e.g., black-box modelling versus regression modelling).
+- Physical models.
+- Aggregate computer modeling (e.g., system dynamic models).
+- Lab experiments (e.g., animal models).
+- Agent-based models (ABMs) & Individual-Based Models (Include stochastic effects).
+
+::: {.notes}
+See: Camilo (cap. 2); Rand (Units 1 & 9).
+:::
+
+## Conceptual models
+
+[Simple example: Predator-Prey (do not use the Lotka-Volterra model)]
+
+**Tools**
+
+- [Loopy](https://ncase.me/loopy/)
+- [Insight Maker](https://insightmaker.com/)
+- [Kumu](https://kumu.io/)
+
+## Del rigor en la ciencia {.smaller}
+
+::: {style="font-size: 0.9em;"}
+... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que ese dilatado Mapa era Inútil y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.
+
+Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658
+:::
+
+::: footer
+[@borges1984]
+:::
+
+## Nonrealistic models {.smaller}
+
+![](images/cool-car.gif){fig-align="center" style="padding-top: 25px;"}
+
+## Basics of agent-based modeling (ABM)
+
+[...] agent-based modeling is clearly a powerful tool in the analysis of spatially distributed systems of heterogeneous autonomous actors with bounded information and computing capacity.
+
+::: footer
+[@epstein1999]
+:::
+
+## Key components and how they work
+
+- Agents
+- Environment
+- Interaction
+
+## IBMs *versus* ABMs
+
+There have been historical differences between individual- and agent-based models: IBMs focused on individual variability and local interactions, whereas ABMs focused on decision-making and adaptive behavior. But **these differences are fading away** [...]
+
+Agent-Based Models (ABMs) are typically used in social sciences and economics, while Individual-Based Models (IBMs) are commonly used in ecology and biology.
+
+::: footer
+[@railsback2019]
+:::
+
+## Verification, validation, and replication {.smaller}
+
+## Why use ABM?
+
+Today, you don't need to invest in infrastructure to work with simulations. You can use your machine or cloud computing services to run your simulations.
+
+- Description.
+- Explanation.
+- Experimentation.
+- Analogy.
+- Education.
+- Prediction.
+
+::: {.notes}
+See: Rand (Unit 1).
+:::
+
+## When to use? {.smaller}
+
+::: {.notes}
+See: Rand (Unit 1); @epstein1999 .
+:::
+
+## ABM Frameworks
+
+- [NetLogo](https://ccl.northwestern.edu/netlogo/)
+- [StarLogo](https://www.slnova.org/)
+- [Swarm](https://www.swarm.org)
+- [GAMA](https://gama-platform.org/)
+- [Mesa](https://mesa.readthedocs.io/) (Python)
+
+See also: [Comparison of agent-based modeling software](https://en.wikipedia.org/wiki/Comparison_of_agent-based_modeling_software).
+
+## NetLogo
+
+A more intuitive and visual approach to modeling phenomena.
+
+::: {.notes}
+- Star Trek (Gene Roddenberry): 1966
+- Logo (Seymour Papert: 1967
+- NetLogo (Uri Wilensky): 1999) (Rand, Unit 8).
+:::
+
+## Advantages and limitations {.smaller}
+
+
+<!-- --- -->
+
+
+## Examples and Case Studies
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Flocking.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Chemistry%20&%20Physics/GasLab/GasLab%20Two%20Gas.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Segregation.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Curricular%20Models/epiDEM/epiDEM%20Basic.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Traffic%20Grid.nlogo" background-interactive=true}
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Percolation.nlogo" background-interactive=true}
+
+<!-- Add network and GIS examples -->
+
+## Case: Practical applications of ABM in socio-ecological studies
+
+::: {.notes}
+See: @epstein2006; @yap2023 .
+:::
+
+
+<!-- --- -->
+
+
+## Summary of key takeaways {.smaller}
+
+## How to learn more? {.smaller}
+
+Here are some resources to help you get started:
+
+🎓 **Courses**
+
+[Introduction to complexity (Santa Fe Institute)](https://www.complexityexplorer.org/courses/185-introduction-to-complexity)
+
+[Introduction to agent-based models (Santa Fe Institute)](https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling)
+
+[Introdução à ciência da computação com python - Parte 1 (USP-IME)](https://www.coursera.org/learn/ciencia-computacao-python-conceitos)
+
+[Introdução à ciência da computação com python - Parte 2 (USP-IME)](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2s)
+
+[Data Science Specialization (Johns Hopkins)](https://www.coursera.org/specializations/jhu-data-science)
+
+## How to learn more? {.smaller}
+
+Here are some resources to help you get started:
+
+📝 **Articles**
+
+[Foundational papers in complexity science](https://www.foundationalpapersincomplexityscience.org/).
+
+Epstein, J. M. (1999). Agent-based computational models and generative social science. *Complexity*, 4(5), 41–60. [https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F](https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F)
+
+Epstein, J. M. (2006). *Generative social science: studies in agent-based computational modeling*. Princeton University Press.
+
+Grimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M.-S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: A second update to improve clarity, replication, and structural realism. *Journal of Artificial Societies and Social Simulation*, *23*(2), 7. [https://doi.org/10.18564/jasss.4259](https://doi.org/10.18564/jasss.4259)
+
+## How to learn more? {.smaller}
+
+Here are some resources to help you get started:
+
+🎥 **Videos**
+
+Krakauer, D. (2023, February 17). *What is complexity?* [YouTube video]. Santa Fe Institute. [https://www.youtube.com/watch?v=JR93X7xK05o](https://www.youtube.com/watch?v=JR93X7xK05o)
+
+📙 **Books**
+
+Mitchell, M. (2009). *Complexity: a guided tour*. Oxford University Press.
+
+Wilensky, U., & Rand, W. (2015). *An introduction to agent-based modeling: modeling natural, social, and engineered complex systems with NetLogo*. The MIT Press.
+
+Railsback, S. F., & Grimm, V. (2019). *Agent-based and individual-based modeling: A practical introduction* (2. ed.). Princeton University Press.
+
+Smaldino, P. E. (2023). *Modeling social behavior: mathematical and agent-based models of social dynamics and cultural evolution*. Princeton University Press.
+
+## Final remarks {.smaller}
+
+[![License:
+MIT](images/mit-license-badge.svg){width=10.5%}](https://choosealicense.com/licenses/mit/)
+[![License: CC BY
+4.0](images/cc-licence-badge.svg){width=15%}](https://creativecommons.org/licenses/by/4.0/)
+
+This presentation was created using the Quarto Publishing System. Code and materials are available on [GitHub](https://github.com/danielvartan/resiclima-pres).
+
+Several of these slides benefited from significant contributions from [Bill Rand](https://scholar.google.com/citations?user=YsUCtAwAAAAJ&hl=en), [Camilo Rodrigues Neto](https://scholar.google.com/citations?hl=en&user=ZtiiIEQAAAAJ), and others.
+
+![](images/allison-horst-figure-1.png){fig-align="center" width=80% style="padding-top: 10px;"}
+
+::: footer
+(Artwork by [Allison Horst](https://twitter.com/allison_horst))
+:::
+
+## References {.smaller}
+
+::: {style="font-size: 0.75em;"}
+In accordance with the [American Psychological Association (APA) Style](https://apastyle.apa.org/), 7th edition.
+:::
+
+::: {#refs style="font-size: 0.75em;"}
+:::
+
+## Thank you! {.nostretch}
+
+![](images/allison-horst-figure-11.png){fig-align="center" width=70% style="padding-top: 25px;"}
+
+::: footer
+(Artwork by [Allison Horst](https://twitter.com/allison_horst))
+:::
+
+
+<!-- --- -->
+
+
+## (AP) Appendices {visibility="uncounted"}
+
+## (AP) Human difficulties in understanding complex systems {visibility="uncounted"}
+
+"Primate brain": Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.
+
+Humans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.
+
+*Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
+
+---
+
+## {.center-x}
+
+![](images/tweet-neil-degrasse-tyson.png){fig-align="center" style="padding-top: 25px;"}
+
+::: footer
+[@tyson2021]
+:::
+
+::: {.notes}
+"The universe is under no obligation to make sense to you." [@tyson2021]
+:::
+
+## (AP) Isn't that psychohistory? {.smaller visibility="uncounted"}
+
+![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 25px;"}
+
+## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
+
+Materialists, on the other hand, believe that **only matter and its physical properties are real, while mind, thoughts, and the like are simply manifestations of matter**. The idealist tries to explain physical matter as a by-product of mind; the materialist tries to explain mind as a by-product of matter.
+
+::: footer
+[@stewart2013, p. 101]
+:::
+
+## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+[...] I grew up implicitly thinking that **intelligence** was this really special human thing, kind of somewhat magical, and I **now think that it's sort of a fundamental property of matter**. That's definitely a change in my worldview.
+:::
+
+::: {.column width="50%"}
+![](images/sam-altman-figure-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
+:::
+::::
+
+::: footer
+[@theeconomictimes2023] (quote starts at 13:54)
+:::
+
+## (AP) Dialectical materialism's conjecture {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+The 4 Fundamental Laws of Dialectical Materialism by Engels and Marx (in opposition to Hegel's idealist dialectic, inspired by Heraclitus):
+
+1. **Reciprocal action of matter in motion**.
+2. The law of the transformation of quantity into quality and vice versa.
+3. The law of the interpenetration of opposites.
+4. The law of the negation of the negation.
+:::
+
+::: {.column width="50%"}
+![](images/friedrich-engels-figure-1.jpg){fig-align="center" width=65% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@engels1954, p. 62]
+:::
+
+## (AP) Dialectical materialism's conjecture {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+No phenomenon in nature can be understood if considered in isolation, separate from surrounding phenomena.
+
+**The error [of Hegel]** lies in the fact that these laws, as laws of thought, are imposed on nature and history, rather than being deduced from them.
+
+**Dialectics as the science of interconnections** (sound familiar?).
+:::
+
+::: {.column width="50%"}
+![](images/dialetics-figure-1.png){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+:::
+::::
+
+::: footer
+[@engels1954, p. 62]
+:::
+
+## (AP) Dialetics and the Law of excluded middle {visibility="uncounted"}
+
+Dialectical materialism will consider that something can be both A and not-A at the same time. This is in opposition to the [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle), which states that something can only be A or not-A. It assumes a [paraconsistent logic](https://en.wikipedia.org/wiki/Paraconsistent_logic), instead of a [classical logic](https://en.wikipedia.org/wiki/Classical_logic).
+
+## (AP) Popper's vision of science {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+I suggest that it is the aim of science to find satisfactory explanations, of whatever strikes us as being in need of explanation.
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-1.jpg){fig-align="center" width=100% style="font-size: 1em; padding-top: 25px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) Dialetics: a non-falsiable conjecture {.smaller visibility="uncounted"}
+
+Dialectics must be understood as an non-falsifiable conjecture. It should be an inspiration, **but never as something given**. Similar to the Free energy principle (FEP) proposed by Karl Friston [@friston2010].
+
+"The whole development of dialectic should be a warning against the dangers inherent in philosophical system-building. It should remind us that **philosophy must not be made a basis for any sort of scientific system** and that philosophers should be much more modest in their claims. One task which they can fulfill quite usefully is the study of the critical methods of science." [@popper2002]
+
+
+## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
+
+Popper disagrees that physical reality develops dialectically.
+
+Popper interprets Marx as an economic determinist and historicist.
+
+Popper views Marx’s predictions, based on dialectical materialism, as something exact, subject to testing and refutation. At the same time, he points out that some of Marx’s predictions did not hold up when tested against history.
+
+Although Popper praises Marx for his anti-dogmatic stance, he argues that criticisms of dialectical materialism were never tolerated by orthodox Marxists.
+
+Popper asserts that the dialectical method is dangerous because it can be used as a form of evasion, thus becoming a tool for reinforcing dogma.
+
+## (AP) Popper *versus* Dialetical materialism {visibility="uncounted"}
+
+[...] I want to stress the point that although I should not describe myself as a materialist, **my criticism is not directed against materialism, which I personally should probably prefer to idealism if I were forced to choose (which happily I am not). It is only the combination of dialectic and materialism that appears to me to be even worse than dialectic idealism**.
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
+
+"Nevertheless I personally think that Marx’s economism — his emphasis on the economic background as the ultimate basis of any sort of development — is mistaken and in fact untenable." [@popper2002]
+
+"According to the materialist conception of history, the ultimately determining element in history is the production and reproduction of real life. More than this neither Marx nor I have ever asserted. **Hence if somebody twists this into saying that the economic element is the only determining one, he transforms that proposition into a meaningless, abstract, senseless phrase**." [@engels1978a]
+
+## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
+
+For our present purpose it is not so important to analyse Marx’s materialism and economism as to see what has become of the dialectic within his system.
+Two points seem to me important. One is Marx’s emphasis on historical method in sociology, a tendency which I have called ‘historicism’. The other is the anti- dogmatic tendency of Marx’s dialectic.
+
+Hence, Marx’s anti-dogmatic attitude exists only in the theory and not in the practice of **orthodox Marxism**, and dialectic is used by Marxists, following the example of Engels’ Anti-Dühring, mainly for the purposes of apologetics to defend the Marxist system against criticism. As a rule critics are denounced for their failure to understand the dialectic, or proletarian science, or for being traitors. **Thanks to dialectic the anti-dogmatic attitude has disappeared, and Marxism has established itself as a dogmatism which is elastic enough, by using its dialectic method, to evade any further attack. It has thus become what I have called a reinforced dogmatism**.
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
+
+Prophecy certainly need not be unscientific, as predictions of eclipses and other astronomical events show. But *Hegelian dialectic, or its materialistic version, cannot be accepted as a sound basis for scientific forecasts*.
+
+Thus if forecasts based on dialectic are made, some will come true and some will not. In the latter case, obviously, a situation will arise which has not been foreseen. But **dialectic is vague and elastic enough to interpret and to explain this unforeseen situation just as well as it interpreted and explained the situation which it predicted and which happened to come true. Any development whatever will fit the dialectic scheme; the dialectician need never be afraid of any refutation by future experience**.
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) Popper *versus* Dialetical materialism {visibility="uncounted"}
+
+The whole development of dialectic should be a warning against the dangers inherent in philosophical system-building. It should remind us that **philosophy must not be made a basis for any sort of scientific system** and that philosophers should be much more modest in their claims. One task which they can fulfil quite usefully is the study of the critical methods of science.
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) Popper's hypothetico-deductive method {.smaller visibility="uncounted"}
+
+The activity can be represented by a *general schema of problem- solving by the method of imaginative conjectures and criticism*, or, as I have often called it, by *the method of conjecture and refutation*. The schema (in its simplest form) is this:
+
+<!-- %%| fig-width: 6.5 -->
+
+```{mermaid}
+%%| fig-width: 6.5
+
+flowchart LR
+  A[P1] --> B(TT)
+  B --> C[EE]
+  C --> D[P2]
+```
+
+::: footer
+[@popper1979, p. 164]
+:::
+
+## (AP) Popper's hypothetico-deductive method {.smaller visibility="uncounted"}
+
+Here $\text{P}_1$, is the *problem* from which we start, $\text{TT}$ (the ‘tentative theory’) is the imaginative conjectural solution which we first reach, for example our first *tentative interpretation*. $\text{EE}$ (‘*error- elimination*’) consists of a severe critical examination of our conjecture, our tentative interpretation: it consists, for example, of the critical use of documentary evidence and, if we have at this early stage more than one conjecture at our disposal, it will also consist of a critical discussion and comparative evaluation of the competing conjectures. $\text{P}_2$ is the problem situation as it emerges from our first critical attempt to solve our problems.
+It leads up to our second attempt (*and so on*).
+
+::: footer
+[@popper1979, p. 164]
+:::
+
+## (AP) Popper's hypothetico-deductive method {.smaller visibility="uncounted"}
+
+The history of ideas teaches us very clearly that ideas emerge in logical or, if the term is preferred, in **dialectical contexts**. My various schemata such as
+
+$$
+\text{P}_1 \rightarrow \text{TT} \rightarrow \text{EE} \rightarrow \text{P}_2
+$$
+
+may indeed be looked upon as improvements and rationalizations of the Hegelian dialectical schema: they are rationalizations because they operate entirely within the classical logical organon of rational criticism, which is based upon the so-called law of contradiction; that is to say, upon the demand that contradictions, whenever we discover them, must be eliminated. Critical error-elimination on the scientific level proceeds by way of a **conscious search for contradictions**.
+
+::: footer
+[@popper1979, p. 297]
+:::
+
+## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
+
+“*Notre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de **confirmer** ou d'infirmer une théorie. [...] la philosophie positive est le véritable **état définitif** de l'intelligence humaine [...]*” [@comte1892, pp. 9-10]
+
+**Why post-positivist?**
+
+- Anti-positivist (positive: “imposed on the mind by experience”).
+- Anti-inductivist (deduction, satisfactory answers).
+- Anti-verificationist (falsifiability as demarcation criterion).
+
+## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
+
+But I shall certainly admit a system as empirical or scientific only if it is capable of being tested by experience. These considerations suggest that **not the _verifiability_ but the _falsifiability_ of a system is to be taken as a criterion of demarcation**. In other words: I shall not require of a scientific system that it shall be capable of being singled out, once and for all, in a positive sense; but I shall require that its logical form shall be such that it can be singled out, by means of empirical tests, in a negative sense: *it must be possible for an empirical scientific system to be refuted by experience*.
+
+::: footer
+[@popper2005a]
+:::
+
+## (AP) Popper against positivism (or the problem of induction) {visibility="uncounted"}
+
+Everybody knows nowadays that **logical positivism is dead**. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) **I fear that I must admit responsibility**."
+
+::: footer
+[@popper2005]
+:::
+
+## (AP) The 7 conclusions of Popper on science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+(@) It is easy to obtain confirmations, or verifications, for nearly every theory —if we look for confirmations.
+(@) Confirmations should count only if they are the result of *risky predictions*; that is to say, if, unenlightened by the theory in question, we should have expected an event which was incompatible with the theory—an event which would have refuted the theory.
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=80% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+(@) Every ‘good’ scientific theory is a prohibition: it forbids certain things to happen. The more a theory forbids, the better it is.
+(@) A theory which is not refutable by any conceivable event is nonscientific.
+Irrefutability is not a virtue of a theory (as people often think) but a vice.
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=80% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+(@) Every genuine *test* of a theory is an attempt to falsify it, or to refute it.
+Testability is falsifiability; but there are degrees of testability: some theories are more testable, more exposed to refutation, than others; they take, as it were, greater risks.
+(@) Confirming evidence should not count *except when it is the result of a genuine test of the theory*; and this means that it can be presented as a serious but unsuccessful attempt to falsify the theory. (I now speak in such cases of ‘corroborating evidence’).    
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=80% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+(@) Some genuinely testable theories, when found to be false, are still upheld by their admirers—for example by introducing *ad hoc* some auxiliary assumption, or by re-interpreting the theory *ad hoc* in such a way that it escapes refutation. Such a procedure is always possible, but it rescues the theory from refutation only at the price of destroying, or at least lowering, its scientific status. (I later described such a rescuing operation as a ‘*conventionalist twist*’ or
+a ‘*conventionalist stratagem*’).
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=80% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) The 7 Conclusions of Popper on Science {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+"One can sum up all this by saying that **_the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability_**".
+:::
+
+::: {.column width="50%"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=85% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@popper2002]
+:::
+
+## (AP) A unit of cultural transmission {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 25px;"}
+The new soup is the soup of human culture. We need a name for the new replicator, **a noun that conveys the idea of a unit of cultural transmission**, or a unit of *imitation*. ‘Mimeme’ comes from a suitable Greek root, but I want a monosyllable that sounds a bit like ‘gene’. I hope my classicist friends will forgive me if I abbreviate *mimeme* to _**meme**_.
+:::
+
+::: {.column width="50%"}
+![](images/meme-dawkins.jpg){fig-align="center" width=100% style="font-size: 1em; padding-top: 25px;"}
+:::
+::::
+
+::: footer
+[@dawkins2016, p. 249]
+:::
