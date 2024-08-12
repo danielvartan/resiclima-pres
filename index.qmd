@@ -49,28 +49,45 @@ Here is our itinerary:
 :::
 
 
-<!-- --- -->
+<!-- Key concepts in complex systems -->
 
-
-## Key concepts in complex systems
 
 ## {background-image="images/national-geographic-2016-clip.gif" background-position="top left" background-size="100%"}
 
-<!-- https://new.express.adobe.com/ -->
-<!-- https://youtu.be/V4f_1_r80RY?si=pX0Ra6m-tB7-FQ7R -->
-<!-- https://youtu.be/6zjMsvzOsHw?si=IeNeHGnT72ZFvi0c -->
-<!-- https://youtu.be/L_u4IcRy2dw?si=j7CEPy-yWOj1UiaC -->
-<!-- https://youtu.be/KnndQgIUraQ?si=o1QTE7cDYkAFhW6A -->
+## Types of problems {.smaller}
 
-<!-- ## {background-image="images/complexity-explorer-figure-10.jpg" background-position="top left" background-size="100%" -->
+Problems of Simplicity
+
+Problems of Disordered Complexity
+
+Problems of Organized Complexity
+
+::: footer
+[@weaver1948]
+:::
+
+::: {.notes}
+See: Camilo (cap. 1).
+:::
 
 ## Complexity _versus_ complicatedness {.smaller}
 
-## Types of complexity {.smaller}
+## What is a complex system? {.nostretch .smaller}
 
-::: {.notes}
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+There are several definitions.
 
+* "Systems that don't yield to compact forms of representation or description" (David Krakauer in @mitchell2013);
+* "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman in @mitchell2013);
+* Systems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).
+* Dialectics at its finest (my working definition).
 :::
+
+::: {.column width="50%"}
+![](images/entangled-threads.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
 
 ## Complex structures {.nostretch .smaller}
 
@@ -96,108 +113,27 @@ Here is our itinerary:
 "That information be measured by entropy is, after all, natural when we remember that information, in communication theory, is associated with the amount of freedom of choice we have in constructing messages. Thus for a communication source one can say, just as he would also say it of a thermodynamic ensemble, “This situation is highly organized, it is not characterized by a large degree of randomness or of choice—that is to say, the information (or the entropy) is low." [@shannon1998]
 :::
 
-## What is a complex system? {.nostretch .smaller}
+## Pseudonoise
 
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-There are several definitions.
+"It only looks random" [@lorenz2008]
 
-* "Systems that don't yield to compact forms of representation or description" (David Krakauer in @mitchell2013);
-* "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman in @mitchell2013);
-* Systems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).
-* Dialectics at its finest (my working definition).
-:::
+"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
 
-::: {.column width="50%"}
-![](images/entangled-threads.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
-:::
-::::
-
-::: footer
-[@muller2023]
-:::
-
-## Complexity science {.nostretch .smaller}
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
-* (System theory) Science or discipline that investigates models, principles, and laws that are valid to systems in general [@bertalanffy1968];
-* (System theory) "The attempt of a reductionist scientific tradition to come to terms with complexity, nonlinearity, and change through sophisticated mathematical and computational techniques, _a groping toward a more dialectical understanding_ that is held back by its philosophical biases and the institutional and economic contexts of its development" [@levins1998].
-:::
-
-::: {.column width="50%"}
-![](images/american-chopper.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
-:::
-::::
-
-## *Quem te viu, quem te vê* {.smaller}
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
-Whereas artificial-intelligence researchers seek to understand the mind by mimicking it on a computer, proponents of artificial life hope to gain insights into a broad range of biological phenomena. **And just as artificial intelligence has generated more portentous rhetoric than tangible results**, so has artificial life. (1995)
-:::
-
-::: {.column width="50%"}
-![](images/horgan-2015-figure-1.jpg){fig-align="center" width=70% style="font-size: 1em; padding-top: 0px;"}
-:::
-::::
-
-::: footer
-[@horgan1995, p. 106]
-:::
-
-## Complexity science {.smaller}
-
-![](images/sayama-2015-figure-1.png){fig-align="center" width=70% style="font-size: 1em; padding-top: 25px;"}
-
-::: footer
-[@sayama2015]
-:::
-
-::: {.notes}
-"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015]
-:::
-
-## Reducionism *versus* compression {.smaller}
-
-::: {style="font-size: 0.9em;"}
-[...] where does complexity science fit? Well, complexity science is very quantitative, by and large, it's very historical, we're studying you know, adaptive agents, and it's very **compressive**, because we're looking for mathematical theories that capture essential regularities. **But what we are not is reductionist**.
-
-**We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
-:::
-
-![](images/krakauer-2023-figure-1.png){fig-align="center" width=75% style="padding-top: 5px;"}
-
-::: footer
-[@krakauer2023]
-:::
-
-## The 7 basics for complex adaptive systems {.smaller}
-
-:::: {.columns}
-::: {.column width="50%" style="padding-top: 0px;"}
-The seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:
-
-1. Aggregation (property).
-1. Nonlinearity (property).
-1. Flows (property).
-1. Diversity (property).
-1. Tags (mechanism).
-1. Internal models (mechanism).
-1. Building blocks (mechanism).
-:::
-::: {.column width="50%"}
-"Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution." [@rodriguesneto2022]
-
-[Add figure 1.16 from @holland1996]
-:::
-::::
+[Add Micromotives and macrobehavior - see @schelling2006]
 
 ## Chaos {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 25px;"}
-"Systems in which this is the case are said to be **sensitively dependent on initial conditions**. With a few more qualifications, to be considered presently, sensitive dependence can serve as an acceptable definition of chaos, and it is the one that I shall choose."
+"**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?**" [@lorenz2008]
+
+"Systems in which this is the case are said to be **sensitively dependent on initial conditions**." [@lorenz2008]
+
+"The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions." [@mitchell2009]
+
+**Order in chaos**: "You can't predict how any individual state will evolve, but you can say how a collection of states evolves." [@muller2019]
+
+"There are these windows of stable periodic behavior amig chaos" (about the Logistic map) [@muller2020]
 :::
 
 ::: {.column width="50%"}
@@ -206,70 +142,38 @@ The seven basics consist of 4 properties and 3 mechanisms that are common to all
 ::::
 
 ::: footer
-[@lorenz2008] (Animation by [Jake VanderPlas](https://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/))
+(Animation by [Jake VanderPlas](https://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/))
 :::
 
 ::: {.notes}
 See: Camilo (cap. 2).
 :::
 
-## Chaos {.smaller}
-
-Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
-
-The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions.
-
-![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
-
-::: footer
-[@mitchell2009]
-:::
-
-::: {.notes}
-"Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R." [@mitchell2009]
-:::
-
-## Chaos {.smaller}
-
-Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
-
-![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
-
-::: footer
-[@mitchell2009]
-:::
-
-::: {.notes}
-See also: @muller2020 .
-:::
-
-## Pseudonoise
-
-"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
-
-[Add Micromotives and macrobehavior - see @schelling2006]
-
 ## Feedback {.smaller}
+
+- Nonlinear dynamics.
+- Dialectical dynamics.
+- Power laws ($y = ax^{k}$) (e.g., Pareto law - 80% of consequences come from 20% of causes).
+
+![](images/marilia-marz-figura-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
+
+::: footer
+(Artwork by [Marilia Marz](https://cartum.folha.uol.com.br/charges/2024/08/10/marilia-marz.shtml))
+:::
 
 ::: {.notes}
 See: Rand's slides.
+
+We can call it as Karma also (joke)
 :::
 
-## Adaptation {.smaller}
-
 ## Emergence
+
+"Emergence isn't magic" [@wilson2004]
 
 "You are dealing with an emergence phenomenon when there is no *need* to look under the hood." [@krakauer2023]
 
 "There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents." [@epstein1999]
-
-## Emergence {visibility="hidden"}
-
-"One singular deception of this sort, which often occurs, is to mistake the sensation produced by our own unclearness of thought for a character of the object we are thinking. Instead of perceiving that the obscurity is purely subjective, we fancy that we contemplate a quality of the object which is essentially mysterious; and if our conception be afterward presented to us in a clear form we do not recognize it as the same, owing to the absence of the feeling of unintelligibility."
-
-::: footer
-[@peirce2011]
-:::
 
 ## Emergence
 
@@ -283,8 +187,63 @@ See: Rand's slides.
 - Can you understand a anthill by studying a single ant?
 - Are you just a collection of cells?
 
+- "_Uma andorinha não faz verão_".
+- "Love is just a chemical".
 
-<!-- --- -->
+- Se você ignorar o todo pelas partes, tudo acaba por  convergir para energia.
+- Monism and dualism (idealism).
+- Reducionismo.
+- Diferentes visões sobre emergência
+
+## Emergence
+
+"One singular deception of this sort, which often occurs, is to mistake the sensation produced by our own unclearness of thought for a character of the object we are thinking. Instead of perceiving that the obscurity is purely subjective, we fancy that we contemplate a quality of the object which is essentially mysterious; and if our conception be afterward presented to us in a clear form we do not recognize it as the same, owing to the absence of the feeling of unintelligibility."
+
+::: footer
+[@peirce2011]
+:::
+
+## Complexity science {.nostretch .smaller}
+
+[Uma abordagem quantitativa aplicada também a sistemas sociais (polêmico)]
+
+Parte da concepção de Schelling (Nobel) de microbehaviora levam a um macro fenômeno.
+
+Hoje sabemos por estudos de, por exemplo Daniel Kahneman, que muito pouco do nosso comportamento é de fato consciente. Assim como a teoria da energia livre do Karl Friston, teoria não falseavel, como a dialética, também sustenta isso.
+
+Se partimos do pressuposto de Schelling (micromotives - macrobehaviors9, podemos então compreende muitos fenômenos sociais (populacionais, não individuais) a partir de modelos baseados em regras, como em simulações computacionais.
+
+E essa concepção se aplica também a outras espécies, como iremos ver no caso dos estoquinhos.
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
+* (System theory) Science or discipline that investigates models, principles, and laws that are valid to systems in general [@bertalanffy1968];
+* (System theory) "The attempt of a reductionist scientific tradition to come to terms with complexity, nonlinearity, and change through sophisticated mathematical and computational techniques, _a groping toward a more dialectical understanding_ that is held back by its philosophical biases and the institutional and economic contexts of its development" [@levins1998].
+:::
+
+::: {.column width="50%"}
+![](images/american-chopper.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+:::
+::::
+
+## Complexity science {.nostretch .smaller}
+
+![](images/sayama-2015-figure-1.png){fig-align="center" width=90% style="font-size: 1em; padding-top: 25px;"}
+
+::: footer
+[@sayama2015]
+:::
+
+::: {.notes}
+"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015]
+:::
+
+## Other concepts {.smaller}
+
+There are several other concepts in complexity science, such as self-organization, phase transitions, and criticality, that we will not cover in this presentation. However, these concepts are essential for understanding complex systems and their behavior.
+
+
+<!-- A new method approach of doing science? The generative science -->
 
 
 ## Generative science: a new approach to doing science
@@ -308,7 +267,7 @@ Induction and deduction combined. Deduction is used to generate data that can be
 ## Unintended or unforeseen consequences {.smaller}
 
 :::: {.columns}
-::: {.column width="50%" style="padding-top: 25px;"}
+::: {.column width="50%" style="padding-top: 0px;"}
 Here we recognize the basic idea of generative science which is **to generate apparently unanticipated and infinite behavior** based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.
 
 Possible states, even if unlikely: by modelling such interactions, it can suggest that **properties exist in the system that had not been noticed in the real world situation**.
@@ -322,8 +281,12 @@ Possible states, even if unlikely: by modelling such interactions, it can sugges
 [@dodig-crnkovic2013a]
 :::
 
+## Ladies and gentlemen, I give you… the critics
 
-<!-- --- -->
+
+
+
+<!-- Entering the world of Agent-based models -->
 
 
 ## Exploring agent-based models
@@ -333,6 +296,12 @@ Agent-based modeling (ABM) is a computational modeling paradigm that enables us 
 ::: footer
 [@wilensky2015, p. 22]
 :::
+
+## You already seen this
+
+Modelos climáticos como x são simulações computacionais. Sim! Modelos epidemiológicos com os modelos do imperial college da COVID-19 são simulações computacionais. Sim! Podemos chamar todos eles de modelos baseados em agentes? Sim!
+
+Mas modelos baseados em agentes são muito mais que isso.
 
 ## What is a model? {.smaller}
 
@@ -379,21 +348,17 @@ See: Camilo (cap. 2); Rand (Units 1 & 9).
 - [Insight Maker](https://insightmaker.com/)
 - [Kumu](https://kumu.io/)
 
-## Del rigor en la ciencia {.smaller}
 
-::: {style="font-size: 0.9em;"}
-... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que ese dilatado Mapa era Inútil y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.
-
-Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658
-:::
-
-::: footer
-[@borges1984]
-:::
 
 ## Nonrealistic models {.smaller}
 
 ![](images/cool-car.gif){fig-align="center" style="padding-top: 25px;"}
+
+::: {.notes}
+Filmes de ação da sessão da tarde.
+
+Action movies: The protagonist falls down from the 15th floor, gets up, and brushes off their clothes to remove the dust.
+:::
 
 ## Basics of agent-based modeling (ABM)
 
@@ -465,7 +430,7 @@ A more intuitive and visual approach to modeling phenomena.
 ## Advantages and limitations {.smaller}
 
 
-<!-- --- -->
+<!-- Examples and case studies -->
 
 
 ## Examples and Case Studies
@@ -490,6 +455,19 @@ A more intuitive and visual approach to modeling phenomena.
 
 <!-- Add network and GIS examples -->
 
+## A picture is worth a thousand words {.smaller}
+
+[Um bom ABM vale mais que mil EQMs]
+[EQM presa-predador versus ABM presa-predador]
+[EQM epidemiológico SIR e ABM SIR]
+[Explicar EQM para, depois, explicar o ABM]
+
+::: {.notes}
+A mathematician probably won't like hearing this, but it's the truth.
+
+Moving away from an idealistic paradigm to a more understandable way of creating models.
+:::
+
 ## Case: Practical applications of ABM in socio-ecological studies
 
 ::: {.notes}
@@ -501,6 +479,14 @@ See: @epstein2006; @yap2023 .
 
 
 ## Summary of key takeaways {.smaller}
+
+- **Complex systems** are systems with many interconnected parts that exhibit emergent behavior.
+
+- **Generative science** is a new approach to doing science that uses computational models to generate data that can be analyzed inductively.
+
+- **Agent-based models** are computational models that describe how individual agents behave based on simple rules.
+
+- **ABMs** are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, economics, and ecology.
 
 ## How to learn more? {.smaller}
 
@@ -584,23 +570,54 @@ In accordance with the [American Psychological Association (APA) Style](https://
 (Artwork by [Allison Horst](https://twitter.com/allison_horst))
 :::
 
+## QR codes {.smaller}
+
+[Add QR code for the Linktree]
+[Add QR code for the presentation]
+
 
 <!-- --- -->
 
 
 ## (AP) Appendices {visibility="uncounted"}
 
-## (AP) Human difficulties in understanding complex systems {visibility="uncounted"}
+## (AP) A unit of cultural transmission {visibility="uncounted"}
 
-"Primate brain": Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 25px;"}
+The new soup is the soup of human culture. We need a name for the new replicator, **a noun that conveys the idea of a unit of cultural transmission**, or a unit of *imitation*. ‘Mimeme’ comes from a suitable Greek root, but I want a monosyllable that sounds a bit like ‘gene’. I hope my classicist friends will forgive me if I abbreviate *mimeme* to _**meme**_.
+:::
 
-Humans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.
+::: {.column width="50%"}
+![](images/meme-dawkins.jpg){fig-align="center" width=100% style="font-size: 1em; padding-top: 25px;"}
+:::
+::::
 
-*Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
+::: footer
+[@dawkins2016, p. 249]
+:::
 
----
+## Del rigor en la ciencia {.smaller visibility="uncounted"}
 
-## {.center-x}
+::: {style="font-size: 0.95em;"}
+*... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que ese dilatado Mapa era Inútil y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
+
+*Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658*
+:::
+
+::: footer
+[@borges1984]
+:::
+
+## What is a complex system? {visibility="uncounted"}
+
+![](images/julia-jabur-figure-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
+
+::: footer
+(Artwork by [Julia Jabur](https://www1.folha.uol.com.br/blogs/ciencia-fundamental/2023/09/a-ciencia-da-complexidade-como-chave-da-sustentabilidade.shtml))
+:::
+
+## {.center-x visibility="uncounted"}
 
 ![](images/tweet-neil-degrasse-tyson.png){fig-align="center" style="padding-top: 25px;"}
 
@@ -612,9 +629,118 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 "The universe is under no obligation to make sense to you." [@tyson2021]
 :::
 
+## The 7 basics for complex adaptive systems {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+The seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:
+
+1. Aggregation (property).
+1. Nonlinearity (property).
+1. Flows (property).
+1. Diversity (property).
+1. Tags (mechanism).
+1. Internal models (mechanism).
+1. Building blocks (mechanism).
+:::
+::: {.column width="50%"}
+"Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution." [@rodriguesneto2022]
+
+[Add figure 1.16 from @holland1996]
+:::
+::::
+
+## Chaos {.smaller visibility="uncounted"}
+
+Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
+
+The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions.
+
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+
+::: footer
+[@mitchell2009]
+:::
+
+::: {.notes}
+"Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R." [@mitchell2009]
+:::
+
+## Chaos {.smaller visibility="uncounted"}
+
+Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
+
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+
+::: footer
+[@mitchell2009]
+:::
+
+::: {.notes}
+See also: @muller2020 .
+:::
+
+## (AP) Laplace demon {visibility="hidden"}
+
+*Nous devons done envisager l'etat présent de l'univers, comme l'effet de son état antérieur, et comme la cause de celui qui va suivre. Une intelligence qui pour un instant donné, connaîtrait toutes les forces dont la nature est animée, et la situation respective des êtres qui la composent, si d'ailleurs elle était assez vaste pour soumettre ces données à l'analyse, embrasserait dans la même formule les mouvemens des plus grands corps de l'univers et ceux du plus léger atome: rien ne serait incertain pour elle, et l'avenir comme le passé, serait présent à ses yeux*.
+
+::: footer
+[@laplace2009]
+:::
+
+## (AP) Laplace demon {visibility="hidden"}
+
+We ought then to regard the present state of the universe as the effect of its anterior state and as the cause of the one which is to follow. Given for one instant an intelligence which could comprehend all the forces by which nature is animated and the respective situation of the beings who compose it - an intelligence sufficiently vast to submit these data to analysis - it would embrace in the same formula the movements of the greatest bodies of the universe and those of the lightest atom; for it, nothing would be uncertain and the future, as the past, would be present to its eyes.
+
+::: footer
+[@laplace2009]
+:::
+
+## (AP) Human difficulties in understanding complex systems {visibility="uncounted"}
+
+"Primate brain": Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.
+
+Humans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.
+
+*Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
+
 ## (AP) Isn't that psychohistory? {.smaller visibility="uncounted"}
 
 ![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 25px;"}
+
+## (AP) Isn't that just physics meddling with other fields? {.smaller visibility="uncounted"}
+
+![](images/physics-sets-the-rules-neil-degrasse-tyson.gif){fig-align="center" style="padding-top: 25px;"}
+
+## Reducionism *versus* compression {.nostretch .smaller}
+
+::: {style="font-size: 0.9em;"}
+[...] where does complexity science fit? Well, complexity science is very quantitative, by and large, it's very historical, we're studying you know, adaptive agents, and it's very **compressive**, because we're looking for mathematical theories that capture essential regularities. **But what we are not is reductionist**.
+
+**We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
+:::
+
+![](images/krakauer-2023-figure-1.png){fig-align="center" width=100% style="padding-top: 5px;"}
+
+::: footer
+[@krakauer2023]
+:::
+
+## *Quem te viu, quem te vê* {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
+Whereas artificial-intelligence researchers seek to understand the mind by mimicking it on a computer, proponents of artificial life hope to gain insights into a broad range of biological phenomena. **And just as artificial intelligence has generated more portentous rhetoric than tangible results**, so has artificial life.
+:::
+
+::: {.column width="50%"}
+![](images/horgan-2015-figure-1.jpg){fig-align="center" width=70% style="font-size: 1em; padding-top: 0px;"}
+:::
+::::
+
+::: footer
+[@horgan1995, p. 106]
+:::
 
 ## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
 
@@ -917,18 +1043,10 @@ a ‘*conventionalist stratagem*’).
 [@popper2002]
 :::
 
-## (AP) A unit of cultural transmission {visibility="uncounted"}
+## Marx and Popper errors
 
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.9em; padding-top: 25px;"}
-The new soup is the soup of human culture. We need a name for the new replicator, **a noun that conveys the idea of a unit of cultural transmission**, or a unit of *imitation*. ‘Mimeme’ comes from a suitable Greek root, but I want a monosyllable that sounds a bit like ‘gene’. I hope my classicist friends will forgive me if I abbreviate *mimeme* to _**meme**_.
-:::
+Marx e Engels erraram bastante.
 
-::: {.column width="50%"}
-![](images/meme-dawkins.jpg){fig-align="center" width=100% style="font-size: 1em; padding-top: 25px;"}
-:::
-::::
+Popper também errou. Kuhn, por sinal, mostrou isso.
 
-::: footer
-[@dawkins2016, p. 249]
-:::
+Mas isso não invalida todo o trabalho deles. Pelo contrário, devemos manter os acertos e desconsiderar os erros. Senão, não sobra ninguém, nem [Einstein](https://www.forbes.com/sites/startswithabang/2016/12/29/the-four-biggest-mistakes-of-einsteins-scientific-life/).
