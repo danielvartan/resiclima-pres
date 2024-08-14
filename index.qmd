@@ -15,8 +15,7 @@ Here is our itinerary:
 
 1. **Introduction**
 1. **Key concepts about complex systems**
-1. **A new method approach of doing science? The generative science**
-1. **Entering the world of Agent-based models**
+1. **Entering the world of agent-based models**
 1. **Examples and case studies**
 1. **Final remarks**
 :::
@@ -30,52 +29,69 @@ Here is our itinerary:
 ## Time
 
 1. **Introduction** (1 min.)
-1. **Key concepts  about complex systems** (3 min.)
-1. **A new method approach of doing science? The generative science** (5 min.)
-1. **Entering the world of Agent-based models** (5 min.)
-1. **Examples and case studies** (5 min.)
+1. **Key concepts  about complex systems** (10 min.)
+1. **Entering the world of Agent-based models** (7 min.)
+1. **Examples and case studies** (10 min.)
 1. **Final remarks** (2 min.)
 
 ## General notes
 
-- Add the Sustentarea + RESISCLIMA + CNPq logos.
-- 20 minutes for presentation.
-- 10 minutes for questions.
-- Cut the fluff.
-- Focus on the key messages.
-- 50% theory, 50% practice.
-- Include practical cases in the middle to avoid fatigue.
-- Top-down approach.
+- Orelhas vermelhas.
+- Passado.
+- Limitações.
+- Evolução com a ciência da computação.
 :::
 
 
 # Key concepts in complex systems
 
-## {background-image="images/national-geographic-2016-clip.gif" background-position="top left" background-size="100%"}
+## Complexity _versus_ complicatedness {.smaller}
 
-## Types of problems {.smaller}
+A biological clock is complex, but a mechanical clock is complicated.
 
-Problems of Simplicity
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 25px;"}
+![](images/biological-clock.png){fig-align="center" width=75% style="padding-top: 25px;"}
+:::
 
-Problems of Disordered Complexity
+::: {.column width="50%" style="padding-top: 0px;"}
+![](images/mechanical-clock.png){fig-align="center" width=65% style="padding-top: 50px;"}
+:::
+::::
 
-Problems of Organized Complexity
+## Complexity _versus_ complicatedness {.nostretch}
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 50px;"}
+It is not **adaptive**.
+
+It is not **robust**
+
+It does not **produce extreme events**
+
+It is not **self-organized**
+:::
+
+::: {.column width="50%" style="padding-top: 0px;"}
+![](images/mechanical-clock.png){fig-align="center" width=65% style="padding-top: 50px;"}
+:::
+::::
+
+## What is a system?
+
+In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of **system-wide behavior**. [@bertalanffy1968]
+
+![](images/system.png){fig-align="center" style="padding-top: 50px; padding-bottom: 50px;"}
 
 ::: footer
-[@weaver1948]
+[Artwork by @schindel2013]
 :::
-
-::: {.notes}
-See: Camilo (cap. 1).
-:::
-
-## Complexity _versus_ complicatedness {.smaller}
 
 ## What is a complex system? {.nostretch .smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-There are several definitions.
+There are several definitions. Here are some:
 
 * "Systems that don't yield to compact forms of representation or description" (David Krakauer in @mitchell2013);
 * "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman in @mitchell2013);
@@ -88,38 +104,35 @@ There are several definitions.
 :::
 ::::
 
-::: {.notes}
-Vocês jã viram um sistema complexo. Olha ai para o lado.
-:::
-
 ## Complex structures {.nostretch .smaller}
 
 :::: {.columns}
-::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
-[...] just because maximum entropy has low complexity does not mean that low entropy has maximum complexity. It's actually more like this tea and milk. I mean, holding it like this is not very interesting. But as I pour the milk in, the two start to mix and these beautiful patterns emerge. They arise in an instant, and before you know it, they're gone back to being featureless. Both low and high entropy are low in complexity. **It's in the middle where complex structures appear and thrive**.
+::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
+A system can be considered complex if it is composed of:
+
+- Diverse entities.
+- Interdependent.
+- Connected.
+- Adaptive.
+
+There seems to be no complexity at the extremes of the intervals. Our society is complex because it lies between the extremes.
 :::
 
 ::: {.column width="50%"}
-![](images/muller-2023-clip.gif){fig-align="center" width=100% style="padding-top: 25px;"}
+![](images/muller-2023-clip.gif){fig-align="center" width=100% style="padding-top: 0px;"}
 :::
 ::::
 
 ::: footer
-[@muller2023]
-:::
-
-::: {.notes}
-"Entropy is the expected value of surprise." [@starmer2021]
-
-"In the physical sciences, the entropy associated with a situation is a measure of the degree of randomness, or of “shuffledness” if you will, in the situation; and the tendency of physical systems to become less and less organized, to become more and more perfectly shuffled, is so basic that Eddington argues that it is primarily this tendency which gives time its arrow—which would reveal to us, for example, whether a movie of the physical world is being run forward or backward." [@shannon1998]
-
-"That information be measured by entropy is, after all, natural when we remember that information, in communication theory, is associated with the amount of freedom of choice we have in constructing messages. Thus for a communication source one can say, just as he would also say it of a thermodynamic ensemble, “This situation is highly organized, it is not characterized by a large degree of randomness or of choice—that is to say, the information (or the entropy) is low." [@shannon1998]
+[Video by @muller2023]
 :::
 
 ## Chaos {.smaller}
 
 :::: {.columns}
-::: {.column width="50%" style="padding-top: 25px;"}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+"Deterministic nonperiodic flow" [@lorenz1963]
+
 "Systems in which this is the case are said to be **sensitively dependent on initial conditions**." [@lorenz2008]
 
 "**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?**" [@lorenz2008]
@@ -127,8 +140,6 @@ Vocês jã viram um sistema complexo. Olha ai para o lado.
 "The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions." [@mitchell2009]
 
 **Order in chaos**: "You can't predict how any individual state will evolve, but you can say how a collection of states evolves." [@muller2019]
-
-"There are these windows of stable periodic behavior amid chaos" (about the Logistic map) [@muller2020]
 :::
 
 ::: {.column width="50%"}
@@ -140,84 +151,79 @@ Vocês jã viram um sistema complexo. Olha ai para o lado.
 (Animation by [Jake VanderPlas](https://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/))
 :::
 
-::: {.notes}
-See: Camilo (cap. 2).
-:::
+## Isn't that psychohistory? {.smaller visibility="uncounted"}
+
+![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 25px;"}
 
 ## Pseudonoise
 
-"It only looks random" [@lorenz2008]
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+"**It only looks random**" [@lorenz2008]
 
-"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
+"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm**." [@horgan2004]
 
-Micromotives and macrobehavior [@schelling2006]
+Micromotives and macrobehavior. [@schelling2006]
+:::
+
+::: {.column width="50%"}
+![](images/tangled-string.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 100px;"}
+:::
+::::
+
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Segregation.nlogo" background-interactive=true}
+
+## Untangling _versus_ entangling
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/fuck-christmas-lights.gif){fig-align="center" width=100% style="padding-top: 0px;"}
+:::
+
+::: {.column width="50%"}
+[![](images/spontaneous-knotting.gif)](https://doi.org/10.1073/pnas.0611320104)
+:::
+::::
 
 ## Feedback {.smaller}
 
-Nonlinear dynamics.
-Dialectical dynamics.
-Power laws ($y = ax^{k}$) (e.g., Pareto law - 80% of consequences come from 20% of causes).
+"As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity." [@puccia1985]
 
-![](images/marilia-marz-figura-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
+Non-linear dynamics & Power laws ($y = ax^{k}$).
+
+![](images/marilia-marz-figura-1.jpg){fig-align="center" width=100% style="padding-top: 25px; padding-bottom: 25px;"}
 
 ::: footer
 (Artwork by [Marilia Marz](https://cartum.folha.uol.com.br/charges/2024/08/10/marilia-marz.shtml))
 :::
 
-::: {.notes}
-See: Rand's slides.
-
-We can call it as Karma also (joke)
-:::
-
 ## Emergence
 
-"Emergence isn't magic" [@wilson2004]
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+"**Emergence isn't magic**" [@wilson2004]
 
 "You are dealing with an emergence phenomenon when there is no *need* to look under the hood." [@krakauer2023]
 
 "There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents." [@epstein1999]
-
-## Emergence
-
-**How can something be more than the sum of its parts?**
-
-- A molecule of $\text{H}_2\text{O}$ is water?
-- Can you understand a anthill by studying a single ant?
-- Are you just a collection of cells?
-
-- "_Uma andorinha não faz verão_".
-- "Love is just a chemical".
-
-- Se você ignorar o todo pelas partes, tudo acaba por  convergir para energia.
-- Monism and dualism (idealism).
-- Reducionismo.
-- Diferentes visões sobre emergência
-
-## Complexity science {.nostretch .smaller}
-
-near-invisible reality
-
-[Uma abordagem quantitativa aplicada também a sistemas sociais (polêmico)]
-
-Parte da concepção de Schelling (Nobel) de microbehavior levam a um macro fenômeno.
-
-Hoje sabemos por estudos de, por exemplo Daniel Kahneman, que muito pouco do nosso comportamento é de fato consciente. Assim como a teoria da energia livre do Karl Friston, teoria não falseavel, como a dialética, também sustenta isso.
-
-Se partimos do pressuposto de Schelling (micromotives - macrobehaviors9, podemos então compreende muitos fenômenos sociais (populacionais, não individuais) a partir de modelos baseados em regras, como em simulações computacionais.
-
-E essa concepção se aplica também a outras espécies, como iremos ver no caso dos estoquinhos.
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 1em; padding-top: 25px;"}
-* (System theory) Science or discipline that investigates models, principles, and laws that are valid to systems in general [@bertalanffy1968];
-* (System theory) "The attempt of a reductionist scientific tradition to come to terms with complexity, nonlinearity, and change through sophisticated mathematical and computational techniques, _a groping toward a more dialectical understanding_ that is held back by its philosophical biases and the institutional and economic contexts of its development" [@levins1998].
 :::
 
 ::: {.column width="50%"}
-![](images/american-chopper.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+![](images/homer-emerging.gif){fig-align="center" width=100% style="padding-top: 0px;"}
 :::
 ::::
+
+## How can something be more than the sum of its parts?
+
+A molecule of $\text{H}_2\text{O}$ is water?
+
+Can you understand a anthill by studying a single ant?
+
+Are you just a collection of cells?
+
+"_Uma andorinha não faz verão_".
+
+"Love is just a chemical".
 
 ## Complexity science {.nostretch .smaller}
 
@@ -235,13 +241,9 @@ E essa concepção se aplica também a outras espécies, como iremos ver no caso
 
 There are several other concepts in complexity science, such as self-organization, phase transitions, and criticality, that we will not cover in this presentation. However, these concepts are essential for understanding complex systems and their behavior.
 
+## Generative science: a new approach to doing science? {.smaller}
 
-<!-- A new method approach of doing science? The generative science -->
-
-
-## Generative science: a new approach to doing science {.smaller}
-
-"Simulation is *a third way of doing science*. Like *deduction*, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical *induction*, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as *an aid intuition*."
+"Simulation is **a third way of doing science**. Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**."
 
 Induction and deduction combined. Deduction is used to generate data that can be analyzed inductively.
 
@@ -267,22 +269,17 @@ Possible states, even if unlikely: by modelling such interactions, it can sugges
 :::
 
 
-<!-- Entering the world of Agent-based models -->
-
+# Entering the world of agent-based models
 
 ## Agent-based models
 
 Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**.
 
+ABM and **stochasticity**.
+
 ::: footer
 [@wilensky2015, p. 22]
 :::
-
-## You already seen this
-
-Modelos climáticos como x são simulações computacionais. Sim! Modelos epidemiológicos com os modelos do imperial college da COVID-19 são simulações computacionais. Sim! Podemos chamar todos eles de modelos baseados em agentes? Sim!
-
-Mas modelos baseados em agentes são muito mais que isso.
 
 ## What is a model? {.smaller}
 
@@ -313,8 +310,6 @@ See: Rand (Units 1 & 7).
 - [Loopy](https://ncase.me/loopy/)
 - [Insight Maker](https://insightmaker.com/)
 - [Kumu](https://kumu.io/)
-
-
 
 ## Nonrealistic models {.smaller}
 
@@ -350,18 +345,52 @@ Agent-Based Models (ABMs) are typically used in social sciences and economics, w
 [@railsback2019]
 :::
 
+## Analyzing agent-based models
+
+:::: {.columns}
+::: {.column width="20%"}
+![](images/meme-r-1.gif){fig-align="center" style="padding-top: 70px;"}
+
+![](images/meme-r-1.gif){fig-align="center" style="padding-top: 0px;"}
+:::
+::: {.column width="60%"}
+![](images/meme-r-3.png){fig-align="center" style="padding-top: 50px;"}
+:::
+::: {.column width="20%"}
+![](images/meme-r-2.gif){fig-align="center" style="padding-top: 70px;"}
+
+![](images/meme-r-2.gif){fig-align="center" style="padding-top: 0px;"}
+:::
+::::
+
 ## Verification, validation, and replication {.smaller}
+
+**Verification** is the process of making sure your conceptual model matches your implemented model.
+
+**Validation** is the process of making sure your implemented model corresponds to the real world.
+
+![](images/verification-and-validation.png){fig-align="center" style="padding-top: 25px;"}
+
+::: footer
+[@rand2024]
+:::
 
 ## Why use ABM?
 
 Today, you don't need to invest in infrastructure to work with simulations. You can use your machine or cloud computing services to run your simulations.
 
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 25px;"}
 - Description.
 - Explanation.
 - Experimentation.
+:::
+::: {.column width="50%" style="padding-top: 25px;"}
 - Analogy.
 - Education.
 - Prediction.
+:::
+::::
 
 ::: {.notes}
 See: Rand (Unit 1).
@@ -398,7 +427,18 @@ See also: [Comparison of agent-based modeling software](https://en.wikipedia.org
 
 ## NetLogo
 
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
 A more intuitive and visual approach to modeling phenomena.
+
+“Low Threshold, No Ceiling” philosophy.
+
+Open-source and free!
+:::
+::: {.column width="50%" style="padding-top: 100px;"}
+![](images/netlogoweb-logo.png){fig-align="center"}
+:::
+::::
 
 ::: {.notes}
 - Star Trek (Gene Roddenberry): 1966
@@ -414,45 +454,53 @@ A more intuitive and visual approach to modeling phenomena.
 
 ## Ilustrative models
 
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" background-interactive=true}
+<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" background-interactive=true} -->
 
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Flocking.nlogo" background-interactive=true}
+<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Flocking.nlogo" background-interactive=true} -->
 
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Chemistry%20&%20Physics/GasLab/GasLab%20Two%20Gas.nlogo" background-interactive=true}
+<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Chemistry%20&%20Physics/GasLab/GasLab%20Two%20Gas.nlogo" background-interactive=true} -->
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
-
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Segregation.nlogo" background-interactive=true}
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Curricular%20Models/epiDEM/epiDEM%20Basic.nlogo" background-interactive=true}
 
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Traffic%20Grid.nlogo" background-interactive=true}
+## This is not a game!
 
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Percolation.nlogo" background-interactive=true}
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Games/Tetris.nlogo" background-interactive=true}
 
+<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Traffic%20Grid.nlogo" background-interactive=true} -->
+
+<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Percolation.nlogo" background-interactive=true} -->
 
 ## Real-world agent-based models
 
-<!-- Add network and GIS examples -->
+[MayaSim: An agent-based model of the ancient Maya social-ecological system](https://www.comses.net/codebases/3063/releases/1.3.0/)
+
+![](images/heckbert-2013-figure-1.png){fig-align="center" style="padding-top: 25px;"}
+
+## {background-image="images/imperial-college-covid-sim.png" background-position="top left" background-size="100%" .scrollable}
+
+## {background-image="images/cmip-webpage.png" background-position="top left" background-size="100%" .scrollable}
+
+## An evolution?
+
+![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 25px;"}
 
 ## The global syndemic project
 
 
 
-<!-- --- -->
+# Final remarks
 
+## Summary of key takeaways
 
-## Summary of key takeaways {.smaller}
+**Complex systems** are systems with many interconnected parts that exhibit emergent behavior.
 
-- **Complex systems** are systems with many interconnected parts that exhibit emergent behavior.
+**Agent-based models** are stochastic computational models with the purpose of simulating the behavior of agents and their interactions, allowing us to study emergent phenomena.
 
-- **Generative science** is a new approach to doing science that uses computational models to generate data that can be analyzed inductively.
-
-- **Agent-based models** are computational models that describe how individual agents behave based on simple rules.
-
-- **ABMs** are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, economics, and ecology.
+**ABMs** are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, epidemiology, archaeology, ecology, and many others.
 
 ## How to learn more? {.smaller}
 
@@ -536,16 +584,23 @@ In accordance with the [American Psychological Association (APA) Style](https://
 (Artwork by [Allison Horst](https://twitter.com/allison_horst))
 :::
 
-## QR codes {.smaller}
+## {.nostretch}
 
-[Add QR code for the Linktree]
-[Add QR code for the presentation]
+:::: {.columns}
+::: {.column width="50%" style="text-align: center; padding-top: 25px;"}
+Linktree
+
+[![](images/qrcode-linktree.png){fig-align="center" width="80%"}](https://linktr.ee/danielvartan)
+:::
+::: {.column width="50%" style="text-align: center; padding-top: 25px;"}
+Presentation
+
+[![](images/qrcode-presentation.png){fig-align="center" width="80%"}](https://danielvartan.github.io/resiclima-pres/)
+:::
+::::
 
 
-<!-- --- -->
-
-
-## (AP) Appendices {visibility="uncounted"}
+# Appendices {visibility="uncounted"}
 
 ## (AP) A unit of cultural transmission {visibility="uncounted"}
 
@@ -577,7 +632,7 @@ The new soup is the soup of human culture. We need a name for the new replicator
 
 ## (AP) What is a complex system? {visibility="uncounted"}
 
-![](images/julia-jabur-figure-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
+![](images/julia-jabur-figure-1.jpg){fig-align="center" width=100% style="padding-top: 25px; padding-bottom: 25px;"}
 
 ::: footer
 (Artwork by [Julia Jabur](https://www1.folha.uol.com.br/blogs/ciencia-fundamental/2023/09/a-ciencia-da-complexidade-como-chave-da-sustentabilidade.shtml))
@@ -654,7 +709,7 @@ See also: @muller2020 .
 [@laplace2009]
 :::
 
-## (AP) Laplace demon {visibility="hidden"}
+## (AP) Laplace demon {visibility="uncounted"}
 
 We ought then to regard the present state of the universe as the effect of its anterior state and as the cause of the one which is to follow. Given for one instant an intelligence which could comprehend all the forces by which nature is animated and the respective situation of the beings who compose it - an intelligence sufficiently vast to submit these data to analysis - it would embrace in the same formula the movements of the greatest bodies of the universe and those of the lightest atom; for it, nothing would be uncertain and the future, as the past, would be present to its eyes.
 
@@ -670,19 +725,9 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 
 *Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
 
-## (AP) Isn't that psychohistory? {.smaller visibility="uncounted"}
-
-![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 25px;"}
-
-## (AP) Isn't that just physics meddling with other fields? {.smaller visibility="uncounted"}
-
-![](images/physics-sets-the-rules-neil-degrasse-tyson.gif){fig-align="center" style="padding-top: 25px;"}
-
 ## Reducionism *versus* compression {.nostretch .smaller}
 
 ::: {style="font-size: 0.9em;"}
-[...] where does complexity science fit? Well, complexity science is very quantitative, by and large, it's very historical, we're studying you know, adaptive agents, and it's very **compressive**, because we're looking for mathematical theories that capture essential regularities. **But what we are not is reductionist**.
-
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
 :::
 
@@ -1021,11 +1066,3 @@ a ‘*conventionalist stratagem*’).
 ::: footer
 [@popper2002]
 :::
-
-## Marx and Popper errors
-
-Marx e Engels erraram bastante.
-
-Popper também errou. Kuhn, por sinal, mostrou isso.
-
-Mas isso não invalida todo o trabalho deles. Pelo contrário, devemos manter os acertos e desconsiderar os erros. Senão, não sobra ninguém, nem [Einstein](https://www.forbes.com/sites/startswithabang/2016/12/29/the-four-biggest-mistakes-of-einsteins-scientific-life/).
