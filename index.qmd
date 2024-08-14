@@ -9,7 +9,7 @@ source(here::here("R/quarto-setup.R"))
 
 :::: {.columns}
 ::: {.column width="70%"}
-This presentation aims to introduce the concepts of generative science, complex systems, and agent-based models. We will explore the key principles and tools used in this field, along with potential applications of these techniques in socio-ecological studies.
+This presentation aims to introduce the concepts of complex systems, generative science, and agent-based models. We will explore some of the key principles and tools used in this field, along with potential applications of these techniques in socioecological studies.
 
 Here is our itinerary:
 
@@ -49,8 +49,7 @@ Here is our itinerary:
 :::
 
 
-<!-- Key concepts in complex systems -->
-
+# Key concepts in complex systems
 
 ## {background-image="images/national-geographic-2016-clip.gif" background-position="top left" background-size="100%"}
 
@@ -89,6 +88,10 @@ There are several definitions.
 :::
 ::::
 
+::: {.notes}
+Vocês jã viram um sistema complexo. Olha ai para o lado.
+:::
+
 ## Complex structures {.nostretch .smaller}
 
 :::: {.columns}
@@ -113,27 +116,19 @@ There are several definitions.
 "That information be measured by entropy is, after all, natural when we remember that information, in communication theory, is associated with the amount of freedom of choice we have in constructing messages. Thus for a communication source one can say, just as he would also say it of a thermodynamic ensemble, “This situation is highly organized, it is not characterized by a large degree of randomness or of choice—that is to say, the information (or the entropy) is low." [@shannon1998]
 :::
 
-## Pseudonoise
-
-"It only looks random" [@lorenz2008]
-
-"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
-
-[Add Micromotives and macrobehavior - see @schelling2006]
-
 ## Chaos {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 25px;"}
-"**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?**" [@lorenz2008]
-
 "Systems in which this is the case are said to be **sensitively dependent on initial conditions**." [@lorenz2008]
+
+"**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?**" [@lorenz2008]
 
 "The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions." [@mitchell2009]
 
 **Order in chaos**: "You can't predict how any individual state will evolve, but you can say how a collection of states evolves." [@muller2019]
 
-"There are these windows of stable periodic behavior amig chaos" (about the Logistic map) [@muller2020]
+"There are these windows of stable periodic behavior amid chaos" (about the Logistic map) [@muller2020]
 :::
 
 ::: {.column width="50%"}
@@ -149,11 +144,19 @@ There are several definitions.
 See: Camilo (cap. 2).
 :::
 
+## Pseudonoise
+
+"It only looks random" [@lorenz2008]
+
+"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm." [@horgan2004]
+
+Micromotives and macrobehavior [@schelling2006]
+
 ## Feedback {.smaller}
 
-- Nonlinear dynamics.
-- Dialectical dynamics.
-- Power laws ($y = ax^{k}$) (e.g., Pareto law - 80% of consequences come from 20% of causes).
+Nonlinear dynamics.
+Dialectical dynamics.
+Power laws ($y = ax^{k}$) (e.g., Pareto law - 80% of consequences come from 20% of causes).
 
 ![](images/marilia-marz-figura-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
 
@@ -177,10 +180,6 @@ We can call it as Karma also (joke)
 
 ## Emergence
 
-[Smiley: eye - eye - mouth]
-
-## Emergence
-
 **How can something be more than the sum of its parts?**
 
 - A molecule of $\text{H}_2\text{O}$ is water?
@@ -195,19 +194,13 @@ We can call it as Karma also (joke)
 - Reducionismo.
 - Diferentes visões sobre emergência
 
-## Emergence
-
-"One singular deception of this sort, which often occurs, is to mistake the sensation produced by our own unclearness of thought for a character of the object we are thinking. Instead of perceiving that the obscurity is purely subjective, we fancy that we contemplate a quality of the object which is essentially mysterious; and if our conception be afterward presented to us in a clear form we do not recognize it as the same, owing to the absence of the feeling of unintelligibility."
-
-::: footer
-[@peirce2011]
-:::
-
 ## Complexity science {.nostretch .smaller}
+
+near-invisible reality
 
 [Uma abordagem quantitativa aplicada também a sistemas sociais (polêmico)]
 
-Parte da concepção de Schelling (Nobel) de microbehaviora levam a um macro fenômeno.
+Parte da concepção de Schelling (Nobel) de microbehavior levam a um macro fenômeno.
 
 Hoje sabemos por estudos de, por exemplo Daniel Kahneman, que muito pouco do nosso comportamento é de fato consciente. Assim como a teoria da energia livre do Karl Friston, teoria não falseavel, como a dialética, também sustenta isso.
 
@@ -228,7 +221,7 @@ E essa concepção se aplica também a outras espécies, como iremos ver no caso
 
 ## Complexity science {.nostretch .smaller}
 
-![](images/sayama-2015-figure-1.png){fig-align="center" width=90% style="font-size: 1em; padding-top: 25px;"}
+![](images/sayama-2015-figure-1.png){fig-align="center" width=50% style="font-size: 1em; padding-top: 25px;"}
 
 ::: footer
 [@sayama2015]
@@ -246,17 +239,9 @@ There are several other concepts in complexity science, such as self-organizatio
 <!-- A new method approach of doing science? The generative science -->
 
 
-## Generative science: a new approach to doing science
+## Generative science: a new approach to doing science {.smaller}
 
-Induction: inferring from particular data a general theory.
-
-Deduction: reasoning from first principles to a general theory
-
-Generative: using first principles to generate a particular set of data that can create a general theory
-
-## How it differs from traditional scientific methods {.smaller}
-
-"Simulation is *a third way of doing science*. Like deduction, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical induction, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as *an aid intuition*."
+"Simulation is *a third way of doing science*. Like *deduction*, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical *induction*, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as *an aid intuition*."
 
 Induction and deduction combined. Deduction is used to generate data that can be analyzed inductively.
 
@@ -281,15 +266,11 @@ Possible states, even if unlikely: by modelling such interactions, it can sugges
 [@dodig-crnkovic2013a]
 :::
 
-## Ladies and gentlemen, I give you… the critics
-
-
-
 
 <!-- Entering the world of Agent-based models -->
 
 
-## Exploring agent-based models
+## Agent-based models
 
 Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**.
 
@@ -325,22 +306,7 @@ See: Rand (Units 1 & 7).
 
 ![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
 
-## Types of models {.smaller}
-
-- Equation-based models (EBM) (Mathematical models) (e.g., The ideal gas law: $\text{pV} = \text{nRT}$) [see @avegliano2023; @sayama2015].
-- Statistical models: it can be viewed as a subset of mathematical modeling, but is not really the same | e.g., black-box modelling versus regression modelling).
-- Physical models.
-- Aggregate computer modeling (e.g., system dynamic models).
-- Lab experiments (e.g., animal models).
-- Agent-based models (ABMs) & Individual-Based Models (Include stochastic effects).
-
-::: {.notes}
-See: Camilo (cap. 2); Rand (Units 1 & 9).
-:::
-
 ## Conceptual models
-
-[Simple example: Predator-Prey (do not use the Lotka-Volterra model)]
 
 **Tools**
 
@@ -401,6 +367,19 @@ Today, you don't need to invest in infrastructure to work with simulations. You 
 See: Rand (Unit 1).
 :::
 
+## A picture is worth a thousand words {.smaller}
+
+[Um bom ABM vale mais que mil EQMs]
+[EQM presa-predador versus ABM presa-predador]
+[EQM epidemiológico SIR e ABM SIR]
+[Explicar EQM para, depois, explicar o ABM]
+
+::: {.notes}
+A mathematician probably won't like hearing this, but it's the truth.
+
+Moving away from an idealistic paradigm to a more understandable way of creating models.
+:::
+
 ## When to use? {.smaller}
 
 ::: {.notes}
@@ -433,7 +412,7 @@ A more intuitive and visual approach to modeling phenomena.
 <!-- Examples and case studies -->
 
 
-## Examples and Case Studies
+## Ilustrative models
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" background-interactive=true}
 
@@ -453,26 +432,13 @@ A more intuitive and visual approach to modeling phenomena.
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Percolation.nlogo" background-interactive=true}
 
+
+## Real-world agent-based models
+
 <!-- Add network and GIS examples -->
 
-## A picture is worth a thousand words {.smaller}
+## The global syndemic project
 
-[Um bom ABM vale mais que mil EQMs]
-[EQM presa-predador versus ABM presa-predador]
-[EQM epidemiológico SIR e ABM SIR]
-[Explicar EQM para, depois, explicar o ABM]
-
-::: {.notes}
-A mathematician probably won't like hearing this, but it's the truth.
-
-Moving away from an idealistic paradigm to a more understandable way of creating models.
-:::
-
-## Case: Practical applications of ABM in socio-ecological studies
-
-::: {.notes}
-See: @epstein2006; @yap2023 .
-:::
 
 
 <!-- --- -->
@@ -597,7 +563,7 @@ The new soup is the soup of human culture. We need a name for the new replicator
 [@dawkins2016, p. 249]
 :::
 
-## Del rigor en la ciencia {.smaller visibility="uncounted"}
+## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
 
 ::: {style="font-size: 0.95em;"}
 *... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que ese dilatado Mapa era Inútil y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
@@ -609,7 +575,7 @@ The new soup is the soup of human culture. We need a name for the new replicator
 [@borges1984]
 :::
 
-## What is a complex system? {visibility="uncounted"}
+## (AP) What is a complex system? {visibility="uncounted"}
 
 ![](images/julia-jabur-figure-1.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
 
@@ -629,7 +595,7 @@ The new soup is the soup of human culture. We need a name for the new replicator
 "The universe is under no obligation to make sense to you." [@tyson2021]
 :::
 
-## The 7 basics for complex adaptive systems {.smaller visibility="uncounted"}
+## (AP) The 7 basics for complex adaptive systems {.smaller visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
@@ -650,7 +616,7 @@ The seven basics consist of 4 properties and 3 mechanisms that are common to all
 :::
 ::::
 
-## Chaos {.smaller visibility="uncounted"}
+## (AP) Chaos {.smaller visibility="uncounted"}
 
 Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
 
@@ -666,7 +632,7 @@ The behavior of some **simple**, **deterministic** systems **can be impossible, 
 "Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R." [@mitchell2009]
 :::
 
-## Chaos {.smaller visibility="uncounted"}
+## (AP) Chaos {.smaller visibility="uncounted"}
 
 Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
 
@@ -740,6 +706,19 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 
 ::: footer
 [@horgan1995, p. 106]
+:::
+
+## (AP) Types of models {.smaller}
+
+- Equation-based models (EBM) (Mathematical models) (e.g., The ideal gas law: $\text{pV} = \text{nRT}$) [See @avegliano2023; @sayama2015].
+- Statistical models: it can be viewed as a subset of mathematical modeling, but is not really the same | e.g., black-box modelling versus regression modelling).
+- Physical models.
+- Aggregate computer modeling (e.g., system dynamic models).
+- Lab experiments (e.g., animal models).
+- Agent-based models (ABMs) & Individual-Based Models (Include stochastic effects).
+
+::: {.notes}
+See: Camilo (cap. 2); Rand (Units 1 & 9).
 :::
 
 ## (AP) Dialectical materialism's conjecture {visibility="uncounted"}

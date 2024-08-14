@@ -28,6 +28,8 @@ keyword: >
 institute: "University of São Paulo"
 date: 2024-08-15
 date-format: "YYYY-MM-DD"
+title-slide-attributes:
+  data-background-color: "white"
 
 website:
   open-graph: true
@@ -54,6 +56,8 @@ format:
     fig-align: center
     theme: [default, scss/styles.scss]
     pdf-max-pages-per-slide: 1
+    template-partials:
+      - html/title-slide.html
 
 google-scholar: false
 bibliography: references.bib

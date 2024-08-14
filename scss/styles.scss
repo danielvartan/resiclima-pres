@@ -1,10 +1,20 @@
 /*-- scss:defaults --*/
 
 $primary: #006909 !default;
-
-// $font-size-root: 18px !default;
+$presentation-title-slide-text-align: left;
+$link-color: $primary;
 
 /*-- scss:rules --*/
+
+// #title
+
+.theme-title-h1 {
+  background-color: $primary;
+
+  h1 {
+    color: white;
+  }
+}
 
 .border {
   border: 1px solid #dee2e6;
@@ -30,11 +40,19 @@ h1 {
   color: #006909;
 }
 
+.medium {
+  font-size: 0.85em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
 :root {
   --r-selection-background-color: #006909;
   --r-link-color: #006909;
-  --r-link-color-dark: #004d2d;
-  --r-link-color-hover: #004d2d;
+  --r-link-color-dark: #006909;
+  --r-link-color-hover: #006909;
 }
 
 .reveal .footer a {
