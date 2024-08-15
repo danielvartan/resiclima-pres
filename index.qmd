@@ -16,7 +16,7 @@ Here is our itinerary:
 1. **Introduction**
 1. **Key concepts about complex systems**
 1. **Entering the world of agent-based models**
-1. **Examples and case studies**
+1. **Real world examples**
 1. **Final remarks**
 :::
 
@@ -29,10 +29,10 @@ Here is our itinerary:
 ## Time
 
 1. **Introduction** (1 min.)
-1. **Key concepts  about complex systems** (10 min.)
-1. **Entering the world of Agent-based models** (7 min.)
-1. **Examples and case studies** (10 min.)
-1. **Final remarks** (2 min.)
+1. **Key concepts  about complex systems** (15 min.)
+1. **Entering the world of Agent-based models** (10 min.)
+1. **Examples** (3 min.)
+1. **Final remarks** (1 min.)
 
 ## General notes
 
@@ -49,7 +49,7 @@ Here is our itinerary:
 
 # Key concepts in complex systems
 
-## Complexity _versus_ complicatedness {.smaller}
+## Complex _versus_ complicated {.smaller}
 
 A biological clock is complex, but a mechanical clock is complicated.
 
@@ -63,7 +63,13 @@ A biological clock is complex, but a mechanical clock is complicated.
 :::
 ::::
 
-## Complexity _versus_ complicatedness {.nostretch}
+## Complex _versus_ complicated {.smaller}
+
+A Rube Goldberg machine.
+
+![](images/rube-goldberg-machine.png){fig-align="center" style="padding-top: 25px;"}
+
+## Complex _versus_ complicated {.nostretch}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 50px;"}
@@ -128,7 +134,7 @@ There seems to be no complexity at the extremes of the intervals. Our society is
 ::::
 
 ::: footer
-[Video by [Derek Muller](https://www.youtube.com/watch?v=DxL2HoqLbyA)]
+(Video by [Derek Muller](https://www.youtube.com/watch?v=DxL2HoqLbyA))
 :::
 
 ## Chaos {.smaller}
@@ -284,24 +290,29 @@ Possible states, even if unlikely: by modelling such interactions, **it can sugg
 [@dodig-crnkovic2013a]
 :::
 
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
 
 # Entering the world of agent-based models
 
 ## Agent-based models {.smaller}
 
-:::: {.columns}
-::: {.column width="50%" style="padding-top: 0px;"}
+::::: {.columns}
+:::: {.column width="50%" style="padding-top: 0px;"}
 Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**. [@wilensky2015, p. 22]
 
 ABM and **stochasticity**.
-:::
-::: {.column width="50%" style="padding-top: 100px;"}
+::::
+:::: {.column width="50%"}
+::: {layout-nrow=2}
+![](images/primer-figure-02.png){fig-align="center" width="25%"}
+
 ![](images/primer-2019-figure-01.gif){fig-align="center"}
 :::
 ::::
+:::::
 
 ::: footer
-[Video by [Primer](https://www.youtube.com/watch?v=YNMkADpvO4w)]
+[Video and image by [Primer](https://www.youtube.com/watch?v=YNMkADpvO4w)]
 :::
 
 ## What is a model? {.smaller}
@@ -310,7 +321,7 @@ A model is a simplified representation of a system. It can be conceptual, verbal
 
 A good model is simple, valid, and robust.
 
-"*All models are wrong*, but some are useful" [@box1979, p. 202]
+"**All models are wrong**, but some are useful" [@box1979, p. 202]
 
 ::: footer
 [@sayama2015]
@@ -318,7 +329,7 @@ A good model is simple, valid, and robust.
 
 ## What is a model? {.smaller}
 
-![](images/puccia-1985-figure-1-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+![](images/puccia-1985-figure-1-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
 
 ::: footer
 [@puccia1985, p. 3]
@@ -332,43 +343,47 @@ A good model is simple, valid, and robust.
 
 ![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px;"}
 
+::: footer
+[@carvalho2024, p. 3]
+:::
+
 ## Tools for conceptual modelling
 
-::::: {layout-nrow=2}
+::::: {layout-nrow=2 style="padding-top: 25px"}
 :::: {.columns}
 ::: {.column width="50%"}
-[Loopy](https://ncase.me/loopy/)
-
-![](images/loopy-logo.png){fig-align="center" style="padding-top: 50px;"}
+[![](images/loopy-logo.png){fig-align="center" width="90%" style="padding-top: 0px;"}](https://ncase.me/loopy/)
 :::
 
 ::: {.column width="50%"}
-[Insight Maker](https://insightmaker.com/)
-
-![](images/insight-maker-logo.png){fig-align="center" style="padding-top: 50px;"}
+[![](images/insight-maker-logo.png){fig-align="center" width="90%" style="padding-top: 0px;"}](https://insightmaker.com/)
 :::
 ::::
 
-:::
-[Kumu](https://kumu.io/)
-
-[![](images/kumu-logo.png){fig-align="center" width=75% style="padding-top: 50px;"}](https://kumu.io/)
+::: {.center-x}
+[![](images/kumu-logo.png){fig-align="center" width=25% style="padding-top: 0px;"}](https://kumu.io/)
 :::
 :::::
 
-## Basics of agent-based modeling (ABM)
+## Key components
 
-[...] agent-based modeling is clearly a powerful tool in the analysis of spatially distributed systems of heterogeneous autonomous actors with bounded information and computing capacity.
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 50px;"}
+Agents
 
-::: footer
-[@epstein1999]
+Environment
+
+Interaction
+
+️🟥
 :::
 
-## Key components and how they work
+::: {.column width="50%" style="padding-top: 25px;"}
+![](images/abm-components.png){fig-align="center"}
+:::
+::::
 
-- Agents
-- Environment
-- Interaction
+## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
 
 ## Analyzing agent-based models
 
@@ -388,7 +403,7 @@ A good model is simple, valid, and robust.
 :::
 ::::
 
-## Verification, validation, and replication {.smaller}
+## Verification and validation {.smaller}
 
 **Verification** is the process of making sure your conceptual model matches your implemented model.
 
@@ -402,7 +417,7 @@ A good model is simple, valid, and robust.
 
 ## Why use ABM?
 
-Today, you don't need to invest in infrastructure to work with simulations. You can use your machine or cloud computing services to run your simulations.
+You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 25px;"}
@@ -423,25 +438,48 @@ See: Rand (Unit 1).
 
 ## A picture is worth a thousand words {.smaller}
 
-[Um bom ABM vale mais que mil EQMs]
-[EQM presa-predador versus ABM presa-predador]
-[EQM epidemiológico SIR e ABM SIR]
-[Explicar EQM para, depois, explicar o ABM]
-
-::: {.notes}
-A mathematician probably won't like hearing this, but it's the truth.
-
-Moving away from an idealistic paradigm to a more understandable way of creating models.
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 50px;"}
+$$
+\begin{cases}
+\cfrac{\mathrm{d}}{\mathrm{d} t} S \quad = \quad - \lambda SI \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} I \quad = \quad \lambda SI - \gamma I \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} R \quad = \quad \gamma I \\
+\end{cases}
+$$
 :::
 
-## When to use? {.smaller}
+::: {.column width="50%" style="padding-top: 25px;"}
+![](images/netlogo-epiden-basic-figure-01.png){fig-align="center" style="border: 1px solid black;"}
+:::
+::::
 
-::: {.notes}
-See: Rand (Unit 1); @epstein1999 .
+::: footer
+[@kermack1927]
+:::
+
+## When to use ABMs?
+
+**Medium numbers**
+
+Heterogeneity
+
+Complex but local interactions
+
+Rich environments
+
+Time
+
+Adaptation
+
+::: footer
+[@rand2024a]
 :::
 
 ## ABM Frameworks
 
+::::: {.columns}
+:::: {.column width="50%" style="padding-top: 0px;"}
 - [NetLogo](https://ccl.northwestern.edu/netlogo/)
 - [StarLogo](https://www.slnova.org/)
 - [Swarm](https://www.swarm.org)
@@ -449,40 +487,45 @@ See: Rand (Unit 1); @epstein1999 .
 - [Mesa](https://mesa.readthedocs.io/) (Python)
 
 See also: [Comparison of agent-based modeling software](https://en.wikipedia.org/wiki/Comparison_of_agent-based_modeling_software).
+::::
+
+:::: {.column width="50%" style="padding-top: 0px;"}
+::: {layout="[[1], [1,1]]"}
+[![](images/swarm-logo.png){fig-align="center" width="40%"}](https://www.swarm.org)
+
+[![](images/gama-symbol.png){fig-align="center"}](https://gama-platform.org/)
+
+[![](images/netlogoweb-logo.png){fig-align="center"}](https://ccl.northwestern.edu/netlogo/)
+:::
+::::
+:::::
 
 ## NetLogo
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
+Most used ABM software.
+
 A more intuitive and visual approach to modeling phenomena.
 
-“Low Threshold, No Ceiling” philosophy.
+“**Low Threshold, No Ceiling**”.
 
 Open-source and free!
 :::
 ::: {.column width="50%" style="padding-top: 100px;"}
-![](images/netlogoweb-logo.png){fig-align="center"}
+[![](images/netlogoweb-logo.png){fig-align="center"}](https://ccl.northwestern.edu/netlogo/)
 :::
 ::::
 
 ::: {.notes}
-- Star Trek (Gene Roddenberry): 1966
 - Logo (Seymour Papert: 1967
 - NetLogo (Uri Wilensky): 1999) (Rand, Unit 8).
 :::
 
-## Advantages and limitations {.smaller}
 
+# Real world examples
 
-# Examples
-
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
-
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
-
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Curricular%20Models/epiDEM/epiDEM%20Basic.nlogo" background-interactive=true}
-
-## Real-world agent-based models
+## MayaSim {.smaller}
 
 [MayaSim: An agent-based model of the ancient Maya social-ecological system](https://www.comses.net/codebases/3063/releases/1.3.0/)
 
@@ -497,6 +540,8 @@ Open-source and free!
 ![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 25px;"}
 
 ## The global syndemic project
+
+![](images/global-syndemic.png){fig-align="center" style="padding-top: 0px;"}
 
 
 # Final remarks
@@ -730,13 +775,13 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 
 *Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
 
-## Reducionism *versus* compression {.nostretch .smaller}
+## Reducionism *versus* compression {.smaller}
 
 ::: {style="font-size: 0.9em;"}
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
 :::
 
-![](images/krakauer-2023-figure-1.png){fig-align="center" width=100% style="padding-top: 5px;"}
+![](images/krakauer-2023-figure-1.png){fig-align="center" width=100% style="padding-top: 20px; padding-bottom: 20px;"}
 
 ::: footer
 [@krakauer2023]
@@ -756,19 +801,6 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 
 ::: footer
 [@horgan1995, p. 106]
-:::
-
-## (AP) Types of models {.smaller}
-
-- Equation-based models (EBM) (Mathematical models) (e.g., The ideal gas law: $\text{pV} = \text{nRT}$) [See @avegliano2023; @sayama2015].
-- Statistical models: it can be viewed as a subset of mathematical modeling, but is not really the same | e.g., black-box modelling versus regression modelling).
-- Physical models.
-- Aggregate computer modeling (e.g., system dynamic models).
-- Lab experiments (e.g., animal models).
-- Agent-based models (ABMs) & Individual-Based Models (Include stochastic effects).
-
-::: {.notes}
-See: Camilo (cap. 2); Rand (Units 1 & 9).
 :::
 
 ## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
@@ -836,15 +868,15 @@ No phenomenon in nature can be understood if considered in isolation, separate f
 [@engels1954, p. 62]
 :::
 
-## (AP) Dialetics and the Law of excluded middle {visibility="uncounted"}
+## (AP) Dialetics and the law of excluded middle {visibility="uncounted"}
 
-Dialectical materialism will consider that something can be both A and not-A at the same time. This is in opposition to the [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle), which states that something can only be A or not-A. It assumes a [paraconsistent logic](https://en.wikipedia.org/wiki/Paraconsistent_logic), instead of a [classical logic](https://en.wikipedia.org/wiki/Classical_logic).
+Dialectical materialism will consider that something can be both A and not-A at the same time. This is in opposition to the [Law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle), which states that something can only be A or not-A.
 
 ## (AP) Popper's vision of science {visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%"}
-I suggest that it is the aim of science to find satisfactory explanations, of whatever strikes us as being in need of explanation.
+I suggest that it is **the aim of science to find satisfactory explanations**, of whatever strikes us as being in need of explanation.
 :::
 
 ::: {.column width="50%"}
