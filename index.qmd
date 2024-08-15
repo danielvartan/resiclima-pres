@@ -33,13 +33,6 @@ Here is our itinerary:
 1. **Entering the world of Agent-based models** (10 min.)
 1. **Examples** (3 min.)
 1. **Final remarks** (1 min.)
-
-## General notes
-
-- Orelhas vermelhas.
-- Passado.
-- Limitações.
-- Evolução com a ciência da computação.
 :::
 
 ## Warning {.smaller}
@@ -525,7 +518,7 @@ Open-source and free!
 
 # Real world examples
 
-## MayaSim {.smaller}
+## MayaSim {.smaller}   
 
 [MayaSim: An agent-based model of the ancient Maya social-ecological system](https://www.comses.net/codebases/3063/releases/1.3.0/)
 
