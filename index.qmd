@@ -42,6 +42,10 @@ Here is our itinerary:
 - Evolução com a ciência da computação.
 :::
 
+## Warning {.smaller}
+
+![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
+
 
 # Key concepts in complex systems
 
@@ -124,7 +128,7 @@ There seems to be no complexity at the extremes of the intervals. Our society is
 ::::
 
 ::: footer
-[Video by @muller2023]
+[Video by [Derek Muller](https://www.youtube.com/watch?v=DxL2HoqLbyA)]
 :::
 
 ## Chaos {.smaller}
@@ -203,19 +207,21 @@ Non-linear dynamics & Power laws ($y = ax^{k}$).
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
 "**Emergence isn't magic**" [@wilson2004]
 
-"You are dealing with an emergence phenomenon when there is no *need* to look under the hood." [@krakauer2023]
+"You are dealing with an emergence phenomenon when there is no need to look under the hood" [@krakauer2023]
 
-"There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents." [@epstein1999]
+"There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents" [@epstein1999]
 :::
 
 ::: {.column width="50%"}
-![](images/homer-emerging.gif){fig-align="center" width=100% style="padding-top: 0px;"}
+![](images/homer-emerging.gif){fig-align="center" width=100% style="padding-top: 65px;"}
 :::
 ::::
 
 ## How can something be more than the sum of its parts?
 
-A molecule of $\text{H}_2\text{O}$ is water?
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+Is a molecule of $\text{H}_2\text{O}$ water?
 
 Can you understand a anthill by studying a single ant?
 
@@ -224,10 +230,20 @@ Are you just a collection of cells?
 "_Uma andorinha não faz verão_".
 
 "Love is just a chemical".
+:::
 
-## Complexity science {.nostretch .smaller}
+::: {.column width="50%"}
+![](images/kurzgesagt-2017-emergence-figure-1.gif){fig-align="center" width=100% style="padding-top: 75px;"}
+:::
+::::
 
-![](images/sayama-2015-figure-1.png){fig-align="center" width=50% style="font-size: 1em; padding-top: 25px;"}
+::: footer
+[Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE)]
+:::
+
+## {.nostretch .smaller}
+
+![](images/sayama-2015-figure-1.png){fig-align="center" width=60% style="font-size: 1em; padding-top: 0px; padding-bottom: 0px;"}
 
 ::: footer
 [@sayama2015]
@@ -257,7 +273,7 @@ Induction and deduction combined. Deduction is used to generate data that can be
 ::: {.column width="50%" style="padding-top: 0px;"}
 Here we recognize the basic idea of generative science which is **to generate apparently unanticipated and infinite behavior** based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.
 
-Possible states, even if unlikely: by modelling such interactions, it can suggest that **properties exist in the system that had not been noticed in the real world situation**.
+Possible states, even if unlikely: by modelling such interactions, **it can suggest that properties exist in the system that had not been noticed in the real world situation**.
 :::
 ::: {.column width="50%" style="padding-top: 100px;"}
 ![](images/encontro.gif){fig-align="center"}
@@ -271,14 +287,21 @@ Possible states, even if unlikely: by modelling such interactions, it can sugges
 
 # Entering the world of agent-based models
 
-## Agent-based models
+## Agent-based models {.smaller}
 
-Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**.
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**. [@wilensky2015, p. 22]
 
 ABM and **stochasticity**.
+:::
+::: {.column width="50%" style="padding-top: 100px;"}
+![](images/primer-2019-figure-01.gif){fig-align="center"}
+:::
+::::
 
 ::: footer
-[@wilensky2015, p. 22]
+[Video by [Primer](https://www.youtube.com/watch?v=YNMkADpvO4w)]
 :::
 
 ## What is a model? {.smaller}
@@ -287,39 +310,51 @@ A model is a simplified representation of a system. It can be conceptual, verbal
 
 A good model is simple, valid, and robust.
 
-[Add modeling diagram workflow]
+"*All models are wrong*, but some are useful" [@box1979, p. 202]
 
 ::: footer
 [@sayama2015]
 :::
 
-::: {.notes}
-See: Rand (Units 1 & 7).
-:::
-
 ## What is a model? {.smaller}
 
-"*All models are wrong*, but some are useful" [@box1979, p. 202]
+![](images/puccia-1985-figure-1-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
-![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
-
-## Conceptual models
-
-**Tools**
-
-- [Loopy](https://ncase.me/loopy/)
-- [Insight Maker](https://insightmaker.com/)
-- [Kumu](https://kumu.io/)
+::: footer
+[@puccia1985, p. 3]
+:::
 
 ## Nonrealistic models {.smaller}
 
 ![](images/cool-car.gif){fig-align="center" style="padding-top: 25px;"}
 
-::: {.notes}
-Filmes de ação da sessão da tarde.
+## Conceptual models
 
-Action movies: The protagonist falls down from the 15th floor, gets up, and brushes off their clothes to remove the dust.
+![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px;"}
+
+## Tools for conceptual modelling
+
+::::: {layout-nrow=2}
+:::: {.columns}
+::: {.column width="50%"}
+[Loopy](https://ncase.me/loopy/)
+
+![](images/loopy-logo.png){fig-align="center" style="padding-top: 50px;"}
 :::
+
+::: {.column width="50%"}
+[Insight Maker](https://insightmaker.com/)
+
+![](images/insight-maker-logo.png){fig-align="center" style="padding-top: 50px;"}
+:::
+::::
+
+:::
+[Kumu](https://kumu.io/)
+
+[![](images/kumu-logo.png){fig-align="center" width=75% style="padding-top: 50px;"}](https://kumu.io/)
+:::
+:::::
 
 ## Basics of agent-based modeling (ABM)
 
@@ -334,16 +369,6 @@ Action movies: The protagonist falls down from the 15th floor, gets up, and brus
 - Agents
 - Environment
 - Interaction
-
-## IBMs *versus* ABMs
-
-There have been historical differences between individual- and agent-based models: IBMs focused on individual variability and local interactions, whereas ABMs focused on decision-making and adaptive behavior. But **these differences are fading away** [...]
-
-Agent-Based Models (ABMs) are typically used in social sciences and economics, while Individual-Based Models (IBMs) are commonly used in ecology and biology.
-
-::: footer
-[@railsback2019]
-:::
 
 ## Analyzing agent-based models
 
@@ -449,30 +474,13 @@ Open-source and free!
 ## Advantages and limitations {.smaller}
 
 
-<!-- Examples and case studies -->
-
-
-## Ilustrative models
-
-<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" background-interactive=true} -->
-
-<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Flocking.nlogo" background-interactive=true} -->
-
-<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Chemistry%20&%20Physics/GasLab/GasLab%20Two%20Gas.nlogo" background-interactive=true} -->
+# Examples
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Curricular%20Models/epiDEM/epiDEM%20Basic.nlogo" background-interactive=true}
-
-## This is not a game!
-
-## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Games/Tetris.nlogo" background-interactive=true}
-
-<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Traffic%20Grid.nlogo" background-interactive=true} -->
-
-<!-- ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Percolation.nlogo" background-interactive=true} -->
 
 ## Real-world agent-based models
 
@@ -484,12 +492,11 @@ Open-source and free!
 
 ## {background-image="images/cmip-webpage.png" background-position="top left" background-size="100%" .scrollable}
 
-## An evolution?
+## A new kind of ABM?
 
 ![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 25px;"}
 
 ## The global syndemic project
-
 
 
 # Final remarks
@@ -666,8 +673,6 @@ The seven basics consist of 4 properties and 3 mechanisms that are common to all
 :::
 ::: {.column width="50%"}
 "Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution." [@rodriguesneto2022]
-
-[Add figure 1.16 from @holland1996]
 :::
 ::::
 
