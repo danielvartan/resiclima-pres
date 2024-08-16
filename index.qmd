@@ -25,17 +25,9 @@ Here is our itinerary:
 :::
 ::::
 
-::: {.notes}
-## Time
-
-1. **Introduction** (1 min.)
-1. **Key concepts  about complex systems** (15 min.)
-1. **Entering the world of Agent-based models** (10 min.)
-1. **Examples** (3 min.)
-1. **Final remarks** (1 min.)
-:::
-
 ## Warning {.smaller}
+
+Murphy's law: "Anything that can go wrong will go wrong." (epigram)
 
 ![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
 
