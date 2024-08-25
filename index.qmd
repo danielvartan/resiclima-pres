@@ -74,7 +74,7 @@ It is not **self-organized**
 
 ## What is a system?
 
-In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of **system-wide behavior**. [@bertalanffy1968]
+In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of **system-wide behavior**. [@vonbertalanffy1968]
 
 ![](images/system.png){fig-align="center" style="padding-top: 50px; padding-bottom: 50px;"}
 
