@@ -152,19 +152,22 @@ There seems to be no complexity at the extremes of the intervals. Our society is
 
 ## Pseudonoise
 
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+::::: {.columns}
+:::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
 "**It only looks random**" [@lorenz2008]
 
 "Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm**." [@horgan2004]
 
 Micromotives and macrobehavior. [@schelling2006]
-:::
+::::
 
-::: {.column width="50%"}
-![](images/tangled-string.gif){fig-align="center" width=100% style="font-size: 1em; padding-top: 100px;"}
+:::: {.column width="50%" .center-x}
+::: {layout-nrow=2}
+![](images/yarn-colour.jpg){fig-align="center" width="55%" style="padding-top: -50px;"}
+![](images/entangled-threads.jpg){fig-align="center" width="55%" style="padding-top: -75px;"}
 :::
 ::::
+:::::
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Segregation.nlogo" background-interactive=true}
 
@@ -329,7 +332,7 @@ A good model is simple, valid, and robust.
 ![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px;"}
 
 ::: footer
-[@carvalho2024, p. 3]
+[@carvalho2024a, p. 3]
 :::
 
 ## Tools for conceptual modelling
