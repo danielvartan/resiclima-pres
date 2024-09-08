@@ -448,7 +448,7 @@ $$
 
 ## When to use ABMs?
 
-**Medium numbers**
+Medium numbers
 
 Heterogeneity
 
