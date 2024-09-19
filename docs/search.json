@@ -7,13 +7,6 @@
     "text": "Hi there! 👋\n\n\nThis presentation aims to introduce the concepts of complex systems, generative science, and agent-based models. We will explore some of the key principles and tools used in this field, along with potential applications of these techniques in socioecological studies.\nHere is our itinerary:\n\nIntroduction\nKey concepts about complex systems\nEntering the world of agent-based models\nReal world examples\nFinal remarks"
   },
   {
-    "objectID": "index.html#warning",
-    "href": "index.html#warning",
-    "title": "Exploring complexity with agent-based models",
-    "section": "Warning",
-    "text": "Warning\nMurphy’s law: “Anything that can go wrong will go wrong.” (epigram)"
-  },
-  {
     "objectID": "index.html#complex-versus-complicated",
     "href": "index.html#complex-versus-complicated",
     "title": "Exploring complexity with agent-based models",
@@ -25,28 +18,56 @@
     "href": "index.html#complex-versus-complicated-1",
     "title": "Exploring complexity with agent-based models",
     "section": "Complex versus complicated",
-    "text": "Complex versus complicated\nA Rube Goldberg machine."
+    "text": "Complex versus complicated\nA look at the internals of a mechanical clock.\n\n\n(Photo by Yarek Baranik)\n\nElegant and Precise.\nA watchmaker designed it. It has a specific function. It has a goal.\nIt may be hard to understand, but if you take the time and look at all of its parts, you can understand the whole system."
   },
   {
     "objectID": "index.html#complex-versus-complicated-2",
     "href": "index.html#complex-versus-complicated-2",
     "title": "Exploring complexity with agent-based models",
     "section": "Complex versus complicated",
-    "text": "Complex versus complicated\n\n\nIt is not adaptive.\nIt is not robust\nIt does not produce extreme events\nIt is not self-organized"
+    "text": "Complex versus complicated\nA look at the internals of a biological clock (a timing system).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Pérez-Villa et al., 2023)\n\nA mess! An OCD nightmare.\nA bunch of coupled oscillators.\n“[…] involve great numbers of parts undergoing a kaleidoscopic array of simultaneous interactions.” (Holland, 1992)\nIf you look just its parts, you can’t understand the whole system.\nIt’s an emergent phenomenon.\nIt can be thought as an “aggregate agent” ― aggregate behavior of component agents generates behavior of the aggregate agent. (Holland, 2012)\nBoundaries and signals. (Holland, 2012)\nIt’s adaptive, robust, produces extreme events, and is self-organized."
+  },
+  {
+    "objectID": "index.html#complex-versus-complicated-3",
+    "href": "index.html#complex-versus-complicated-3",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Complex versus complicated",
+    "text": "Complex versus complicated\nIf you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a Rube Goldberg machine. (Merrow & Roenneberg, 2020)\n\n\n(Artwork by Rube Goldberg)\n\nIf someone designed this here, they weren’t doing well. This system wasn’t designed by a watchmaker, but by evolution.\nThis is the result of a juggling act of billions of years of evolution. There are no specific functions. There’s no proposed goal.\nYou would hate have this clock. You would be late for everything. Its always changing. That’s because it’s not a clock, it’s a timing system."
+  },
+  {
+    "objectID": "index.html#complex-versus-complicated-4",
+    "href": "index.html#complex-versus-complicated-4",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Complex versus complicated",
+    "text": "Complex versus complicated\nIf you look just the parts of a complex system, you can’t understand the whole system.\nA aggregate behavior emerges from the interactions of the parts.\nIllustrative example: Immune cells.\n\n\n(Holland, 2012)"
+  },
+  {
+    "objectID": "index.html#complex-versus-complicated-5",
+    "href": "index.html#complex-versus-complicated-5",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Complex versus complicated",
+    "text": "Complex versus complicated\n\nThe aggregate behavior influences the agent behavior and vice-versa. (Holland, 2012)\nCircadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation. (Roenneberg et al., 2007)\n\n\n\n(Artwork by Flanagan et al., 2021)"
+  },
+  {
+    "objectID": "index.html#complex-versus-complicated-6",
+    "href": "index.html#complex-versus-complicated-6",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Complex versus complicated",
+    "text": "Complex versus complicated\n\n\nIts parts define it\nIt does not exhibit aggregate/emergent behavior\n\nIt is not adaptive\nIt is not robust\nIt does not produce extreme events\nIt is not self-organized"
   },
   {
     "objectID": "index.html#what-is-a-system",
     "href": "index.html#what-is-a-system",
     "title": "Exploring complexity with agent-based models",
     "section": "What is a system?",
-    "text": "What is a system?\nIn a very general sense, a system is a collection of interacting elements that together produce, by virtue of their interactions, some form of system-wide behavior. (von Bertalanffy, 1968)\n\n\n(Artwork by Schindel, 2013)"
+    "text": "What is a system?\n\n\nIn a very general sense, a system is a collection of interacting elements that together produce, by virtue of their interactions, some form of system-wide behavior. (von Bertalanffy, 1968)\nA system is defined by an observer and may have an arbitrary content domain. (Bao & Fritchman, 2018)\nThe structure of complex systems creates their behavior. (Sterman, 2000) (the system as cause)\n\n\n\n\n\n\n\n\n(Artwork by Schindel, 2013)"
   },
   {
     "objectID": "index.html#what-is-a-complex-system",
     "href": "index.html#what-is-a-complex-system",
     "title": "Exploring complexity with agent-based models",
     "section": "What is a complex system?",
-    "text": "What is a complex system?\n\n\nThere are several definitions. Here are some:\n\n“Systems that don’t yield to compact forms of representation or description” (David Krakauer in Mitchell (2013));\n“A system of many interacting parts where the system is more than just the sum of its parts” (Mark Newman in Mitchell (2013));\nSystems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).\nDialectics at its finest (my working definition)."
+    "text": "What is a complex system?\n\n\nSystems that don’t yield to compact forms of representation or description (David Krakauer in Mitchell (2013));\nA system of many interacting parts where the system is more than just the sum of its parts (Mark Newman in Mitchell (2013));\nA system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting aggregate behavior that cannot be simply derived from the actions of the individual parts. (Holland, 1992)\nSystems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).\nDialectics at its finest (my working definition)."
   },
   {
     "objectID": "index.html#complex-structures",
@@ -60,7 +81,7 @@
     "href": "index.html#chaos",
     "title": "Exploring complexity with agent-based models",
     "section": "Chaos",
-    "text": "Chaos\n\n\n“Deterministic nonperiodic flow” (Lorenz, 1963)\n“Systems in which this is the case are said to be sensitively dependent on initial conditions.” (Lorenz, 2008)\n“Does the Flap of a Butterfly’s Wings in Brazil Set off a Tornado in Texas?” (Lorenz, 2008)\n“The behavior of some simple, deterministic systems can be impossible, even in principle, to predict in the long term, due to sensitive dependence on initial conditions.” (Mitchell, 2009)\nOrder in chaos: “You can’t predict how any individual state will evolve, but you can say how a collection of states evolves.” (Muller, 2019)\n\n\n\n\n\n\n\n\n(Animation by Jake VanderPlas)"
+    "text": "Chaos\n\n\nDeterministic nonperiodic flow (Lorenz, 1963)\nSystems in which this is the case are said to be sensitively dependent on initial conditions. (Lorenz, 2008)\nDoes the Flap of a Butterfly’s Wings in Brazil Set off a Tornado in Texas? (Lorenz, 2008)\nThe behavior of some simple, deterministic systems can be impossible, even in principle, to predict in the long term, due to sensitive dependence on initial conditions. (Mitchell, 2009)\nOrder in chaos: You can’t predict how any individual state will evolve, but you can say how a collection of states evolves. (Muller, 2019)\n\n\n\n\n\n\n\n\n(Animation by Jake VanderPlas)"
   },
   {
     "objectID": "index.html#isnt-that-psychohistory",
@@ -74,7 +95,7 @@
     "href": "index.html#pseudonoise",
     "title": "Exploring complexity with agent-based models",
     "section": "Pseudonoise",
-    "text": "Pseudonoise\n\n\n“It only looks random” (Lorenz, 2008)\n“Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm.” (Horgan, 2004)\nMicromotives and macrobehavior. (Schelling, 2006)"
+    "text": "Pseudonoise\n\n\nIt only looks random (Lorenz, 2008)\nChaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, the result of some underlying, deterministic algorithm. (Horgan, 2004)\nMicromotives and macrobehavior (Schelling, 2006)"
   },
   {
     "objectID": "index.html#untangling-versus-entangling",
@@ -84,67 +105,109 @@
     "text": "Untangling versus entangling"
   },
   {
-    "objectID": "index.html#feedback",
-    "href": "index.html#feedback",
+    "objectID": "index.html#power-laws-factor-sparsity",
+    "href": "index.html#power-laws-factor-sparsity",
     "title": "Exploring complexity with agent-based models",
-    "section": "Feedback",
-    "text": "Feedback\n“As commonly used, the term”feedback” denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity.” (Puccia & Levins, 1985)\nNon-linear dynamics & Power laws (\\(y = ax^{k}\\)).\n\n\n(Artwork by Marilia Marz)"
+    "section": "Power laws & Factor sparsity",
+    "text": "Power laws & Factor sparsity\n\n\nPower laws (\\(y = ax^{-k}\\))\nPareto/Zipf’s distributions\n~80/20 rule: 80% of the effects come from 20% of the causes.\nFor instance, the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people’s personal fortunes all appear to follow power laws. (Newman, 2005)\n(Top U.S. retail companies by market cap as of September 2024)\n\n\n\n\n\n\n\n\n(Graph by Retail Dogma)"
+  },
+  {
+    "objectID": "index.html#feedback-loops",
+    "href": "index.html#feedback-loops",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Feedback loops",
+    "text": "Feedback loops\nAs commonly used, the term “feedback” denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity. (Puccia & Levins, 1985)\nWhen the system have feedback loops, the notion of cause and effect must be treated with care.\nNon-linear dynamics & Power laws\n\n\n(Artwork by Marilia Marz)"
+  },
+  {
+    "objectID": "index.html#robustness",
+    "href": "index.html#robustness",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Robustness",
+    "text": "Robustness\n\n\nThe order in complex systems is said to be robust because, being distributed and not centrally produced, it is stable under perturbations of the system. (Ladyman et al., 2013)\n\n\n\n\n\n\n\n\n(Graph by The Copernicus Climate Change Service)"
+  },
+  {
+    "objectID": "index.html#equilibrium-states",
+    "href": "index.html#equilibrium-states",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Equilibrium states",
+    "text": "Equilibrium states\nSystems in a highly stable state (deep valley) have low potential energy, and considerable energy is required to move them out of this stable state. Systems in an unstable state (top of a hill) have high potential energy, and they require only a little additional energy to push them off the hill.\n\n\n(Steffen et al., 2018)"
   },
   {
     "objectID": "index.html#emergence",
     "href": "index.html#emergence",
     "title": "Exploring complexity with agent-based models",
     "section": "Emergence",
-    "text": "Emergence\n\n\n“Emergence isn’t magic” (Wilson, 2004)\n“You are dealing with an emergence phenomenon when there is no need to look under the hood” (Krakauer, 2023)\n“There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents” (Epstein, 1999)"
+    "text": "Emergence\n\n\nEmergence isn’t magic (Wilson, 2004)\nYou are dealing with an emergence phenomenon when there is no need to look under the hood (Krakauer, 2023)\nThere, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents (Epstein, 1999)"
+  },
+  {
+    "objectID": "index.html#emergence-1",
+    "href": "index.html#emergence-1",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Emergence",
+    "text": "Emergence\nIn complex adaptive systems, emergent properties often occur when coevolving signals and boundaries generate new levels of organization.\nA word about emergence (Holland, 2012, Topic 5.5)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Holland, 2012)"
   },
   {
     "objectID": "index.html#how-can-something-be-more-than-the-sum-of-its-parts",
     "href": "index.html#how-can-something-be-more-than-the-sum-of-its-parts",
     "title": "Exploring complexity with agent-based models",
     "section": "How can something be more than the sum of its parts?",
-    "text": "How can something be more than the sum of its parts?\n\n\nIs a molecule of \\(\\text{H}_2\\text{O}\\) water?\nCan you understand a anthill by studying a single ant?\nAre you just a collection of cells?\n“Uma andorinha não faz verão”.\n“Love is just a chemical”.\n\n\n\n\n\n\n\n\n[Video by Kurzgesagt – In a Nutshell]"
+    "text": "How can something be more than the sum of its parts?\n\n\nIs a molecule of \\(\\text{H}_2\\text{O}\\) water?\nCan you understand a anthill by studying a single ant?\nAre you just a collection of cells?\nUma andorinha não faz verão\nLove is just a chemical?\n\n\n\n\n\n\n\n\n(Video by Kurzgesagt – In a Nutshell)"
   },
   {
-    "objectID": "index.html#section-1",
-    "href": "index.html#section-1",
+    "objectID": "index.html#generative-science-a-new-approach-to-science",
+    "href": "index.html#generative-science-a-new-approach-to-science",
     "title": "Exploring complexity with agent-based models",
-    "section": "",
-    "text": "(Sayama, 2015)\n\n“Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas.” (Sayama, 2015)"
+    "section": "Generative science: a new approach to science?",
+    "text": "Generative science: a new approach to science?\n“Simulation is a third way of doing science. Like deduction, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical induction, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as an aid intuition.\nInduction and deduction combined. Deduction is used to generate data that can be analyzed inductively.\n\n(Axelrod, 1997, p. 24)"
+  },
+  {
+    "objectID": "index.html#leverage-points-and-unforeseen-consequences",
+    "href": "index.html#leverage-points-and-unforeseen-consequences",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Leverage points and unforeseen consequences",
+    "text": "Leverage points and unforeseen consequences\n\n\nHere we recognize the basic idea of generative science which is to generate apparently unanticipated and infinite behavior based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.\nPossible states, even if unlikely: by modelling such interactions, it can suggest that properties exist in the system that had not been noticed in the real world situation.\n\n\n\n\n\n\n\n\n(Dodig-Crnkovic & Giovagnoli, 2013)"
   },
   {
     "objectID": "index.html#other-concepts",
     "href": "index.html#other-concepts",
     "title": "Exploring complexity with agent-based models",
     "section": "Other concepts",
-    "text": "Other concepts\nThere are several other concepts in complexity science, such as self-organization, phase transitions, and criticality, that we will not cover in this presentation. However, these concepts are essential for understanding complex systems and their behavior."
+    "text": "Other concepts\nThere are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:\n\n\n\nAdaptation\nSelf-organization\nHierarchical organization\nPath dependence\nCriticality\n\n\n\nNonlinearity\nPhase transitions\nAttractors\nFractal dimensions\nNetwork dynamics"
   },
   {
-    "objectID": "index.html#generative-science-a-new-approach-to-doing-science",
-    "href": "index.html#generative-science-a-new-approach-to-doing-science",
+    "objectID": "index.html#complexity-sciences",
+    "href": "index.html#complexity-sciences",
     "title": "Exploring complexity with agent-based models",
-    "section": "Generative science: a new approach to doing science?",
-    "text": "Generative science: a new approach to doing science?\n“Simulation is a third way of doing science. Like deduction, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical induction, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as an aid intuition.”\nInduction and deduction combined. Deduction is used to generate data that can be analyzed inductively.\n\n(Axelrod, 1997, p. 24)"
+    "section": "Complexity science(s?)",
+    "text": "Complexity science(s?)\n\n\n\n\n\n(Sayama, 2015)\n\n“Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas.” (Sayama, 2015)"
   },
   {
-    "objectID": "index.html#unintended-or-unforeseen-consequences",
-    "href": "index.html#unintended-or-unforeseen-consequences",
+    "objectID": "index.html#map-of-the-complexity-sciences",
+    "href": "index.html#map-of-the-complexity-sciences",
     "title": "Exploring complexity with agent-based models",
-    "section": "Unintended or unforeseen consequences",
-    "text": "Unintended or unforeseen consequences\n\n\nHere we recognize the basic idea of generative science which is to generate apparently unanticipated and infinite behavior based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.\nPossible states, even if unlikely: by modelling such interactions, it can suggest that properties exist in the system that had not been noticed in the real world situation.\n\n\n\n\n\n\n\n\n(Dodig-Crnkovic & Giovagnoli, 2013)"
+    "section": "Map of the complexity sciences",
+    "text": "Map of the complexity sciences\n\n\n(Artwork by Brian Castellani & Lasse Gerrits)"
   },
   {
     "objectID": "index.html#agent-based-models",
     "href": "index.html#agent-based-models",
     "title": "Exploring complexity with agent-based models",
     "section": "Agent-based models",
-    "text": "Agent-based models\n\n\nAgent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in simple rules so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but it is most useful when describing these phenomena as complex systems. (Wilensky & Rand, 2015, p. 22)\nABM and stochasticity.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[Video and image by Primer]"
+    "text": "Agent-based models\n\n\nAgent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in simple rules so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but it is most useful when describing these phenomena as complex systems. (Wilensky & Rand, 2015, p. 22)\nABM and stochasticity.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Video and image by Primer)"
+  },
+  {
+    "objectID": "index.html#types-of-models",
+    "href": "index.html#types-of-models",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Types of models",
+    "text": "Types of models\nABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.\n\n\n(Artwork by Stevens Institute of Technology)"
   },
   {
     "objectID": "index.html#what-is-a-model",
     "href": "index.html#what-is-a-model",
     "title": "Exploring complexity with agent-based models",
     "section": "What is a model?",
-    "text": "What is a model?\nA model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical).\nA good model is simple, valid, and robust.\n“All models are wrong, but some are useful” (Box, 1979, p. 202)\n\n(Sayama, 2015)"
+    "text": "What is a model?\n\n\nA model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical). (Sayama, 2015)\nA good model is simple, valid, and robust. (Sayama, 2015)\n\n“All models are wrong, but some are useful” (Box, 1979, p. 202)\n\n\n\n\n\n\n\n\n(George Edward Pelham Box. Photograph by an unknown author. Source: Wikimedia Commons)"
   },
   {
     "objectID": "index.html#what-is-a-model-1",
@@ -193,14 +256,14 @@
     "href": "index.html#verification-and-validation",
     "title": "Exploring complexity with agent-based models",
     "section": "Verification and validation",
-    "text": "Verification and validation\nVerification is the process of making sure your conceptual model matches your implemented model.\nValidation is the process of making sure your implemented model corresponds to the real world.\n\n\n(Rand, 2024b)"
+    "text": "Verification and validation\nVerification is the process of making sure your conceptual model matches your implemented model.\nValidation is the process of making sure your implemented model corresponds to the real world.\n\n\n(B. Rand, 2024b)"
   },
   {
     "objectID": "index.html#why-use-abm",
     "href": "index.html#why-use-abm",
     "title": "Exploring complexity with agent-based models",
     "section": "Why use ABM?",
-    "text": "Why use ABM?\nYou don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.\n\n\n\nDescription.\nExplanation.\nExperimentation.\n\n\n\nAnalogy.\nEducation.\nPrediction.\n\n\n\nSee: Rand (Unit 1)."
+    "text": "Why use ABM?\nYou don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.\n\n\n\nDescription\nExplanation\nExperimentation\n\n\n\nAnalogy\nEducation\nPrediction\n\n\n\nSee: Rand (Unit 1)."
   },
   {
     "objectID": "index.html#a-picture-is-worth-a-thousand-words",
@@ -214,7 +277,7 @@
     "href": "index.html#when-to-use-abms",
     "title": "Exploring complexity with agent-based models",
     "section": "When to use ABMs?",
-    "text": "When to use ABMs?\nMedium numbers\nHeterogeneity\nComplex but local interactions\nRich environments\nTime\nAdaptation\n\n(Rand, 2024a)"
+    "text": "When to use ABMs?\n\n\n\nMedium numbers\nHeterogeneity\nTime\n\n\n\nRich environments\nAdaptation\nComplex but local interactions\n\n\n\n\n(B. Rand, 2024a)"
   },
   {
     "objectID": "index.html#abm-frameworks",
@@ -238,18 +301,39 @@
     "text": "MayaSim\nMayaSim: An agent-based model of the ancient Maya social-ecological system"
   },
   {
-    "objectID": "index.html#a-new-kind-of-abm",
-    "href": "index.html#a-new-kind-of-abm",
+    "objectID": "index.html#inequalities-in-physical-activity",
+    "href": "index.html#inequalities-in-physical-activity",
     "title": "Exploring complexity with agent-based models",
-    "section": "A new kind of ABM?",
-    "text": "A new kind of ABM?"
+    "section": "Inequalities in physical activity",
+    "text": "Inequalities in physical activity\nInequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach (Jones, 2024)"
   },
   {
     "objectID": "index.html#the-global-syndemic-project",
     "href": "index.html#the-global-syndemic-project",
     "title": "Exploring complexity with agent-based models",
     "section": "The global syndemic project",
-    "text": "The global syndemic project"
+    "text": "The global syndemic project\nA simple model (W. Rand & Wilensky, 2007). (in this case, a proof of concept)."
+  },
+  {
+    "objectID": "index.html#logoclim",
+    "href": "index.html#logoclim",
+    "title": "Exploring complexity with agent-based models",
+    "section": "LogoClim",
+    "text": "LogoClim\nA elaborated and realistic (ER) model (W. Rand & Wilensky, 2007).\nWorldClim 2.1 in NetLogo (Vartanian, Magalhães, & Carvalho, 2024, Unpublished)"
+  },
+  {
+    "objectID": "index.html#political-segregation",
+    "href": "index.html#political-segregation",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Political segregation",
+    "text": "Political segregation\nHow social groups influence political preferences and how these preferences can lead to segregation behaviors? (Vartanian, 2024, Unpublished)."
+  },
+  {
+    "objectID": "index.html#a-new-kind-of-abm",
+    "href": "index.html#a-new-kind-of-abm",
+    "title": "Exploring complexity with agent-based models",
+    "section": "A new kind of ABM?",
+    "text": "A new kind of ABM?"
   },
   {
     "objectID": "index.html#summary-of-key-takeaways",
@@ -270,7 +354,7 @@
     "href": "index.html#how-to-learn-more-1",
     "title": "Exploring complexity with agent-based models",
     "section": "How to learn more?",
-    "text": "How to learn more?\nHere are some resources to help you get started:\n📝 Articles\nFoundational papers in complexity science.\nEpstein, J. M. (1999). Agent-based computational models and generative social science. Complexity, 4(5), 41–60. https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5&lt;41::AID-CPLX9&gt;3.0.CO;2-F\nEpstein, J. M. (2006). Generative social science: studies in agent-based computational modeling. Princeton University Press.\nGrimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M.-S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: A second update to improve clarity, replication, and structural realism. Journal of Artificial Societies and Social Simulation, 23(2), 7. https://doi.org/10.18564/jasss.4259"
+    "text": "How to learn more?\nHere are some resources to help you get started:\n📝 Articles\nFoundational papers in complexity science.\nEpstein, J. M. (1999). Agent-based computational models and generative social science. Complexity, 4(5), 41–60. https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5&lt;41::AID-CPLX9&gt;3.0.CO;2-F\nLadyman, J., Lambert, J., & Wiesner, K. (2013). What is a complex system? European Journal for Philosophy of Science, 3(1), 33–67. https://doi.org/10.1007/s13194-012-0056-8\nGrimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M.-S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: a second update to improve clarity, replication, and structural realism. Journal of Artificial Societies and Social Simulation, 23(2), 7. https://doi.org/10.18564/jasss.4259"
   },
   {
     "objectID": "index.html#how-to-learn-more-2",
@@ -291,7 +375,7 @@
     "href": "index.html#references",
     "title": "Exploring complexity with agent-based models",
     "section": "References",
-    "text": "References\n\nIn accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\n\nAxelrod, R. (1997). Advancing the art of simulation in the social sciences. In R. Conte, R. Hegselmann, & P. Terna (Eds.), Simulating Social Phenomena (Vol. 456, pp. 21–40). Springer. https://doi.org/10.1007/978-3-662-03366-1_2\n\n\nBorges, J. L. (1984). Obras completas: 1923-1972 (14th ed.). Emecé Editores.\n\n\nBox, Geoge. E. P. (1979). Robustness in the strategy of scientific model building. In R. L. Launer & G. N. Wilkinson (Eds.), Robustness in statistics (pp. 201–236). Academic Press. https://doi.org/10.1016/B978-0-12-438150-6.50018-2\n\n\nCarvalho, A. M. de, Garcia, L. M. T., Lourenço, B. H., Verly Junior, E., Carioca, A. A. F., Jacob, M. C. M., Gomes, S. M., & Sarti, F. M. (2024). Exploring the nexus between food systems and the global syndemic among children under five years of age through the complex systems approach. International Journal of Environmental Research and Public Health, 21(7, 7), 893. https://doi.org/10.3390/ijerph21070893\n\n\nComte, A. (1892). Cours de philosophie positive (5th ed., Vol. 1). Au Siège de la Société Positiviste. http://archive.org/details/coursdephilosoph01comt\n\n\nDawkins, R. (2016). The selfish gene (40th anniversary edition). Oxford University Press.\n\n\nDodig-Crnkovic, G., & Giovagnoli, R. (2013). Computing nature – a network of networks of concurrent information processes. In G. Dodig-Crnkovic & R. Giovagnoli (Eds.), Computing nature: Turing centenary perspective (Vol. 7, pp. 1–22). Springer. https://doi.org/10.1007/978-3-642-37225-4\n\n\nEngels, F. (1954). Dialetics of nature (C. Dutt, Trans.; 2 ed. rev.). Progress Publishers.\n\n\nEngels, F. (1978). Letters on historical materialism: To Joseph Bloch. In R. C. Tucker (Ed.), The Marx-Engels reader (2nd ed., pp. 760–765). W. W. Norton & Company.\n\n\nEpstein, J. M. (1999). Agent-based computational models and generative social science. Complexity, 4(5), 41–60. https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5&lt;41::AID-CPLX9&gt;3.0.CO;2-F\n\n\nFriston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience, 11(2), 127–138. https://doi.org/10.1038/nrn2787\n\n\nHorgan, J. (1995, June 1). From complexity to perplexity. Scientific American, 272(6), 104–109. https://www.scientificamerican.com/article/from-complexity-to-perplexity/\n\n\nHorgan, J. (2004). The end of science revisited. Computer, 37(1), 37–43. https://doi.org/10.1109/MC.2004.1260723\n\n\nKermack, W. O., & McKendrick, A. G. (1927). A contribution to the mathematical theory of epidemics. Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, 115(772), 700–721. https://doi.org/10.1098/rspa.1927.0118\n\n\nKrakauer, D. (Director). (2023, February 17). What is complexity? Santa Fe Institute. https://www.youtube.com/watch?v=JR93X7xK05o\n\n\nLaplace, P. S. de. (2009). Essai philosophique sur les probabilités (Rep. 5. ed.). Cambridge University Press.\n\n\nLorenz, E. N. (1963). Deterministic nonperiodic flow. Journal of the Atmospheric Sciences, 20(2), 130–141. https://doi.org/10.1175/1520-0469(1963)020&lt;0130:DNF&gt;2.0.CO;2\n\n\nLorenz, E. N. (2008). The essence of chaos. UCL Press.\n\n\nMitchell, M. (2009). Complexity: A guided tour. Oxford University Press.\n\n\nMitchell, M. (2013). Introduction to complexity [Online course]. https://www.complexityexplorer.org/courses/\n\n\nMuller, D. (Director). (2019, December 6). Chaos: The science of the butterfly effect. Veritasium. https://www.youtube.com/watch?v=fDek6cYijxI\n\n\nMuller, D. (Director). (2020, January 29). This equation will change how you see the world (the logistic map). Veritasium. https://www.youtube.com/watch?v=ovJcsL7vyrk\n\n\nPopper, K. (2005). Unended quest: An intellectual autobiography (2nd ed.). Taylor and Francis.\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary approach. Oxford University Press.\n\n\nPopper, K. R. (2002). Conjectures and refutations: The growth of scientific knowledge. Routledge.\n\n\nPopper, K. R. (2005). The logic of scientific discovery. Routledge.\n\n\nPuccia, C. J., & Levins, R. (1985). Qualitative modeling of complex systems: An introduction to loop analysis and time averaging. Harvard University Press.\n\n\nRand, B. (2024a, June 10). What is ABM and why should you use it? [Online course]. An introduction to agent-based modeling. https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling\n\n\nRand, B. (2024b, July 22). Verification, Validation, and Replication [Online course]. An introduction to agent-based modeling. https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling\n\n\nRibeiro, S. (2019). O oráculo da noite: a história e a ciência do sonho. Companhia da Letras.\n\n\nRodrigues Neto, C. (2022, December 6). Leis de escala: AKA power laws, scale free laws [Disciplina acadêmica]. Sistemas complexos I, São Paulo, SP.\n\n\nSayama, H. (2015). Introduction to the modeling and analysis of complex systems. Open SUNY Textbooks.\n\n\nSchelling, T. C. (2006). Micromotives and macrobehavior. W.W. Norton & Company.\n\n\nSchindel, W. D. (2013). Systems of innovation II: The emergence of purpose. INCOSE International Symposium, 23(1), 1006–1020. https://doi.org/10.1002/j.2334-5837.2013.tb03069.x\n\n\nStewart, D., Blocker, H. G., & Petrik, J. M. (2013). Fundamentals of philosophy (8th ed.). Pearson.\n\n\nThe Economic Times (Director). (2023, June 7). ChatGPT founder Sam Altman: AI is not a creature but a tool. The Economic Times. https://www.youtube.com/watch?v=T-lj7ItGjZE\n\n\nTyson, N. deGrasse. (2021, April 3). The universe is under no obligation to make sense to you. [Tweet]. Twitter. https://x.com/neiltyson/status/1378387351806820357\n\n\nvon Bertalanffy, L. (1968). General system theory: Foundations, development, applications. George Braziller.\n\n\nWilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling natural, social, and engineered complex systems with NetLogo. The MIT Press.\n\n\nWilson, R. (2004, October 2). Emergence isn’t magic. New Scientist, 2467. https://www.newscientist.com/letter/mg18424674-700-emergence-isnt-magic/"
+    "text": "References\n\nIn accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\n\nAxelrod, R. (1997). Advancing the art of simulation in the social sciences. In R. Conte, R. Hegselmann, & P. Terna (Eds.), Simulating Social Phenomena (Vol. 456, pp. 21–40). Springer. https://doi.org/10.1007/978-3-662-03366-1_2\n\n\nBao, L., & Fritchman, J. C. (2018). Information of complex systems and applications in agent based modeling. Scientific Reports, 8(1), 6177. https://doi.org/10.1038/s41598-018-24570-1\n\n\nBorges, J. L. (1984). Obras completas: 1923-1972 (14th ed.). Emecé Editores.\n\n\nBox, Geoge. E. P. (1979). Robustness in the strategy of scientific model building. In R. L. Launer & G. N. Wilkinson (Eds.), Robustness in statistics (pp. 201–236). Academic Press. https://doi.org/10.1016/B978-0-12-438150-6.50018-2\n\n\nCarvalho, A. M. de, Garcia, L. M. T., Lourenço, B. H., Verly Junior, E., Carioca, A. A. F., Jacob, M. C. M., Gomes, S. M., & Sarti, F. M. (2024). Exploring the nexus between food systems and the global syndemic among children under five years of age through the complex systems approach. International Journal of Environmental Research and Public Health, 21(7, 7), 893. https://doi.org/10.3390/ijerph21070893\n\n\nComte, A. (1892). Cours de philosophie positive (5th ed., Vol. 1). Au Siège de la Société Positiviste. http://archive.org/details/coursdephilosoph01comt\n\n\nDawkins, R. (2016). The selfish gene (40th anniversary edition). Oxford University Press.\n\n\nDodig-Crnkovic, G., & Giovagnoli, R. (Eds.). (2013). Computing nature: Turing centenary perspective (Vol. 7). Springer. https://doi.org/10.1007/978-3-642-37225-4\n\n\nEngels, F. (1954). Dialetics of nature (C. Dutt, Trans.; 2 ed. rev.). Progress Publishers.\n\n\nEngels, F. (1978). Letters on historical materialism: To Joseph Bloch. In R. C. Tucker (Ed.), The Marx-Engels reader (2nd ed., pp. 760–765). W. W. Norton & Company.\n\n\nEpstein, J. M. (1999). Agent-based computational models and generative social science. Complexity, 4(5), 41–60. https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5&lt;41::AID-CPLX9&gt;3.0.CO;2-F\n\n\nFlanagan, A., Bechtold, D. A., Pot, G. K., & Johnston, J. D. (2021). Chrono-nutrition: From molecular and neuronal mechanisms to human epidemiology and timed feeding patterns. Journal of Neurochemistry, 157(1), 53–72. https://doi.org/10.1111/jnc.15246\n\n\nFriston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience, 11(2), 127–138. https://doi.org/10.1038/nrn2787\n\n\nHolland, J. H. (1992). Complex adaptive systems. Daedalus, 121(1), 17–30. https://www.jstor.org/stable/20025416\n\n\nHolland, J. H. (1996). Hidden order: How adaptation builds complexity. Basic Books.\n\n\nHolland, J. H. (2012). Signals and boundaries: Building blocks for complex adaptive systems. MIT Press.\n\n\nHorgan, J. (1995, June 1). From complexity to perplexity. Scientific American, 272(6), 104–109. https://www.scientificamerican.com/article/from-complexity-to-perplexity/\n\n\nHorgan, J. (2004). The end of science revisited. Computer, 37(1), 37–43. https://doi.org/10.1109/MC.2004.1260723\n\n\nJones, S. M. (2024). Inequalities in physical activity as an emergent feature of a complex system: An agent-based modelling approach [PhD thesis, Queen’s University Belfast]. https://pure.qub.ac.uk/en/studentTheses/inequalities-in-physical-activity-as-an-emergent-feature-of-a-com\n\n\nKermack, W. O., & McKendrick, A. G. (1927). A contribution to the mathematical theory of epidemics. Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, 115(772), 700–721. https://doi.org/10.1098/rspa.1927.0118\n\n\nKrakauer, D. (Director). (2023, February 17). What is complexity? Santa Fe Institute. https://www.youtube.com/watch?v=JR93X7xK05o\n\n\nLadyman, J., Lambert, J., & Wiesner, K. (2013). What is a complex system? European Journal for Philosophy of Science, 3(1), 33–67. https://doi.org/10.1007/s13194-012-0056-8\n\n\nLaplace, P. S. de. (2009). Essai philosophique sur les probabilités (Rep. 5. ed.). Cambridge University Press.\n\n\nLorenz, E. N. (1963). Deterministic nonperiodic flow. Journal of the Atmospheric Sciences, 20(2), 130–141. https://doi.org/10.1175/1520-0469(1963)020&lt;0130:DNF&gt;2.0.CO;2\n\n\nLorenz, E. N. (2008). The essence of chaos. UCL Press.\n\n\nMerrow, M., & Roenneberg, T. (2020). Circadian clocks: How rhythms structure life [Online course]. https://www.coursera.org/learn/circadian-clocks\n\n\nMitchell, M. (2009). Complexity: A guided tour. Oxford University Press.\n\n\nMitchell, M. (2013). Introduction to complexity [Online course]. https://www.complexityexplorer.org/courses/\n\n\nMuller, D. (Director). (2019, December 6). Chaos: The science of the butterfly effect. Veritasium. https://www.youtube.com/watch?v=fDek6cYijxI\n\n\nMuller, D. (Director). (2020, January 29). This equation will change how you see the world (the logistic map). Veritasium. https://www.youtube.com/watch?v=ovJcsL7vyrk\n\n\nNewman, M. (2005). Power laws, Pareto distributions and Zipf’s law. Contemporary Physics, 46(5), 323–351. https://doi.org/10.1080/00107510500052444\n\n\nPérez-Villa, A., Echeverría-Garcés, G., Ramos-Medina, M. J., Prathap, L., Martínez-López, M., Ramírez-Sánchez, D., García-Cárdenas, J. M., Armendáriz-Castillo, I., Guerrero, S., Paz, C., & López-Cortés, A. (2023). Integrated multi-omics analysis reveals the molecular interplay between circadian clocks and cancer pathogenesis. Scientific Reports, 13(1), 14198. https://doi.org/10.1038/s41598-023-39401-1\n\n\nPopper, K. (2005). Unended quest: An intellectual autobiography (2nd ed.). Taylor and Francis.\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary approach. Oxford University Press.\n\n\nPopper, K. R. (2002). Conjectures and refutations: The growth of scientific knowledge. Routledge.\n\n\nPopper, K. R. (2005). The logic of scientific discovery. Routledge.\n\n\nPuccia, C. J., & Levins, R. (1985). Qualitative modeling of complex systems: An introduction to loop analysis and time averaging. Harvard University Press.\n\n\nRand, B. (2024a, June 10). What is ABM and why should you use it? [Online course]. An introduction to agent-based modeling. https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling\n\n\nRand, B. (2024b, July 22). Verification, Validation, and Replication [Online course]. An introduction to agent-based modeling. https://www.complexityexplorer.org/courses/183-introduction-to-agent-based-modeling\n\n\nRand, W., & Wilensky, U. (2007). Full spectrum modeling: From simplicity to elaboration and realism in urban pattern formation. North American Association for Computational Social and Organizational Sciences (NAACSOS). http://ccl.northwestern.edu/2007/FullSpectrum.pdf\n\n\nRibeiro, S. (2019). O oráculo da noite: a história e a ciência do sonho. Companhia da Letras.\n\n\nRodrigues Neto, C. (2022, December 6). Leis de escala: AKA power laws, scale free laws [Disciplina acadêmica]. Sistemas complexos I, São Paulo, SP.\n\n\nRoenneberg, T., Kuehnle, T., Juda, M., Kantermann, T., Allebrandt, K., Gordijn, M., & Merrow, M. (2007). Epidemiology of the human circadian clock. Sleep Medicine Reviews, 11(6), 429–438. https://doi.org/10.1016/j.smrv.2007.07.005\n\n\nSayama, H. (2015). Introduction to the modeling and analysis of complex systems. Open SUNY Textbooks.\n\n\nSchelling, T. C. (2006). Micromotives and macrobehavior. W.W. Norton & Company.\n\n\nSchindel, W. D. (2013). Systems of innovation II: The emergence of purpose. INCOSE International Symposium, 23(1), 1006–1020. https://doi.org/10.1002/j.2334-5837.2013.tb03069.x\n\n\nSteffen, W., Rockström, J., Richardson, K., Lenton, T. M., Folke, C., Liverman, D., Summerhayes, C. P., Barnosky, A. D., Cornell, S. E., Crucifix, M., Donges, J. F., Fetzer, I., Lade, S. J., Scheffer, M., Winkelmann, R., & Schellnhuber, H. J. (2018). Trajectories of the earth system in the anthropocene. Proceedings of the National Academy of Sciences, 115(33), 8252–8259. https://doi.org/10.1073/pnas.1810141115\n\n\nSterman, J. D. (2000). Business dynamics: Systems thinking and modeling for a complex world. Irwin/McGraw-Hill.\n\n\nStewart, D., Blocker, H. G., & Petrik, J. M. (2013). Fundamentals of philosophy (8th ed.). Pearson.\n\n\nThe Economic Times (Director). (2023, June 7). ChatGPT founder Sam Altman: AI is not a creature but a tool. The Economic Times. https://www.youtube.com/watch?v=T-lj7ItGjZE\n\n\nTyson, N. deGrasse. (2021, April 3). The universe is under no obligation to make sense to you. [Tweet]. Twitter. https://x.com/neiltyson/status/1378387351806820357\n\n\nvon Bertalanffy, L. (1968). General system theory: Foundations, development, applications. George Braziller.\n\n\nWilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling natural, social, and engineered complex systems with NetLogo. The MIT Press.\n\n\nWilson, R. (2004, October 2). Emergence isn’t magic. New Scientist, 2467. https://www.newscientist.com/letter/mg18424674-700-emergence-isnt-magic/"
   },
   {
     "objectID": "index.html#thank-you",
@@ -301,8 +385,8 @@
     "text": "Thank you!\n\n\n\n\n\n(Artwork by Allison Horst)"
   },
   {
-    "objectID": "index.html#section-6",
-    "href": "index.html#section-6",
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
     "title": "Exploring complexity with agent-based models",
     "section": "",
     "text": "Linktree\n\n\n\n\n\nPresentation"
@@ -313,6 +397,13 @@
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) A unit of cultural transmission",
     "text": "(AP) A unit of cultural transmission\n\n\nThe new soup is the soup of human culture. We need a name for the new replicator, a noun that conveys the idea of a unit of cultural transmission, or a unit of imitation. ‘Mimeme’ comes from a suitable Greek root, but I want a monosyllable that sounds a bit like ‘gene’. I hope my classicist friends will forgive me if I abbreviate mimeme to meme.\n\n\n\n\n\n\n\n\n(Dawkins, 2016, p. 249)"
+  },
+  {
+    "objectID": "index.html#ap-warning",
+    "href": "index.html#ap-warning",
+    "title": "Exploring complexity with agent-based models",
+    "section": "(AP) Warning",
+    "text": "(AP) Warning\nMurphy’s law: “Anything that can go wrong will go wrong.” (epigram)"
   },
   {
     "objectID": "index.html#ap-del-rigor-en-la-ciencia",
@@ -329,8 +420,8 @@
     "text": "(AP) What is a complex system?\n\n\n(Artwork by Julia Jabur)"
   },
   {
-    "objectID": "index.html#section-7",
-    "href": "index.html#section-7",
+    "objectID": "index.html#section-6",
+    "href": "index.html#section-6",
     "title": "Exploring complexity with agent-based models",
     "section": "",
     "text": "(Tyson, 2021)\n\n“The universe is under no obligation to make sense to you.” (Tyson, 2021)"
@@ -340,7 +431,7 @@
     "href": "index.html#ap-the-7-basics-for-complex-adaptive-systems",
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) The 7 basics for complex adaptive systems",
-    "text": "(AP) The 7 basics for complex adaptive systems\n\n\nThe seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:\n\nAggregation (property).\nNonlinearity (property).\nFlows (property).\nDiversity (property).\nTags (mechanism).\nInternal models (mechanism).\nBuilding blocks (mechanism).\n\n\n“Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution.” (Rodrigues Neto, 2022)"
+    "text": "(AP) The 7 basics for complex adaptive systems\n\n\nThe seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:\n\nAggregation (property).\nNonlinearity (property).\nFlows (property).\nDiversity (property).\nTags (mechanism).\nInternal models (mechanism).\nBuilding blocks (mechanism).\n\n(Holland, 1996)\n\nComplexity is common at intermediate levels of these characteristics:\n\nDiversity/heterogeneity\nInteraction/dynamics\nConnectivity/interconnectedness\nAdaptation/learning/evolution.\n\n(Rodrigues Neto, 2022)"
   },
   {
     "objectID": "index.html#ap-chaos",
@@ -371,18 +462,25 @@
     "text": "(AP) Human difficulties in understanding complex systems\n“Primate brain”: Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.\nHumans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.\nOracle of the Night: Dreams as simulations? (Ribeiro, 2019)."
   },
   {
-    "objectID": "index.html#reducionism-versus-compression",
-    "href": "index.html#reducionism-versus-compression",
+    "objectID": "index.html#ap-reducionism-versus-compression",
+    "href": "index.html#ap-reducionism-versus-compression",
     "title": "Exploring complexity with agent-based models",
-    "section": "Reducionism versus compression",
-    "text": "Reducionism versus compression\n\nWe’re not looking down levels to explain the level of interest. And that’s one of it’s defining features that will come back to at some point when we talk about emergence.\n\n\n\n(Krakauer, 2023)"
+    "section": "(AP) Reducionism versus compression",
+    "text": "(AP) Reducionism versus compression\n\nWe’re not looking down levels to explain the level of interest. And that’s one of it’s defining features that will come back to at some point when we talk about emergence.\n\n\n\n(Krakauer, 2023)"
   },
   {
-    "objectID": "index.html#quem-te-viu-quem-te-vê",
-    "href": "index.html#quem-te-viu-quem-te-vê",
+    "objectID": "index.html#ap-quem-te-viu-quem-te-vê",
+    "href": "index.html#ap-quem-te-viu-quem-te-vê",
     "title": "Exploring complexity with agent-based models",
-    "section": "Quem te viu, quem te vê",
-    "text": "Quem te viu, quem te vê\n\n\nWhereas artificial-intelligence researchers seek to understand the mind by mimicking it on a computer, proponents of artificial life hope to gain insights into a broad range of biological phenomena. And just as artificial intelligence has generated more portentous rhetoric than tangible results, so has artificial life.\n\n\n\n\n\n\n\n\n(Horgan, 1995, p. 106)"
+    "section": "(AP) Quem te viu, quem te vê\n",
+    "text": "(AP) Quem te viu, quem te vê\n\n\n\nWhereas artificial-intelligence researchers seek to understand the mind by mimicking it on a computer, proponents of artificial life hope to gain insights into a broad range of biological phenomena. And just as artificial intelligence has generated more portentous rhetoric than tangible results, so has artificial life.\n\n\n\n\n\n\n\n\n(Horgan, 1995, p. 106)"
+  },
+  {
+    "objectID": "index.html#ap-power-laws-factor-sparsity",
+    "href": "index.html#ap-power-laws-factor-sparsity",
+    "title": "Exploring complexity with agent-based models",
+    "section": "(AP) Power laws & Factor sparsity",
+    "text": "(AP) Power laws & Factor sparsity\nPower laws (\\(y = ax^{-k}\\))\nPareto/Zipf’s distributions\n~80/20 rule: 80% of the effects come from 20% of the causes.\n\n\n\n(Artwork by Alcera Consulting)"
   },
   {
     "objectID": "index.html#ap-dialectical-materialisms-conjecture",

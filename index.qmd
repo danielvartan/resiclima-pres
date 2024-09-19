@@ -25,13 +25,6 @@ Here is our itinerary:
 :::
 ::::
 
-## Warning {.smaller}
-
-Murphy's law: "Anything that can go wrong will go wrong." (epigram)
-
-![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
-
-
 # Key concepts in complex systems
 
 ## Complex _versus_ complicated {.smaller}
@@ -50,15 +43,111 @@ A biological clock is complex, but a mechanical clock is complicated.
 
 ## Complex _versus_ complicated {.smaller}
 
-A Rube Goldberg machine.
+A look at the internals of a mechanical clock.
 
-![](images/rube-goldberg-machine.png){fig-align="center" style="padding-top: 25px;"}
+![](images/rolex-figure-2.jpg){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
-## Complex _versus_ complicated {.nostretch}
+::: footer
+(Photo by [Yarek Baranik](https://www.watchclub.com/rolex/cosmograph-daytona/sigmadialnodaytona-ref-6265-year-1974))
+:::
+
+::: {.notes}
+Elegant and Precise.
+
+A watchmaker designed it. It has a specific function. It has a goal.
+
+It may be hard to understand, but if you take the time and look at all of its parts, you can understand the whole system.
+:::
+
+## Complex _versus_ complicated {.smaller}
+
+A look at the internals of a biological clock (a timing system).
+
+::: {layout-ncol=2}
+![](images/perez-villa-2023-figure-3.png){fig-align="center" width=95% style="padding-top: 10px; padding-bottom: 25px;"}
+
+![](images/perez-villa-2023-figure-1.png){fig-align="center" width=85% style="padding-top: 10px; padding-bottom: 25px;"}
+:::
+
+::: footer
+[@perez-villa2023]
+:::
+
+::: {.notes}
+A mess! An OCD nightmare.
+
+A bunch of coupled oscillators.
+
+"[...] involve great numbers of parts undergoing a kaleidoscopic array of simultaneous interactions." [@holland1992b]
+
+If you look just its parts, you can't understand the whole system.
+
+It's an emergent phenomenon.
+
+It can be thought as an "aggregate agent" ― aggregate behavior of component agents generates behavior of the aggregate agent. [@holland2012]
+
+Boundaries and signals. [@holland2012]
+
+It's adaptive, robust, produces extreme events, and is self-organized.
+:::
+
+## Complex _versus_ complicated {.smaller}
+
+If you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a **Rube Goldberg machine**. [@merrow2020]
+
+![](images/rube-goldberg-machine.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
+
+::: footer
+(Artwork by [Rube Goldberg](https://en.wikipedia.org/wiki/Rube_Goldberg_machine#/media/File:Rube_Goldberg's_%22Self-Operating_Napkin%22_(cropped).gif))
+:::
+
+::: {.notes}
+If someone designed this here, they weren't doing well. This system wasn't designed by a watchmaker, but by evolution.
+
+This is the result of a juggling act of billions of years of evolution. There are no specific functions. There's no proposed goal.
+
+You would hate have this clock. You would be late for everything. Its always changing. That's because it's not a clock, it's a timing system.
+:::
+
+## Complex _versus_ complicated {.smaller}
+
+If you look just the parts of a complex system, you can't understand the whole system.
+
+**A aggregate behavior emerges** from the interactions of the parts.
+
+Illustrative example: Immune cells.
+
+![](images/holland-2012-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
+
+::: footer
+[@holland2012]
+:::
+
+## Complex _versus_ complicated {.smaller}
+
+::: {style="font-size: 0.9em; padding-top: 0px;"}
+**The aggregate behavior influences the agent behavior and vice-versa**. [@holland2012]
+
+Circadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation. [@roenneberg2007]
+:::
+
+![](images/flanagan-2021-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
+
+::: footer
+[Artwork by @flanagan2021]
+:::
+
+## Complex _versus_ complicated {.nostretch .smaller}
 
 :::: {.columns}
-::: {.column width="50%" style="padding-top: 50px;"}
-It is not **adaptive**.
+::: {.column width="50%" style="font-size: 1.1em; padding-top: 0px;"}
+Its parts define it
+
+**It does not exhibit aggregate/emergent behavior**
+
+<br>
+
+It is not **adaptive**
 
 It is not **robust**
 
@@ -68,15 +157,25 @@ It is not **self-organized**
 :::
 
 ::: {.column width="50%" style="padding-top: 0px;"}
-![](images/mechanical-clock.png){fig-align="center" width=65% style="padding-top: 50px;"}
+![](images/mechanical-clock.png){fig-align="center" width=65% style="padding-top: 75px;"}
 :::
 ::::
 
-## What is a system?
+## What is a system? {.smaller}
 
-In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of **system-wide behavior**. [@vonbertalanffy1968]
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of system-wide behavior. [@vonbertalanffy1968]
 
-![](images/system.png){fig-align="center" style="padding-top: 50px; padding-bottom: 50px;"}
+A system is **defined by an observer** and may have an arbitrary content domain. [@bao2018]
+
+**The structure of complex systems creates their behavior**. [@sterman2000] (the system as cause)
+:::
+
+::: {.column width="50%" style="padding-top: 0px;"}
+![](images/system.png){fig-align="center" width=100% style="padding-top: 80px; padding-bottom: 0px;"}
+:::
+::::
 
 ::: footer
 [Artwork by @schindel2013]
@@ -86,12 +185,15 @@ In a very general sense, a system is a **collection of interacting elements** th
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-There are several definitions. Here are some:
+Systems that don't yield to compact forms of representation or description (David Krakauer in @mitchell2013);
 
-* "Systems that don't yield to compact forms of representation or description" (David Krakauer in @mitchell2013);
-* "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman in @mitchell2013);
-* Systems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (Camilo Rodrigues Neto).
-* Dialectics at its finest (my working definition).
+A system of many interacting parts where the system is **more than just the sum of its parts** (Mark Newman in @mitchell2013);
+
+A system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting **aggregate behavior** that cannot be simply derived from the actions of the individual parts. [@holland1992b]
+
+Systems with many connected agents that interact and exhibit self-organization and **emergence behavior**, all without the need for a central controller (Camilo Rodrigues Neto).
+
+Dialectics at its finest (my working definition).
 :::
 
 ::: {.column width="50%"}
@@ -110,7 +212,7 @@ A system can be considered complex if it is composed of:
 - Connected.
 - Adaptive.
 
-There seems to be no complexity at the extremes of the intervals. Our society is complex because it lies between the extremes.
+**There seems to be no complexity at the extremes of the intervals**. Our society is complex because it lies between the extremes.
 :::
 
 ::: {.column width="50%"}
@@ -126,15 +228,15 @@ There seems to be no complexity at the extremes of the intervals. Our society is
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-"Deterministic nonperiodic flow" [@lorenz1963]
+Deterministic nonperiodic flow [@lorenz1963]
 
-"Systems in which this is the case are said to be **sensitively dependent on initial conditions**." [@lorenz2008]
+Systems in which this is the case are said to be **sensitively dependent on initial conditions**. [@lorenz2008]
 
-"**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?**" [@lorenz2008]
+**Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?** [@lorenz2008]
 
-"The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions." [@mitchell2009]
+The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions. [@mitchell2009]
 
-**Order in chaos**: "You can't predict how any individual state will evolve, but you can say how a collection of states evolves." [@muller2019]
+**Order in chaos**: You can't predict how any individual state will evolve, but you can say how a collection of states evolves. [@muller2019]
 :::
 
 ::: {.column width="50%"}
@@ -154,11 +256,11 @@ There seems to be no complexity at the extremes of the intervals. Our society is
 
 ::::: {.columns}
 :::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-"**It only looks random**" [@lorenz2008]
+**It only looks random** [@lorenz2008]
 
-"Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm**." [@horgan2004]
+Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm**. [@horgan2004]
 
-Micromotives and macrobehavior. [@schelling2006]
+Micromotives and macrobehavior [@schelling2006]
 ::::
 
 :::: {.column width="50%" .center-x}
@@ -175,7 +277,7 @@ Micromotives and macrobehavior. [@schelling2006]
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](images/fuck-christmas-lights.gif){fig-align="center" width=100% style="padding-top: 0px;"}
+![](images/fuck-christmas-lights.gif){fig-align="center" width=100% style="padding-top: 3px;"}
 :::
 
 ::: {.column width="50%"}
@@ -183,11 +285,37 @@ Micromotives and macrobehavior. [@schelling2006]
 :::
 ::::
 
-## Feedback {.smaller}
+## Power laws & Factor sparsity {.smaller}
 
-"As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity." [@puccia1985]
+:::: {.columns}
+::: {.column width="50%"}
+Power laws ($y = ax^{-k}$)
 
-Non-linear dynamics & Power laws ($y = ax^{k}$).
+Pareto/Zipf’s distributions
+
+~80/20 rule: **80% of the effects come from 20% of the causes**.
+
+For instance, the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005]
+
+(Top U.S. retail companies by market cap as of September 2024)
+:::
+
+::: {.column width="50%" style="font-size: 0.8em; padding-top: 0px;"}
+![](images/retaildogma-figure-6.png){fig-align="center" width=80% style="padding-top: 0px;"}
+:::
+::::
+
+::: footer
+(Graph by [Retail Dogma](https://www.retaildogma.com/top-retail-companies-by-market-cap/))
+:::
+
+## Feedback loops {.smaller}
+
+As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity. [@puccia1985]
+
+When the system have feedback loops, **the notion of cause and effect must be treated with care**.
+
+Non-linear dynamics & Power laws
 
 ![](images/marilia-marz-figura-1.jpg){fig-align="center" width=100% style="padding-top: 25px; padding-bottom: 25px;"}
 
@@ -195,21 +323,67 @@ Non-linear dynamics & Power laws ($y = ax^{k}$).
 (Artwork by [Marilia Marz](https://cartum.folha.uol.com.br/charges/2024/08/10/marilia-marz.shtml))
 :::
 
+## Robustness {.smaller}
+
+:::: {.columns}
+::: {.column width="20%"}
+The order in complex systems is said to be robust because, **being distributed and not centrally produced**, it is stable under perturbations of the system. [@ladyman2013]
+:::
+
+::: {.column width="80%"}
+![](images/copernicus-2024-figure-1.png){fig-align="center" width=100% style="padding-top: 10px; padding-bottom: 20px;"}
+:::
+::::
+
+::: footer
+(Graph by [The Copernicus Climate Change Service](https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record))
+:::
+
+## Equilibrium states {.smaller}
+
+Systems in a highly stable state (**deep valley**) have low potential energy, and considerable energy is required to move them out of this stable state. Systems in an unstable state (top of a hill) have high potential energy, and they require only a little additional energy to push them off the hill.
+
+![](images/steffen-2018-figure-2.png){fig-align="center" width=100% style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@steffen2018]
+:::
+
 ## Emergence
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-"**Emergence isn't magic**" [@wilson2004]
+**Emergence isn't magic** [@wilson2004]
 
-"You are dealing with an emergence phenomenon when there is no need to look under the hood" [@krakauer2023]
+You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023]
 
-"There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents" [@epstein1999]
+There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents [@epstein1999]
 :::
 
 ::: {.column width="50%"}
 ![](images/homer-emerging.gif){fig-align="center" width=100% style="padding-top: 65px;"}
 :::
 ::::
+
+## Emergence {.smaller}
+
+In complex adaptive systems, **emergent properties** often occur when coevolving signals and boundaries generate **new levels of organization**.
+
+A word about emergence [@holland2012, Topic 5.5]
+
+:::: {.columns}
+::: {.column width="66%"}
+![](images/holland-2012-figure-1.png){fig-align="center" width=100% style="padding-top: 25px;"}
+:::
+
+::: {.column width="33%"}
+![](images/seinfeld-kramer-levels.gif){fig-align="center" width=100% style="padding-top: 90px;"}
+:::
+::::
+
+::: footer
+[@holland2012]
+:::
 
 ## How can something be more than the sum of its parts?
 
@@ -221,9 +395,9 @@ Can you understand a anthill by studying a single ant?
 
 Are you just a collection of cells?
 
-"_Uma andorinha não faz verão_".
+_Uma andorinha não faz verão_
 
-"Love is just a chemical".
+Love is just a chemical?
 :::
 
 ::: {.column width="50%"}
@@ -232,28 +406,11 @@ Are you just a collection of cells?
 ::::
 
 ::: footer
-[Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE)]
+(Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE))
 :::
 
-## {.nostretch .smaller}
-
-![](images/sayama-2015-figure-1.png){fig-align="center" width=60% style="font-size: 1em; padding-top: 0px; padding-bottom: 0px;"}
-
-::: footer
-[@sayama2015]
-:::
-
-::: {.notes}
-"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015]
-:::
-
-## Other concepts {.smaller}
-
-There are several other concepts in complexity science, such as self-organization, phase transitions, and criticality, that we will not cover in this presentation. However, these concepts are essential for understanding complex systems and their behavior.
-
-## Generative science: a new approach to doing science? {.smaller}
-
-"Simulation is **a third way of doing science**. Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**."
+## Generative science: a new approach to science? {.smaller}
+"Simulation is **a third way of doing science**. Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**.
 
 Induction and deduction combined. Deduction is used to generate data that can be analyzed inductively.
 
@@ -261,7 +418,7 @@ Induction and deduction combined. Deduction is used to generate data that can be
 [@axelrod1997, p. 24]
 :::
 
-## Unintended or unforeseen consequences {.smaller}
+## Leverage points and unforeseen consequences {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
@@ -279,6 +436,49 @@ Possible states, even if unlikely: by modelling such interactions, **it can sugg
 :::
 
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
+
+## Other concepts
+
+There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:
+
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+- Adaptation
+- Self-organization
+- Hierarchical organization
+- Path dependence
+- Criticality
+:::
+
+::: {.column width="50%" style="padding-top: 0px;"}
+- Nonlinearity
+- Phase transitions
+- Attractors
+- Fractal dimensions
+- Network dynamics
+:::
+::::
+
+## Complexity science(s?) {.nostretch .smaller}
+
+![](images/sayama-2015-figure-1.png){fig-align="center" width=53% style="font-size: 1em; padding-top: 0px"}
+
+::: footer
+[@sayama2015]
+:::
+
+::: {.notes}
+"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015]
+:::
+
+## Map of the complexity sciences {.smaller}
+
+![](images/castellani-2021-map.png){fig-align="center" width=100% style="padding-top: 0px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Brian Castellani & Lasse Gerrits](https://www.art-sciencefactory.com/complexity-map_feb09.html))
+:::
+
 
 # Entering the world of agent-based models
 
@@ -300,19 +500,39 @@ ABM and **stochasticity**.
 :::::
 
 ::: footer
-[Video and image by [Primer](https://www.youtube.com/watch?v=YNMkADpvO4w)]
+(Video and image by [Primer](https://www.youtube.com/watch?v=YNMkADpvO4w))
+:::
+
+## Types of models {.smaller}
+
+ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.
+
+![](images/types-of-models.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Stevens Institute of Technology](https://www.stevens.edu/))
 :::
 
 ## What is a model? {.smaller}
 
-A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical).
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 0px;"}
+A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical). [@sayama2015]
 
-A good model is simple, valid, and robust.
+A good model is simple, valid, and robust. [@sayama2015]
+
+<br>
 
 "**All models are wrong**, but some are useful" [@box1979, p. 202]
+:::
+
+::: {.column width="50%" style="padding-top: 0px;"}
+![](images/george-e-p- box-figure-1.jpg){fig-align="center" width=70% style="padding-top: 0px; padding-bottom: 25px;"}
+:::
+::::
 
 ::: footer
-[@sayama2015]
+(George Edward Pelham Box. Photograph by an unknown author. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GeorgeEPBox.jpg))
 :::
 
 ## What is a model? {.smaller}
@@ -325,11 +545,11 @@ A good model is simple, valid, and robust.
 
 ## Nonrealistic models {.smaller}
 
-![](images/cool-car.gif){fig-align="center" style="padding-top: 25px;"}
+![](images/cool-car.gif){fig-align="center" style="padding-top: 0px;"}
 
 ## Conceptual models
 
-![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px;"}
+![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
 
 ::: footer
 [@carvalho2024a, p. 3]
@@ -356,7 +576,7 @@ A good model is simple, valid, and robust.
 ## Key components
 
 :::: {.columns}
-::: {.column width="50%" style="padding-top: 50px;"}
+::: {.column width="50%" style="padding-top: 0px;"}
 Agents
 
 Environment
@@ -409,14 +629,14 @@ You don’t need to invest in infrastructure to run simulations. You can use you
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 25px;"}
-- Description.
-- Explanation.
-- Experimentation.
+- Description
+- Explanation
+- Experimentation
 :::
 ::: {.column width="50%" style="padding-top: 25px;"}
-- Analogy.
-- Education.
-- Prediction.
+- Analogy
+- Education
+- Prediction
 :::
 ::::
 
@@ -448,17 +668,18 @@ $$
 
 ## When to use ABMs?
 
-Medium numbers
-
-Heterogeneity
-
-Complex but local interactions
-
-Rich environments
-
-Time
-
-Adaptation
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 25px;"}
+- Medium numbers
+- Heterogeneity
+- **Time**
+:::
+::: {.column width="50%" style="padding-top: 25px;"}
+- Rich environments
+- Adaptation
+- **Complex but local interactions**
+:::
+::::
 
 ::: footer
 [@rand2024a]
@@ -513,23 +734,45 @@ Open-source and free!
 
 # Real world examples
 
-## MayaSim {.smaller}   
+## MayaSim {.smaller}
 
 [MayaSim: An agent-based model of the ancient Maya social-ecological system](https://www.comses.net/codebases/3063/releases/1.3.0/)
 
 ![](images/heckbert-2013-figure-1.png){fig-align="center" style="padding-top: 25px;"}
 
+## Inequalities in physical activity {.smaller}
+
+Inequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach [@jones2024]
+
+![](images/jones-2024-abm.png){fig-align="center" style="padding-top: 25px;"}
+
 ## {background-image="images/imperial-college-covid-sim.png" background-position="top left" background-size="100%" .scrollable}
 
 ## {background-image="images/cmip-webpage.png" background-position="top left" background-size="100%" .scrollable}
 
+## The global syndemic project {.smaller}
+
+A simple model [@rand2007]. (in this case, a proof of concept).
+
+![](images/global-syndemic-figure-1.png){fig-align="center" style="padding-top: 25px;"}
+
+## LogoClim {.smaller}
+
+A elaborated and realistic (ER) model [@rand2007].
+
+WorldClim 2.1 in NetLogo (Vartanian, Magalhães, & Carvalho, 2024, Unpublished)
+
+![](images/global-syndemic-figure-2.png){fig-align="center" style="padding-top: 25px;"}
+
+## Political segregation {.smaller}
+
+How social groups influence political preferences and how these preferences can lead to segregation behaviors? (Vartanian, 2024, Unpublished).
+
+![](images/vartanian-2024-abm.png){fig-align="center" style="padding-top: 25px;"}
+
 ## A new kind of ABM?
 
-![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 25px;"}
-
-## The global syndemic project
-
-![](images/global-syndemic.png){fig-align="center" style="padding-top: 0px;"}
+![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 0px;"}
 
 
 # Final remarks
@@ -568,9 +811,9 @@ Here are some resources to help you get started:
 
 Epstein, J. M. (1999). Agent-based computational models and generative social science. *Complexity*, 4(5), 41–60. [https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F](https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F)
 
-Epstein, J. M. (2006). *Generative social science: studies in agent-based computational modeling*. Princeton University Press.
+Ladyman, J., Lambert, J., & Wiesner, K. (2013). What is a complex system? *European Journal for Philosophy of Science*, *3*(1), 33–67. [https://doi.org/10.1007/s13194-012-0056-8](https://doi.org/10.1007/s13194-012-0056-8)
 
-Grimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M.-S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: A second update to improve clarity, replication, and structural realism. *Journal of Artificial Societies and Social Simulation*, *23*(2), 7. [https://doi.org/10.18564/jasss.4259](https://doi.org/10.18564/jasss.4259)
+Grimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M.-S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: a second update to improve clarity, replication, and structural realism. *Journal of Artificial Societies and Social Simulation*, *23*(2), 7. [https://doi.org/10.18564/jasss.4259](https://doi.org/10.18564/jasss.4259)
 
 ## How to learn more? {.smaller}
 
@@ -658,6 +901,12 @@ The new soup is the soup of human culture. We need a name for the new replicator
 [@dawkins2016, p. 249]
 :::
 
+## (AP) Warning {.smaller}
+
+Murphy's law: "Anything that can go wrong will go wrong." (epigram)
+
+![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
+
 ## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
 
 ::: {style="font-size: 0.95em;"}
@@ -703,9 +952,18 @@ The seven basics consist of 4 properties and 3 mechanisms that are common to all
 1. Tags (mechanism).
 1. Internal models (mechanism).
 1. Building blocks (mechanism).
+
+[@holland1996]
 :::
 ::: {.column width="50%"}
-"Complexity is common at intermediate levels of these characteristics: (1) diversity, heterogeneity; (2) interaction, dynamics; (3) connectivity, interconnectedness; (4) adaptation, learning, and evolution." [@rodriguesneto2022]
+Complexity is common at intermediate levels of these characteristics:
+
+- Diversity/heterogeneity
+- Interaction/dynamics
+- Connectivity/interconnectedness
+- Adaptation/learning/evolution.
+
+[@rodriguesneto2022]
 :::
 ::::
 
@@ -763,7 +1021,7 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 
 *Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
 
-## Reducionism *versus* compression {.smaller}
+## (AP) Reducionism *versus* compression {.smaller}
 
 ::: {style="font-size: 0.9em;"}
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
@@ -775,7 +1033,7 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 [@krakauer2023]
 :::
 
-## *Quem te viu, quem te vê* {.smaller}
+## (AP) *Quem te viu, quem te vê* {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
@@ -789,6 +1047,22 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 
 ::: footer
 [@horgan1995, p. 106]
+:::
+
+## (AP) Power laws & Factor sparsity {.smaller}
+
+Power laws ($y = ax^{-k}$)
+
+Pareto/Zipf’s distributions
+
+~80/20 rule: **80% of the effects come from 20% of the causes**.
+
+<!-- For instance, the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005] -->
+
+![](images/alcera-consulting-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Alcera Consulting](https://alcera.wpcomstaging.com/tag/8020/))
 :::
 
 ## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
