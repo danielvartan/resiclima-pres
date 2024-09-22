@@ -291,7 +291,7 @@ Micromotives and macrobehavior [@schelling2006]
 ::: {.column width="50%"}
 Power laws ($y = ax^{-k}$)
 
-Pareto/Zipf’s distributions
+Pareto's/Zipf's distributions
 
 ~80/20 rule: **80% of the effects come from 20% of the causes**.
 
@@ -357,13 +357,17 @@ Systems in a highly stable state (**deep valley**) have low potential energy, an
 
 You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023]
 
-There, we defined emergent phenomena to be simply stable macroscopic patterns arising from local interaction of agents [@epstein1999]
+There, we defined emergent phenomena to be simply **stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999]
 :::
 
 ::: {.column width="50%"}
 ![](images/homer-emerging.gif){fig-align="center" width=100% style="padding-top: 65px;"}
 :::
 ::::
+
+::: {.notes}
+Microscopic patterns that accumulate over time, similarly to evolutionary patterns.
+:::
 
 ## Emergence {.smaller}
 
@@ -473,7 +477,9 @@ There are several other concepts/subjects in complexity science that were not sh
 
 ## Map of the complexity sciences {.smaller}
 
-![](images/castellani-2021-map.png){fig-align="center" width=100% style="padding-top: 0px; padding-bottom: 25px;"}
+::: {style="text-align: center; padding-top: 0px; padding-bottom: 25px; padding-left: 25px; padding-right: 25px;"}
+[![](images/castellani-2021-map.png)](https://www.art-sciencefactory.com/complexity-map_feb09.html)
+:::
 
 ::: footer
 (Artwork by [Brian Castellani & Lasse Gerrits](https://www.art-sciencefactory.com/complexity-map_feb09.html))
@@ -523,7 +529,7 @@ A good model is simple, valid, and robust. [@sayama2015]
 
 <br>
 
-"**All models are wrong**, but some are useful" [@box1979, p. 202]
+**All models are wrong**, but some are useful [@box1979, p. 202]
 :::
 
 ::: {.column width="50%" style="padding-top: 0px;"}
@@ -617,6 +623,18 @@ Interaction
 
 **Validation** is the process of making sure your implemented model corresponds to the real world.
 
+```{r}
+#| echo: false
+
+# mermaid
+# 
+# flowchart LR
+#   A(Real World) -- Design --> B(Conceptual Model)
+#   B -- Construction --> C(Implemented Model)
+#   B <-.. Verification ..-> C
+#   A <-.. Validation ..-> C
+```
+
 ![](images/verification-and-validation.png){fig-align="center" style="padding-top: 25px;"}
 
 ::: footer
@@ -648,6 +666,10 @@ See: Rand (Unit 1).
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 50px;"}
+:::{style="text-align: center;"}
+**Life is not deterministic**
+:::
+
 $$
 \begin{cases}
 \cfrac{\mathrm{d}}{\mathrm{d} t} S \quad = \quad - \lambda SI \\
@@ -713,11 +735,11 @@ See also: [Comparison of agent-based modeling software](https://en.wikipedia.org
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
-Most used ABM software.
+Most used ABM software
 
-A more intuitive and visual approach to modeling phenomena.
+A more intuitive and visual approach to modeling phenomena
 
-“**Low Threshold, No Ceiling**”.
+**Low Threshold, No Ceiling** [@tisue2004a]
 
 Open-source and free!
 :::
@@ -903,7 +925,7 @@ The new soup is the soup of human culture. We need a name for the new replicator
 
 ## (AP) Warning {.smaller}
 
-Murphy's law: "Anything that can go wrong will go wrong." (epigram)
+Murphy's law: "Anything that can go wrong will go wrong" (epigram)
 
 ![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
 
@@ -945,13 +967,13 @@ Murphy's law: "Anything that can go wrong will go wrong." (epigram)
 ::: {.column width="50%" style="padding-top: 0px;"}
 The seven basics consist of 4 properties and 3 mechanisms that are common to all complex adaptive systems:
 
-1. Aggregation (property).
-1. Nonlinearity (property).
-1. Flows (property).
-1. Diversity (property).
-1. Tags (mechanism).
-1. Internal models (mechanism).
-1. Building blocks (mechanism).
+- Aggregation (property)
+- Nonlinearity (property)
+- Flows (property)
+- Diversity (property)
+- Tags (mechanism)
+- Internal models (mechanism)
+- Building blocks (mechanism)
 
 [@holland1996]
 :::
@@ -961,7 +983,7 @@ Complexity is common at intermediate levels of these characteristics:
 - Diversity/heterogeneity
 - Interaction/dynamics
 - Connectivity/interconnectedness
-- Adaptation/learning/evolution.
+- Adaptation/learning/evolution
 
 [@rodriguesneto2022]
 :::
@@ -1005,9 +1027,9 @@ See also: @muller2020 .
 [@laplace2009]
 :::
 
-## (AP) Laplace demon {visibility="uncounted"}
+## (AP) Laplace's demon {visibility="uncounted"}
 
-We ought then to regard the present state of the universe as the effect of its anterior state and as the cause of the one which is to follow. Given for one instant an intelligence which could comprehend all the forces by which nature is animated and the respective situation of the beings who compose it - an intelligence sufficiently vast to submit these data to analysis - it would embrace in the same formula the movements of the greatest bodies of the universe and those of the lightest atom; for it, nothing would be uncertain and the future, as the past, would be present to its eyes.
+We ought then to regard the present state of the universe as the effect of its anterior state and as the cause of the one which is to follow. Given for one instant **an intelligence** which could comprehend all the forces by which nature is animated and the respective situation of the beings who compose it - an intelligence sufficiently vast to submit these data to analysis ― it would embrace in the same formula the movements of the greatest bodies of the universe and those of the lightest atom; **for it, nothing would be uncertain and the future, as the past, would be present to its eyes**.
 
 ::: footer
 [@laplace2009]
@@ -1019,7 +1041,7 @@ We ought then to regard the present state of the universe as the effect of its a
 
 Humans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.
 
-*Oracle of the Night*: Dreams as simulations? [@ribeiro2019].
+*Oracle of the Night*: Dreams as simulations? [@ribeiro2019]
 
 ## (AP) Reducionism *versus* compression {.smaller}
 
@@ -1053,7 +1075,7 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 
 Power laws ($y = ax^{-k}$)
 
-Pareto/Zipf’s distributions
+Pareto's/Zipf’s distributions
 
 ~80/20 rule: **80% of the effects come from 20% of the causes**.
 
@@ -1095,10 +1117,10 @@ Materialists, on the other hand, believe that **only matter and its physical pro
 ::: {.column width="50%"}
 The 4 Fundamental Laws of Dialectical Materialism by Engels and Marx (in opposition to Hegel's idealist dialectic, inspired by Heraclitus):
 
-1. **Reciprocal action of matter in motion**.
-2. The law of the transformation of quantity into quality and vice versa.
-3. The law of the interpenetration of opposites.
-4. The law of the negation of the negation.
+1. **Reciprocal action of matter in motion**
+2. The law of the transformation of quantity into quality and vice versa
+3. The law of the interpenetration of opposites
+4. The law of the negation of the negation
 :::
 
 ::: {.column width="50%"}
@@ -1118,11 +1140,17 @@ No phenomenon in nature can be understood if considered in isolation, separate f
 
 **The error [of Hegel]** lies in the fact that these laws, as laws of thought, are imposed on nature and history, rather than being deduced from them.
 
-**Dialectics as the science of interconnections** (sound familiar?).
+**Dialectics as the science of interconnections** (sound familiar?)   
 :::
 
-::: {.column width="50%"}
-![](images/dialetics-figure-1.png){fig-align="center" width=100% style="font-size: 1em; padding-top: 75px;"}
+::: {.column width="50%" style="padding-top: 75px;"}
+```{mermaid}
+%%| fig-width: 5.5
+
+graph LR
+  A(A) --> B(B)
+  B --> A
+```
 :::
 ::::
 
@@ -1159,9 +1187,9 @@ Dialectics must be understood as an non-falsifiable conjecture. It should be an 
 
 ## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
 
-Popper disagrees that physical reality develops dialectically.
+Popper disagrees that physical reality develops dialectically
 
-Popper interprets Marx as an economic determinist and historicist.
+Popper interprets Marx as an economic determinist and historicist
 
 Popper views Marx’s predictions, based on dialectical materialism, as something exact, subject to testing and refutation. At the same time, he points out that some of Marx’s predictions did not hold up when tested against history.
 
@@ -1196,7 +1224,7 @@ Hence, Marx’s anti-dogmatic attitude exists only in the theory and not in the 
 
 ## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
 
-Prophecy certainly need not be unscientific, as predictions of eclipses and other astronomical events show. But *Hegelian dialectic, or its materialistic version, cannot be accepted as a sound basis for scientific forecasts*.
+Prophecy certainly need not be unscientific, as predictions of eclipses and other astronomical events show. But **Hegelian dialectic, or its materialistic version, cannot be accepted as a sound basis for scientific forecasts**.
 
 Thus if forecasts based on dialectic are made, some will come true and some will not. In the latter case, obviously, a situation will arise which has not been foreseen. But **dialectic is vague and elastic enough to interpret and to explain this unforeseen situation just as well as it interpreted and explained the situation which it predicted and which happened to come true. Any development whatever will fit the dialectic scheme; the dialectician need never be afraid of any refutation by future experience**.
 
@@ -1214,18 +1242,31 @@ The whole development of dialectic should be a warning against the dangers inher
 
 ## (AP) Popper's hypothetico-deductive method {.smaller visibility="uncounted"}
 
-The activity can be represented by a *general schema of problem- solving by the method of imaginative conjectures and criticism*, or, as I have often called it, by *the method of conjecture and refutation*. The schema (in its simplest form) is this:
+The activity can be represented by a **general schema of problem- solving by the method of imaginative conjectures and criticism**, or, as I have often called it, by **the method of conjecture and refutation**. The schema (in its simplest form) is this:
 
-<!-- %%| fig-width: 6.5 -->
-
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 75px;"}
 ```{mermaid}
 %%| fig-width: 6.5
 
 flowchart LR
-  A[P1] --> B(TT)
-  B --> C[EE]
-  C --> D[P2]
+  A(P1) --> B(TT)
+  B --> C(EE)
+  C --> D(P2)
 ```
+:::
+
+::: {.column width="50%" style="padding-top: 50px;"}
+```{mermaid}
+%%| fig-width: 4.0
+
+flowchart LR
+  A(P) --> B(TT)
+  B --> C(EE)
+  C --> A
+```
+:::
+::::
 
 ::: footer
 [@popper1979, p. 164]
@@ -1244,9 +1285,14 @@ It leads up to our second attempt (*and so on*).
 
 The history of ideas teaches us very clearly that ideas emerge in logical or, if the term is preferred, in **dialectical contexts**. My various schemata such as
 
-$$
-\text{P}_1 \rightarrow \text{TT} \rightarrow \text{EE} \rightarrow \text{P}_2
-$$
+```{mermaid}
+%%| fig-width: 6.5
+
+flowchart LR
+  A(P1) --> B(TT)
+  B --> C(EE)
+  C --> D(P2)
+```
 
 may indeed be looked upon as improvements and rationalizations of the Hegelian dialectical schema: they are rationalizations because they operate entirely within the classical logical organon of rational criticism, which is based upon the so-called law of contradiction; that is to say, upon the demand that contradictions, whenever we discover them, must be eliminated. Critical error-elimination on the scientific level proceeds by way of a **conscious search for contradictions**.
 
@@ -1260,9 +1306,9 @@ may indeed be looked upon as improvements and rationalizations of the Hegelian d
 
 **Why post-positivist?**
 
-- Anti-positivist (positive: “imposed on the mind by experience”).
-- Anti-inductivist (deduction, satisfactory answers).
-- Anti-verificationist (falsifiability as demarcation criterion).
+- Anti-positivist (positive: “imposed on the mind by experience”)
+- Anti-inductivist (deduction, satisfactory answers)
+- Anti-verificationist (falsifiability as demarcation criterion)
 
 ## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 
@@ -1274,7 +1320,7 @@ But I shall certainly admit a system as empirical or scientific only if it is ca
 
 ## (AP) Popper against positivism (or the problem of induction) {visibility="uncounted"}
 
-Everybody knows nowadays that **logical positivism is dead**. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) **I fear that I must admit responsibility**."
+Everybody knows nowadays that **logical positivism is dead**. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) **I fear that I must admit responsibility**.
 
 ::: footer
 [@popper2005]
@@ -1297,7 +1343,7 @@ Everybody knows nowadays that **logical positivism is dead**. But nobody seems t
 [@popper2002]
 :::
 
-## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+## (AP) The 7 conclusions of Popper on Science {.smaller visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1315,7 +1361,7 @@ Irrefutability is not a virtue of a theory (as people often think) but a vice.
 [@popper2002]
 :::
 
-## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+## (AP) The 7 conclusions of Popper on Science {.smaller visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1333,11 +1379,11 @@ Testability is falsifiability; but there are degrees of testability: some theori
 [@popper2002]
 :::
 
-## (AP) The 7 Conclusions of Popper on Science {.smaller visibility="uncounted"}
+## (AP) The 7 conclusions of Popper on Science {.smaller visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%"}
-(@) Some genuinely testable theories, when found to be false, are still upheld by their admirers—for example by introducing *ad hoc* some auxiliary assumption, or by re-interpreting the theory *ad hoc* in such a way that it escapes refutation. Such a procedure is always possible, but it rescues the theory from refutation only at the price of destroying, or at least lowering, its scientific status. (I later described such a rescuing operation as a ‘*conventionalist twist*’ or
+(@) Some genuinely testable theories, when found to be false, are still upheld by their admirers — for example by introducing *ad hoc* some auxiliary assumption, or by re-interpreting the theory *ad hoc* in such a way that it escapes refutation. Such a procedure is always possible, but it rescues the theory from refutation only at the price of destroying, or at least lowering, its scientific status. (I later described such a rescuing operation as a ‘*conventionalist twist*’ or
 a ‘*conventionalist stratagem*’).
 :::
 
@@ -1350,15 +1396,15 @@ a ‘*conventionalist stratagem*’).
 [@popper2002]
 :::
 
-## (AP) The 7 Conclusions of Popper on Science {visibility="uncounted"}
+## (AP) The 7 conclusions of Popper on Science {visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%"}
-"One can sum up all this by saying that **_the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability_**".
+One can sum up all this by saying that **_the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability_**.
 :::
 
 ::: {.column width="50%"}
-![](images/karl-popper-figure-3.jpg){fig-align="center" width=85% style="padding-top: 0px;"}
+![](images/karl-popper-figure-3.jpg){fig-align="center" width=81% style="padding-top: 0px;"}
 :::
 ::::
 
