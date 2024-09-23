@@ -295,9 +295,11 @@ Pareto's/Zipf's distributions
 
 ~80/20 rule: **80% of the effects come from 20% of the causes**.
 
-For instance, the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005]
+[...] the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005]
 
-(Top U.S. retail companies by market cap as of September 2024)
+<br>
+
+*Top U.S. retail companies by market cap as of September 2024*
 :::
 
 ::: {.column width="50%" style="font-size: 0.8em; padding-top: 0px;"}
@@ -492,9 +494,11 @@ There are several other concepts/subjects in complexity science that were not sh
 
 ::::: {.columns}
 :::: {.column width="50%" style="padding-top: 0px;"}
-Agent-based modeling (ABM) is a computational modeling paradigm that enables us to describe how any agent will behave. The methodology of ABM encodes the behavior of individual agents in **simple rules** so that we can observe the results of these agents’ interactions. This technique can be used to model and describe a wide variety of processes, phenomena, and situations, but **it is most useful when describing these phenomena as complex systems**. [@wilensky2015, p. 22]
+Agent-based models (ABMs) are **stochastic computational models** with the purpose of simulating the behavior of agents and their interactions, allowing us to study **emergent phenomena**.
 
-ABM and **stochasticity**.
+Instead of describing a system only with variables representing the state of the whole system [a **global approach**], we model its individual agents [a **local approach**]. [@railsback2019]
+
+Agents often represent people or other animals, but **agents can also represent anything** from biological cells to economic firms to political municipalities. [@smaldino2023]
 ::::
 :::: {.column width="50%"}
 ::: {layout-nrow=2}
@@ -521,24 +525,24 @@ ABMs can also be implemented in continuous time, but most are designed as discre
 
 ## What is a model? {.smaller}
 
-:::: {.columns}
-::: {.column width="50%" style="padding-top: 0px;"}
 A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical). [@sayama2015]
 
 A good model is simple, valid, and robust. [@sayama2015]
 
-<br>
-
 **All models are wrong**, but some are useful [@box1979, p. 202]
+
+:::: {.columns}
+::: {.column width="50%" style="text-align: right; padding-top: 0px;"}
+![](images/strebe-2011-mercator-projection.jpg){width="70%"}
 :::
 
-::: {.column width="50%" style="padding-top: 0px;"}
-![](images/george-e-p- box-figure-1.jpg){fig-align="center" width=70% style="padding-top: 0px; padding-bottom: 25px;"}
+::: {.column width="50%" style="text-align: left; padding-top: 0px;"}
+![](images/esa-2022-earth.jpg){width="70%"}
 :::
 ::::
 
 ::: footer
-(George Edward Pelham Box. Photograph by an unknown author. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GeorgeEPBox.jpg))
+(Mercator projection by [Daniel R. Strebe](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). Earth photo by [European Space Agency (ESA)](https://www.esa.int/ESA_Multimedia/Images/2022/04/Earth))
 :::
 
 ## What is a model? {.smaller}
@@ -549,7 +553,7 @@ A good model is simple, valid, and robust. [@sayama2015]
 [@puccia1985, p. 3]
 :::
 
-## Nonrealistic models {.smaller}
+## Nonrealistic models
 
 ![](images/cool-car.gif){fig-align="center" style="padding-top: 0px;"}
 
@@ -666,10 +670,6 @@ See: Rand (Unit 1).
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 50px;"}
-:::{style="text-align: center;"}
-**Life is not deterministic**
-:::
-
 $$
 \begin{cases}
 \cfrac{\mathrm{d}}{\mathrm{d} t} S \quad = \quad - \lambda SI \\
@@ -677,6 +677,12 @@ $$
 \cfrac{\mathrm{d}}{\mathrm{d} t} R \quad = \quad \gamma I \\
 \end{cases}
 $$
+
+<br>
+
+**Life is not deterministic**
+
+Global _versus_ Local approach
 :::
 
 ::: {.column width="50%" style="padding-top: 25px;"}
@@ -923,22 +929,88 @@ The new soup is the soup of human culture. We need a name for the new replicator
 [@dawkins2016, p. 249]
 :::
 
-## (AP) Warning {.smaller}
+## (AP) Warning {.smaller visibility="uncounted"}
 
 Murphy's law: "Anything that can go wrong will go wrong" (epigram)
 
 ![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
 
+## (AP) Nonrealistic models {.smaller visibility="uncounted"}
+
+![](images/oinonen-2021-figure-1.png){fig-align="center}
+
+::: footer
+(Artwork by [Virpi Oinonen](https://www.businessillustrator.com/complexity-and-policy-making-cartoon-summary-2/))
+:::
+
 ## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
 
-::: {style="font-size: 0.95em;"}
-*... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que ese dilatado Mapa era Inútil y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.85em;"}
+*... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que __el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia__. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que __ese dilatado Mapa era Inútil__ y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
 
 *Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658*
 :::
 
+::: {.column width="50%"}
+![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
 ::: footer
 [@borges1984]
+:::
+
+## (AP) On exactitude in science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.8em;"}
+... In that Empire, the Art of Cartography attained such Perfection that **the map of a single Province occupied the entirety of a City, and the map of the Empire, the entirety of a Province**. In time, those Unconscionable Maps no longer satisfied, and the Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Forebears had been, saw that **that vast Map was Useless**, and not without some Pitilessness was it, that they delivered it up to the Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are Tattered Ruins of that Map, inhabited by Animals and Beggars; in all the Land there is no other Relic of the Disciplines of Geography.
+
+Suarez Miranda, Viajes de varones prudentes, Libro N, Cap. XLV, Urida, 1658
+:::
+
+::: {.column width="50%"}
+![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+[@borges1998]
+:::
+
+## (AP) A map on a scale of 1 to 1 {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.8em;"}
+"What a useful thing a pocket-map is!" I remarked.
+
+"That's another thing we've learned from your Nation," said Mein Herr, "map-making. But we've carried it much further than you. What do you consider the largest map that would be really useful?"
+
+"About six inches to the mile."
+
+"Only six inches!" exclaimed Mein Herr. "We very soon got to six yards to the mile. Then we tried a hundred yards to the mile. And then came the grandest idea of all ! **We actually made a map of the country, on the scale of a mile to the mile!**"
+
+"Have you used it much?" I enquired.
+
+"It has never been spread out, yet," said Mein Herr: "the farmers objected: they said it would cover the whole country, and shut out the sunlight ! So **we now use the country itself, as its own map, and I assure you it does nearly as well**."
+:::
+
+::: {.column width="50%"}
+![](images/sylvie-and-bruno-figure-1.png){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+[@carroll1893]
+:::
+
+## (AP) Complex _versus_ complicated {visibility="uncounted"}
+
+From the **etymological perspective**, “complicated” and “complex” share the same preﬁx “com”, which means together in its Proto-indo-european (PIE) root. But “complicated” comes from the Latin verb **“plicare”** which means fold (noun, as in ten folds) and implies many; “complex” has the Latin root, **“plectere”**, which means **braiding, linking, weave, interlace, and intertwine**. Thus, complex has the implication of interaction and intertwining be- sides the meaning of “many parts” shared with complicated.
+
+::: footer
+[@sun2016]
 :::
 
 ## (AP) What is a complex system? {visibility="uncounted"}
@@ -1019,17 +1091,33 @@ Although the detailed behavior of a chaotic system cannot be predicted, **there 
 See also: @muller2020 .
 :::
 
-## (AP) Laplace demon {visibility="hidden"}
+## (AP) Laplace's demon {.smaller visibility="uncounted"}
 
-*Nous devons done envisager l'etat présent de l'univers, comme l'effet de son état antérieur, et comme la cause de celui qui va suivre. Une intelligence qui pour un instant donné, connaîtrait toutes les forces dont la nature est animée, et la situation respective des êtres qui la composent, si d'ailleurs elle était assez vaste pour soumettre ces données à l'analyse, embrasserait dans la même formule les mouvemens des plus grands corps de l'univers et ceux du plus léger atome: rien ne serait incertain pour elle, et l'avenir comme le passé, serait présent à ses yeux*.
-
-::: footer
-[@laplace2009]
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em;"}
+*Nous devons done envisager l'etat présent de l'univers, comme l'effet de son état antérieur, et comme la cause de celui qui va suivre. __Une intelligence__ qui pour un instant donné, connaîtrait toutes les forces dont la nature est animée, et la situation respective des êtres qui la composent, si d'ailleurs elle était assez vaste pour soumettre ces données à l'analyse, embrasserait dans la même formule les mouvemens des plus grands corps de l'univers et ceux du plus léger atome: rien __ne serait incertain pour elle, et l'avenir comme le passé, serait présent à ses yeux__*.
 :::
 
-## (AP) Laplace's demon {visibility="uncounted"}
+::: {.column width="50%"}
+![](images/laplace-figure-1.jpg){fig-align="center" width=90% style="padding-top: 0px;"}
+:::
+::::
 
+::: footer
+[@laplace1902]
+:::
+
+## (AP) Laplace's demon {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1em;"}
 We ought then to regard the present state of the universe as the effect of its anterior state and as the cause of the one which is to follow. Given for one instant **an intelligence** which could comprehend all the forces by which nature is animated and the respective situation of the beings who compose it - an intelligence sufficiently vast to submit these data to analysis ― it would embrace in the same formula the movements of the greatest bodies of the universe and those of the lightest atom; **for it, nothing would be uncertain and the future, as the past, would be present to its eyes**.
+:::
+
+::: {.column width="50%"}
+![](images/laplace-figure-1.jpg){fig-align="center" width=90% style="padding-top: 0px;"}
+:::
+::::
 
 ::: footer
 [@laplace2009]
@@ -1043,7 +1131,7 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 
 *Oracle of the Night*: Dreams as simulations? [@ribeiro2019]
 
-## (AP) Reducionism *versus* compression {.smaller}
+## (AP) Reducionism *versus* compression {.smaller visibility="uncounted"}
 
 ::: {style="font-size: 0.9em;"}
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
@@ -1055,7 +1143,7 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 [@krakauer2023]
 :::
 
-## (AP) *Quem te viu, quem te vê* {.smaller}
+## (AP) *Quem te viu, quem te vê* {.smaller visibility="uncounted"}
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
@@ -1071,7 +1159,7 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 [@horgan1995, p. 106]
 :::
 
-## (AP) Power laws & Factor sparsity {.smaller}
+## (AP) Power laws & Factor sparsity {.smaller visibility="uncounted"}
 
 Power laws ($y = ax^{-k}$)
 
