@@ -43,7 +43,7 @@ A biological clock is complex, but a mechanical clock is complicated.
 
 ## Complex _versus_ complicated {.smaller}
 
-A look at the internals of a mechanical clock.
+A look at the internals of a mechanical clock
 
 ![](images/rolex-figure-2.jpg){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
@@ -52,7 +52,7 @@ A look at the internals of a mechanical clock.
 :::
 
 ::: {.notes}
-Elegant and Precise.
+Elegant and Precise
 
 A watchmaker designed it. It has a specific function. It has a goal.
 
@@ -61,7 +61,7 @@ It may be hard to understand, but if you take the time and look at all of its pa
 
 ## Complex _versus_ complicated {.smaller}
 
-A look at the internals of a biological clock (a timing system).
+A look at the internals of a biological clock (a timing system)
 
 ::: {layout-ncol=2}
 ![](images/perez-villa-2023-figure-3.png){fig-align="center" width=95% style="padding-top: 10px; padding-bottom: 25px;"}
@@ -76,24 +76,24 @@ A look at the internals of a biological clock (a timing system).
 ::: {.notes}
 A mess! An OCD nightmare.
 
-A bunch of coupled oscillators.
+A bunch of coupled oscillators
 
 "[...] involve great numbers of parts undergoing a kaleidoscopic array of simultaneous interactions." [@holland1992b]
 
 If you look just its parts, you can't understand the whole system.
 
-It's an emergent phenomenon.
+It's an emergent phenomenon
 
 It can be thought as an "aggregate agent" ― aggregate behavior of component agents generates behavior of the aggregate agent. [@holland2012]
 
-Boundaries and signals. [@holland2012]
+Boundaries and signals [@holland2012]
 
 It's adaptive, robust, produces extreme events, and is self-organized.
 :::
 
 ## Complex _versus_ complicated {.smaller}
 
-If you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a **Rube Goldberg machine**. [@merrow2020]
+If you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a **Rube Goldberg machine** [@merrow2020].
 
 ![](images/rube-goldberg-machine.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
 
@@ -113,9 +113,9 @@ You would hate have this clock. You would be late for everything. Its always cha
 
 If you look just the parts of a complex system, you can't understand the whole system.
 
-**A aggregate behavior emerges** from the interactions of the parts.
+**A aggregate behavior emerges** from the interactions of the parts
 
-Illustrative example: Immune cells.
+Illustrative example: Immune cells
 
 ![](images/holland-2012-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
 
@@ -126,9 +126,9 @@ Illustrative example: Immune cells.
 ## Complex _versus_ complicated {.smaller}
 
 ::: {style="font-size: 0.9em; padding-top: 0px;"}
-**The aggregate behavior influences the agent behavior and vice-versa**. [@holland2012]
+**The aggregate behavior influences the agent behavior and vice-versa** [@holland2012]
 
-Circadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation. [@roenneberg2007]
+Circadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation [@roenneberg2007]
 :::
 
 ![](images/flanagan-2021-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px"}
@@ -165,11 +165,11 @@ It is not **self-organized**
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
-In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of system-wide behavior. [@vonbertalanffy1968]
+In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of system-wide behavior [@vonbertalanffy1968]
 
-A system is **defined by an observer** and may have an arbitrary content domain. [@bao2018]
+A system is **defined by an observer** and may have an arbitrary content domain [@bao2018]
 
-**The structure of complex systems creates their behavior**. [@sterman2000] (the system as cause)
+**The structure of complex systems creates their behavior** [@sterman2000] (the system as cause)
 :::
 
 ::: {.column width="50%" style="padding-top: 0px;"}
@@ -185,15 +185,15 @@ A system is **defined by an observer** and may have an arbitrary content domain.
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
-Systems that don't yield to compact forms of representation or description (David Krakauer in @mitchell2013);
+Systems that don't yield to compact forms of representation or description (David Krakauer in @mitchell2013)
 
-A system of many interacting parts where the system is **more than just the sum of its parts** (Mark Newman in @mitchell2013);
+A system of many interacting parts where the system is **more than just the sum of its parts** (Mark Newman in @mitchell2013)
 
-A system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting **aggregate behavior** that cannot be simply derived from the actions of the individual parts. [@holland1992b]
+A system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting **aggregate behavior** that cannot be simply derived from the actions of the individual parts [@holland1992b]
 
-Systems with many connected agents that interact and exhibit self-organization and **emergence behavior**, all without the need for a central controller (Camilo Rodrigues Neto).
+Systems with many connected agents that interact and exhibit self-organization and **emergence behavior**, all without the need for a central controller (Camilo Rodrigues Neto)
 
-Dialectics at its finest (my working definition).
+Dialectics at its finest (my working definition)
 :::
 
 ::: {.column width="50%"}
@@ -205,12 +205,12 @@ Dialectics at its finest (my working definition).
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 1em; padding-top: 0px;"}
-A system can be considered complex if it is composed of:
+A system can be considered complex if its entities are:
 
-- Diverse entities.
-- Interdependent.
-- Connected.
-- Adaptive.
+- Diverse
+- Interdependent
+- Connected
+- Adaptive
 
 **There seems to be no complexity at the extremes of the intervals**. Our society is complex because it lies between the extremes.
 :::
@@ -230,13 +230,13 @@ A system can be considered complex if it is composed of:
 ::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
 Deterministic nonperiodic flow [@lorenz1963]
 
-Systems in which this is the case are said to be **sensitively dependent on initial conditions**. [@lorenz2008]
+Systems in which this is the case are said to be **sensitively dependent on initial conditions** [@lorenz2008]
 
 **Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?** [@lorenz2008]
 
-The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions. [@mitchell2009]
+The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions [@mitchell2009]
 
-**Order in chaos**: You can't predict how any individual state will evolve, but you can say how a collection of states evolves. [@muller2019]
+**Order in chaos**: You can't predict how any individual state will evolve, but you can say how a collection of states evolves [@muller2019]
 :::
 
 ::: {.column width="50%"}
@@ -258,7 +258,7 @@ The behavior of some **simple**, **deterministic** systems **can be impossible, 
 :::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
 **It only looks random** [@lorenz2008]
 
-Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm**. [@horgan2004]
+Chaoplexologists such as Wolfram assume that much of the noise that seems to pervade nature is actually pseudonoise, **the result of some underlying, deterministic algorithm** [@horgan2004]
 
 Micromotives and macrobehavior [@schelling2006]
 ::::
@@ -277,7 +277,7 @@ Micromotives and macrobehavior [@schelling2006]
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](images/fuck-christmas-lights.gif){fig-align="center" width=100% style="padding-top: 3px;"}
+![](images/fuck-christmas-lights.gif){fig-align="center" width=100% style="padding-top: 4px;"}
 :::
 
 ::: {.column width="50%"}
@@ -293,9 +293,9 @@ Power laws ($y = ax^{-k}$)
 
 Pareto's/Zipf's distributions
 
-~80/20 rule: **80% of the effects come from 20% of the causes**.
+~80/20 rule: **80% of the effects come from 20% of the causes**
 
-[...] the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005]
+[...] the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws [@newman2005]
 
 <br>
 
@@ -313,9 +313,9 @@ Pareto's/Zipf's distributions
 
 ## Feedback loops {.smaller}
 
-As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity. [@puccia1985]
+As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity [@puccia1985]
 
-When the system have feedback loops, **the notion of cause and effect must be treated with care**.
+When the system have feedback loops, **the notion of cause and effect must be treated with care**
 
 Non-linear dynamics & Power laws
 
@@ -327,15 +327,9 @@ Non-linear dynamics & Power laws
 
 ## Robustness {.smaller}
 
-:::: {.columns}
-::: {.column width="20%"}
-The order in complex systems is said to be robust because, **being distributed and not centrally produced**, it is stable under perturbations of the system. [@ladyman2013]
-:::
+The order in complex systems is said to be robust because, **being distributed and not centrally produced**, it is stable under perturbations of the system [@ladyman2013]
 
-::: {.column width="80%"}
 ![](images/copernicus-2024-figure-1.png){fig-align="center" width=100% style="padding-top: 10px; padding-bottom: 20px;"}
-:::
-::::
 
 ::: footer
 (Graph by [The Copernicus Climate Change Service](https://climate.copernicus.eu/copernicus-global-temperature-record-streak-continues-april-2024-was-hottest-record))
@@ -359,7 +353,7 @@ Systems in a highly stable state (**deep valley**) have low potential energy, an
 
 You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023]
 
-There, we defined emergent phenomena to be simply **stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999]
+[...] we defined emergent phenomena to be simply **stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999]
 :::
 
 ::: {.column width="50%"}
@@ -373,7 +367,7 @@ Microscopic patterns that accumulate over time, similarly to evolutionary patter
 
 ## Emergence {.smaller}
 
-In complex adaptive systems, **emergent properties** often occur when coevolving signals and boundaries generate **new levels of organization**.
+In complex adaptive systems, **emergent properties** often occur when coevolving signals and boundaries generate **new levels of organization**
 
 A word about emergence [@holland2012, Topic 5.5]
 
@@ -403,7 +397,7 @@ Are you just a collection of cells?
 
 _Uma andorinha não faz verão_
 
-Love is just a chemical?
+Is love just a chemical?
 :::
 
 ::: {.column width="50%"}
@@ -415,33 +409,35 @@ Love is just a chemical?
 (Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE))
 :::
 
-## Generative science: a new approach to science? {.smaller}
-"Simulation is **a third way of doing science**. Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively. Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world. While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**.
-
-Induction and deduction combined. Deduction is used to generate data that can be analyzed inductively.
-
-::: footer
-[@axelrod1997, p. 24]
-:::
-
-## Leverage points and unforeseen consequences {.smaller}
+## Leverage points {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%" style="padding-top: 0px;"}
-Here we recognize the basic idea of generative science which is **to generate apparently unanticipated and infinite behavior** based on deterministic and finite rules and parameters reproducing or resembling the behavior of natural and social phenomena.
+There are places within a complex system where a small shift in one thing can produce big changes in everything [@meadows1999]
 
-Possible states, even if unlikely: by modelling such interactions, **it can suggest that properties exist in the system that had not been noticed in the real world situation**.
+Leverage points are points of power [@meadows2008]
+
+Possible states, even if unlikely: by modelling such interactions, **it can suggest that properties exist in the system that had not been noticed in the real world situation** [@dodig-crnkovic2013a]
 :::
 ::: {.column width="50%" style="padding-top: 100px;"}
 ![](images/encontro.gif){fig-align="center"}
 :::
 ::::
 
-::: footer
-[@dodig-crnkovic2013a]
-:::
-
 ## {background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
+
+## Generative science: a new approach to science? {.smaller}
+**Simulation is a third way of doing science**
+
+Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively.
+
+Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world
+
+While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**
+
+::: footer
+[@axelrod1997, p. 24]
+:::
 
 ## Other concepts
 
@@ -494,9 +490,9 @@ There are several other concepts/subjects in complexity science that were not sh
 
 ::::: {.columns}
 :::: {.column width="50%" style="padding-top: 0px;"}
-Agent-based models (ABMs) are **stochastic computational models** with the purpose of simulating the behavior of agents and their interactions, allowing us to study **emergent phenomena**.
+Agent-based models (ABMs) are **bottom-up stochastic computational models** with the purpose of simulating the behavior of agents and their interactions, allowing us to study **emergent phenomena**
 
-Instead of describing a system only with variables representing the state of the whole system [a **global approach**], we model its individual agents [a **local approach**]. [@railsback2019]
+Instead of describing a system only with variables representing the state of the whole system [a **global approach**], we model its individual agents [a **local approach**] [@railsback2019]
 
 Agents often represent people or other animals, but **agents can also represent anything** from biological cells to economic firms to political municipalities. [@smaldino2023]
 ::::
@@ -515,7 +511,11 @@ Agents often represent people or other animals, but **agents can also represent 
 
 ## Types of models {.smaller}
 
-ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.
+::: {style="font-size: 0.9em;"}
+ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations
+
+**Agent-Based Models** (Social Science) _versus_ **Individual-Based Models** (IBMs) (Ecology) _versus_ **Multi-Agent Systems** (MAS) (Engineering)
+:::
 
 ![](images/types-of-models.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
@@ -525,9 +525,9 @@ ABMs can also be implemented in continuous time, but most are designed as discre
 
 ## What is a model? {.smaller}
 
-A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical). [@sayama2015]
+A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical) [@sayama2015]
 
-A good model is simple, valid, and robust. [@sayama2015]
+A good model is simple, valid, and robust [@sayama2015]
 
 **All models are wrong**, but some are useful [@box1979, p. 202]
 
@@ -542,7 +542,7 @@ A good model is simple, valid, and robust. [@sayama2015]
 ::::
 
 ::: footer
-(Mercator projection by [Daniel R. Strebe](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). Earth photo by [European Space Agency (ESA)](https://www.esa.int/ESA_Multimedia/Images/2022/04/Earth))
+(Mercator projection by [Daniel R. Strebe](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). Earth photo by the [European Space Agency](https://www.esa.int/ESA_Multimedia/Images/2022/04/Earth))
 :::
 
 ## What is a model? {.smaller}
@@ -562,7 +562,7 @@ A good model is simple, valid, and robust. [@sayama2015]
 ![](images/carvalho-2024-figure-2.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
 
 ::: footer
-[@carvalho2024a, p. 3]
+[@carvalho2024a]
 :::
 
 ## Tools for conceptual modelling
@@ -623,9 +623,9 @@ Interaction
 
 ## Verification and validation {.smaller}
 
-**Verification** is the process of making sure your conceptual model matches your implemented model.
+**Verification** is the process of making sure your conceptual model matches your implemented model
 
-**Validation** is the process of making sure your implemented model corresponds to the real world.
+**Validation** is the process of making sure your implemented model corresponds to the real world
 
 ```{r}
 #| echo: false
@@ -643,6 +643,34 @@ Interaction
 
 ::: footer
 [@rand2024]
+:::
+
+## Abstract _versus_ empirical models {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.9em; padding-top: 0px;"}
+*Simple* [@sun2016; @rand2007] or *abstract* [@sun2016] models *versus* *photograph* [@parker2003], *empirical*, *complicated* [@sun2016], *elaborated and realistic (ER)* [@rand2007] models
+
+**Abstract models** allow for the examination of **general principles** in detail [@rand2007]
+
+**Empirical models** are generally more oriented towards **prediction** and often need to address speciﬁc questions posed by policy-makers at particular sites [@sun2016]
+
+**Full spectrum modeling** combines the benefits of abstract and empirical models [@rand2007]
+:::
+
+::: {.column width="50%" style="padding-top: 100px;"}
+![](images/sun-2016-figure-3.png){fig-align="center" style="padding-top: 0px; padding-bottom: 0px;"}
+:::
+::::
+
+::: footer
+(Artwork by @sun2016, based on @grimm2005a)
+:::
+
+::: {.notes}
+Simple model example: Schelling's segregation model [@schelling1971].
+
+We call this the ‘Medawar zone’ because Medawar described a similar relation between the difficulty of a scientific problem and its payoff [@grimm2005a]
 :::
 
 ## Why use ABM?
@@ -672,9 +700,9 @@ See: Rand (Unit 1).
 ::: {.column width="50%" style="padding-top: 50px;"}
 $$
 \begin{cases}
-\cfrac{\mathrm{d}}{\mathrm{d} t} S \quad = \quad - \lambda SI \\
-\cfrac{\mathrm{d}}{\mathrm{d} t} I \quad = \quad \lambda SI - \gamma I \\
-\cfrac{\mathrm{d}}{\mathrm{d} t} R \quad = \quad \gamma I \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{S} = - \lambda \text{S} \text{I} \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{I} = \lambda \text{S} \text{I} - \gamma \text{I} \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{R} = \gamma \text{I} \\
 \end{cases}
 $$
 
@@ -682,7 +710,7 @@ $$
 
 **Life is not deterministic**
 
-Global _versus_ Local approach
+Global (top-down) _versus_ Local (bottom-up) approach
 :::
 
 ::: {.column width="50%" style="padding-top: 25px;"}
@@ -764,15 +792,83 @@ Open-source and free!
 
 ## MayaSim {.smaller}
 
-[MayaSim: An agent-based model of the ancient Maya social-ecological system](https://www.comses.net/codebases/3063/releases/1.3.0/)
+Agent-based model of the ancient Maya social-ecological system (*historical ecology and applied archaeology*) (*NetLogo/Scala-Java*)
 
-![](images/heckbert-2013-figure-1.png){fig-align="center" style="padding-top: 25px;"}
+![](images/heckbert-2013-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@heckbert2019]
+:::
 
 ## Inequalities in physical activity {.smaller}
 
-Inequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach [@jones2024]
+Inequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach (*public health*) (*NetLogo/Scala-Java*)
 
-![](images/jones-2024-abm.png){fig-align="center" style="padding-top: 25px;"}
+![](images/jones-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@jones2024]
+:::
+
+## Biomolecular interactions {.smaller}
+
+Agent-based models for detecting the driving forces of biomolecular interactions (*biophysics*) (*Orion/Java*)
+
+![](images/maestri-2022-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@maestri2022]
+:::
+
+## Drug effects on cell agents {.smaller}
+
+Multi-scale simulation of LNCaP prostate cancer cell line and combinations of drugs (*systems biology*) (*PhysiBoSS/C++*)
+
+![](images/ponce-de-leon-2023-figure-5.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@ponce-de-leon2023]
+:::
+
+## Land development {.smaller}
+
+Agent-based land change modeling of a large watershed: space-time locations of critical threshold (*geography*) (*C++*)
+
+![](images/tang-2020-figure-7.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@tang2020]
+:::
+
+## Fisheries {.smaller}
+
+Agent-based Model of the German small-scale fisheries (*fisheries science*) (*NetLogo/Scala-Java*)
+
+![](images/lemmen-2024-vinos.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@lemmen2024]
+:::
+
+## City evacuation {.smaller}
+
+Agent-based simulation tool that supports simulation of the evacuation of a city’s population at ﬁne temporal and geographical scales (*urban planning*) (*GAMA/Java*)
+
+![](images/daude-2019-figure-8.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@daude2019]
+:::
+
+## City evacuation {.smaller}
+
+Probabilistic Relational Agent-Based Models (PRAM) influenza simulation: a SIR model (*epidemiology*) (*Unity3D/C++*)
+
+![](images/babichenko-2020-figure-5.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@babichenko2020]
+:::
 
 ## {background-image="images/imperial-college-covid-sim.png" background-position="top left" background-size="100%" .scrollable}
 
@@ -780,38 +876,74 @@ Inequalities in physical activity as an emergent feature of a complex system: an
 
 ## The global syndemic project {.smaller}
 
-A simple model [@rand2007]. (in this case, a proof of concept).
+**A proof of concept** (*public health*) (*NetLogo/Scala-Java*)
 
-![](images/global-syndemic-figure-1.png){fig-align="center" style="padding-top: 25px;"}
+![](images/global-syndemic-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Vartanian, 2024, Unpublished)
+:::
 
 ## LogoClim {.smaller}
 
-A elaborated and realistic (ER) model [@rand2007].
+WorldClim 2.1 in NetLogo (*climate science*) (*NetLogo/Scala-Java*)
 
-WorldClim 2.1 in NetLogo (Vartanian, Magalhães, & Carvalho, 2024, Unpublished)
+![](images/global-syndemic-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
-![](images/global-syndemic-figure-2.png){fig-align="center" style="padding-top: 25px;"}
+::: footer
+(Vartanian et al., 2024, Unpublished)
+:::
 
 ## Political segregation {.smaller}
 
-How social groups influence political preferences and how these preferences can lead to segregation behaviors? (Vartanian, 2024, Unpublished).
+How social groups influence political preferences and how these preferences can lead to segregation behaviors? (*political science*) (*NetLogo/Scala-Java*)
 
-![](images/vartanian-2024-abm.png){fig-align="center" style="padding-top: 25px;"}
+![](images/vartanian-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
 
-## A new kind of ABM?
+::: footer
+(Vartanian, 2024, Unpublished)
+:::
 
-![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 0px;"}
+## ABM + AI: Agent hospital {.smaller}
+
+A simulacrum of hospital with evolvable medical agents
+
+![](images/li-2024-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@li2024a]
+:::
+
+## ABM + AI: Hide-and-seek {.smaller}
+
+Emergent tool use from multi-agent autocurricula
+
+![](images/baker-2020-video-1.gif){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@baker2020]
+:::
+
+## ABM + AI: Project Sid {.smaller}
+
+Simulation of 1000+ autonomous agents collaborating in a virtual world
+
+![](images/minecraft-figure-1.jpg){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@altera2024]
+:::
 
 
 # Final remarks
 
 ## Summary of key takeaways
 
-**Complex systems** are systems with many interconnected parts that exhibit emergent behavior.
+**Complex systems** are systems with many interconnected parts that exhibit emergent behavior
 
-**Agent-based models** are stochastic computational models with the purpose of simulating the behavior of agents and their interactions, allowing us to study emergent phenomena.
+**Agent-based models** are stochastic computational models with the purpose of simulating the behavior of agents and their interactions, allowing us to study emergent phenomena
 
-**ABMs** are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, epidemiology, archaeology, ecology, and many others.
+**ABMs** are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, epidemiology, archaeology, ecology, and many others
 
 ## How to learn more? {.smaller}
 
@@ -827,7 +959,7 @@ Here are some resources to help you get started:
 
 [Introdução à ciência da computação com python - Parte 2 (USP-IME)](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2s)
 
-[Data Science Specialization (Johns Hopkins)](https://www.coursera.org/specializations/jhu-data-science)
+[Data science specialization (Johns Hopkins)](https://www.coursera.org/specializations/jhu-data-science)
 
 ## How to learn more? {.smaller}
 
@@ -835,7 +967,7 @@ Here are some resources to help you get started:
 
 📝 **Articles**
 
-[Foundational papers in complexity science](https://www.foundationalpapersincomplexityscience.org/).
+[Foundational papers in complexity science](https://www.foundationalpapersincomplexityscience.org/)
 
 Epstein, J. M. (1999). Agent-based computational models and generative social science. *Complexity*, 4(5), 41–60. [https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F](https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5<41::AID-CPLX9>3.0.CO;2-F)
 
@@ -857,7 +989,7 @@ Mitchell, M. (2009). *Complexity: a guided tour*. Oxford University Press.
 
 Wilensky, U., & Rand, W. (2015). *An introduction to agent-based modeling: modeling natural, social, and engineered complex systems with NetLogo*. The MIT Press.
 
-Railsback, S. F., & Grimm, V. (2019). *Agent-based and individual-based modeling: A practical introduction* (2. ed.). Princeton University Press.
+Railsback, S. F., & Grimm, V. (2019). *Agent-based and individual-based modeling: a practical introduction* (2. ed.). Princeton University Press.
 
 Smaldino, P. E. (2023). *Modeling social behavior: mathematical and agent-based models of social dynamics and cultural evolution*. Princeton University Press.
 
@@ -916,12 +1048,12 @@ Presentation
 ## (AP) A unit of cultural transmission {visibility="uncounted"}
 
 :::: {.columns}
-::: {.column width="50%" style="font-size: 0.9em; padding-top: 25px;"}
+::: {.column width="50%" style="font-size: 0.9em"}
 The new soup is the soup of human culture. We need a name for the new replicator, **a noun that conveys the idea of a unit of cultural transmission**, or a unit of *imitation*. ‘Mimeme’ comes from a suitable Greek root, but I want a monosyllable that sounds a bit like ‘gene’. I hope my classicist friends will forgive me if I abbreviate *mimeme* to _**meme**_.
 :::
 
 ::: {.column width="50%"}
-![](images/meme-dawkins.jpg){fig-align="center" width=100% style="font-size: 1em; padding-top: 25px;"}
+![](images/meme-dawkins.jpg){fig-align="center" width=100% style="padding-top: 25px;"}
 :::
 ::::
 
@@ -934,76 +1066,6 @@ The new soup is the soup of human culture. We need a name for the new replicator
 Murphy's law: "Anything that can go wrong will go wrong" (epigram)
 
 ![](images/demo-fail.gif){fig-align="center" style="padding-top: 25px;"}
-
-## (AP) Nonrealistic models {.smaller visibility="uncounted"}
-
-![](images/oinonen-2021-figure-1.png){fig-align="center}
-
-::: footer
-(Artwork by [Virpi Oinonen](https://www.businessillustrator.com/complexity-and-policy-making-cartoon-summary-2/))
-:::
-
-## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.85em;"}
-*... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que __el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia__. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que __ese dilatado Mapa era Inútil__ y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
-
-*Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658*
-:::
-
-::: {.column width="50%"}
-![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
-:::
-::::
-
-::: footer
-[@borges1984]
-:::
-
-## (AP) On exactitude in science {.smaller visibility="uncounted"}
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.8em;"}
-... In that Empire, the Art of Cartography attained such Perfection that **the map of a single Province occupied the entirety of a City, and the map of the Empire, the entirety of a Province**. In time, those Unconscionable Maps no longer satisfied, and the Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Forebears had been, saw that **that vast Map was Useless**, and not without some Pitilessness was it, that they delivered it up to the Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are Tattered Ruins of that Map, inhabited by Animals and Beggars; in all the Land there is no other Relic of the Disciplines of Geography.
-
-Suarez Miranda, Viajes de varones prudentes, Libro N, Cap. XLV, Urida, 1658
-:::
-
-::: {.column width="50%"}
-![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
-:::
-::::
-
-::: footer
-[@borges1998]
-:::
-
-## (AP) A map on a scale of 1 to 1 {.smaller visibility="uncounted"}
-
-:::: {.columns}
-::: {.column width="50%" style="font-size: 0.8em;"}
-"What a useful thing a pocket-map is!" I remarked.
-
-"That's another thing we've learned from your Nation," said Mein Herr, "map-making. But we've carried it much further than you. What do you consider the largest map that would be really useful?"
-
-"About six inches to the mile."
-
-"Only six inches!" exclaimed Mein Herr. "We very soon got to six yards to the mile. Then we tried a hundred yards to the mile. And then came the grandest idea of all ! **We actually made a map of the country, on the scale of a mile to the mile!**"
-
-"Have you used it much?" I enquired.
-
-"It has never been spread out, yet," said Mein Herr: "the farmers objected: they said it would cover the whole country, and shut out the sunlight ! So **we now use the country itself, as its own map, and I assure you it does nearly as well**."
-:::
-
-::: {.column width="50%"}
-![](images/sylvie-and-bruno-figure-1.png){fig-align="center" width=100% style="padding-top: 50px;"}
-:::
-::::
-
-::: footer
-[@carroll1893]
-:::
 
 ## (AP) Complex _versus_ complicated {visibility="uncounted"}
 
@@ -1063,11 +1125,11 @@ Complexity is common at intermediate levels of these characteristics:
 
 ## (AP) Chaos {.smaller visibility="uncounted"}
 
-Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
+Seemingly random behavior can emerge from deterministic systems, with no external source of randomness
 
-The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions.
+The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions
 
-![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 25px; padding-bottom: 25px;"}
 
 ::: footer
 [@mitchell2009]
@@ -1081,7 +1143,7 @@ The behavior of some **simple**, **deterministic** systems **can be impossible, 
 
 Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
 
-![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 5px;"}
+![](images/mitchell-2009-figure-2-11.png){fig-align="center" width=75% style="padding-top: 25px; padding-bottom: 25px;"}
 
 ::: footer
 [@mitchell2009]
@@ -1089,6 +1151,108 @@ Although the detailed behavior of a chaotic system cannot be predicted, **there 
 
 ::: {.notes}
 See also: @muller2020 .
+:::
+
+## (AP) Power laws & Factor sparsity {.smaller visibility="uncounted"}
+
+Power laws ($y = ax^{-k}$)
+
+Pareto's/Zipf’s distributions
+
+~80/20 rule: **80% of the effects come from 20% of the causes**
+
+![](images/alcera-consulting-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Alcera Consulting](https://alcera.wpcomstaging.com/tag/8020/))
+:::
+
+## (AP) Pattern-oriented model design {.smaller visibility="uncounted"}
+
+![](images/grimm-2005-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@grimm2005a]
+:::
+
+## (AP) Nonrealistic models {.smaller visibility="uncounted"}
+
+![](images/oinonen-2021-figure-1.png){fig-align="center}
+
+::: footer
+(Artwork by [Virpi Oinonen](https://www.businessillustrator.com/complexity-and-policy-making-cartoon-summary-2/))
+:::
+
+## CityScope Champs-Élysées {.smaller}
+
+An interactive platform to improve decision-making related to the revitalization of the Champs Élysées (*urban planning*)
+
+![](images/cityscience-champs-elysees-figure-1.gif){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@cityscience]
+:::
+
+## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.85em;"}
+*... En aquel Imperio, el Arte de la Cartografía logró tal Perfección que __el mapa de una sola Provincia ocupaba toda una Ciudad, y el mapa del imperio, toda una Provincia__. Con el tiempo, esos Mapas Desmesurados no satisfacieron y los Colegios de Cartógrafos levantaron un Mapa del Imperio, que tenía el tamaño del Imperio y coincidía puntualmente con él. Menos Adictas al Estudio de la Cartografía, las Generaciones Siguientes entendieron que __ese dilatado Mapa era Inútil__ y no sin Impiedad lo entregaron a las Inclemencias del Sol y de los Inviernos. En los desiertos del Oeste perduran despedazadas Ruinas del Mapa, habitadas por Animales y por Mendigos; en todo el País no hay otra reliquia de las Disciplinas Geográficas.*
+
+*Suárez Miranda: Viajes de varones prudentes, libro cuarto, cap. XLV, Lérida, 1658*
+:::
+
+::: {.column width="50%"}
+![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+[@borges1984]
+:::
+
+## (AP) On exactitude in science {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.8em;"}
+... In that Empire, the Art of Cartography attained such Perfection that **the map of a single Province occupied the entirety of a City, and the map of the Empire, the entirety of a Province**. In time, those Unconscionable Maps no longer satisfied, and the Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Forebears had been, saw that **that vast Map was Useless**, and not without some Pitilessness was it, that they delivered it up to the Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are Tattered Ruins of that Map, inhabited by Animals and Beggars; in all the Land there is no other Relic of the Disciplines of Geography.
+
+Suarez Miranda, Viajes de varones prudentes, Libro N, Cap. XLV, Urida, 1658
+:::
+
+::: {.column width="50%"}
+![](images/jorge-luis-borges-figure-2.jpg){fig-align="center" width=100% style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+[@borges1998]
+:::
+
+## (AP) A map on a scale of 1 to 1 {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.8em;"}
+"What a useful thing a pocket-map is!" I remarked.
+
+"That's another thing we've learned from your Nation," said Mein Herr, "map-making. But we've carried it much further than you. What do you consider the largest map that would be really useful?"
+
+"About six inches to the mile."
+
+"Only six inches!" exclaimed Mein Herr. "We very soon got to six yards to the mile. Then we tried a hundred yards to the mile. And then came the grandest idea of all ! **We actually made a map of the country, on the scale of a mile to the mile!**"
+
+"Have you used it much?" I enquired.
+
+"It has never been spread out, yet," said Mein Herr: "the farmers objected: they said it would cover the whole country, and shut out the sunlight ! So **we now use the country itself, as its own map, and I assure you it does nearly as well**."
+:::
+
+::: {.column width="50%"}
+![](images/sylvie-and-bruno-figure-1.png){fig-align="center" width=100% style="padding-top: 60px;"}
+:::
+::::
+
+::: footer
+[@carroll1893]
 :::
 
 ## (AP) Laplace's demon {.smaller visibility="uncounted"}
@@ -1125,11 +1289,11 @@ We ought then to regard the present state of the universe as the effect of its a
 
 ## (AP) Human difficulties in understanding complex systems {visibility="uncounted"}
 
-"Primate brain": Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.
+**Primate brain**: Human beings have difficulty understanding complex systems because they are not designed to do so. Our brains evolved to deal with the immediate environment, not to understand the intricacies of the global economy or the climate system.
 
 Humans have difficult to simulate steps in their minds. We are not good at understanding exponential growth, for example.
 
-*Oracle of the Night*: Dreams as simulations? [@ribeiro2019]
+**Oracle of the Night**: Dreams as simulations? [@ribeiro2019]
 
 ## (AP) Reducionism *versus* compression {.smaller visibility="uncounted"}
 
@@ -1137,7 +1301,7 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
 :::
 
-![](images/krakauer-2023-figure-1.png){fig-align="center" width=100% style="padding-top: 20px; padding-bottom: 20px;"}
+![](images/krakauer-2023-figure-1.png){fig-align="center" width=100% style="padding-top: 25px; padding-bottom: 25px;"}
 
 ::: footer
 [@krakauer2023]
@@ -1157,22 +1321,6 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 
 ::: footer
 [@horgan1995, p. 106]
-:::
-
-## (AP) Power laws & Factor sparsity {.smaller visibility="uncounted"}
-
-Power laws ($y = ax^{-k}$)
-
-Pareto's/Zipf’s distributions
-
-~80/20 rule: **80% of the effects come from 20% of the causes**.
-
-<!-- For instance, the distributions of the sizes of cities, earthquakes, forest fires, solar flares, moon craters and people's personal fortunes all appear to follow power laws. [@newman2005] -->
-
-![](images/alcera-consulting-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-(Artwork by [Alcera Consulting](https://alcera.wpcomstaging.com/tag/8020/))
 :::
 
 ## (AP) Dialectical materialism's conjecture {visibility="uncounted"}
@@ -1224,9 +1372,9 @@ The 4 Fundamental Laws of Dialectical Materialism by Engels and Marx (in opposit
 
 :::: {.columns}
 ::: {.column width="50%"}
-No phenomenon in nature can be understood if considered in isolation, separate from surrounding phenomena.
+No phenomenon in nature can be understood if considered in isolation, separate from surrounding phenomena
 
-**The error [of Hegel]** lies in the fact that these laws, as laws of thought, are imposed on nature and history, rather than being deduced from them.
+**The error [of Hegel]** lies in the fact that these laws, as laws of thought, are imposed on nature and history, rather than being deduced from them
 
 **Dialectics as the science of interconnections** (sound familiar?)   
 :::
@@ -1254,7 +1402,7 @@ Dialectical materialism will consider that something can be both A and not-A at 
 
 :::: {.columns}
 ::: {.column width="50%"}
-I suggest that it is **the aim of science to find satisfactory explanations**, of whatever strikes us as being in need of explanation.
+I suggest that it is **the aim of science to find satisfactory explanations**, of whatever strikes us as being in need of explanation
 :::
 
 ::: {.column width="50%"}
@@ -1270,7 +1418,7 @@ I suggest that it is **the aim of science to find satisfactory explanations**, o
 
 Dialectics must be understood as an non-falsifiable conjecture. It should be an inspiration, **but never as something given**. Similar to the Free energy principle (FEP) proposed by Karl Friston [@friston2010].
 
-"The whole development of dialectic should be a warning against the dangers inherent in philosophical system-building. It should remind us that **philosophy must not be made a basis for any sort of scientific system** and that philosophers should be much more modest in their claims. One task which they can fulfill quite usefully is the study of the critical methods of science." [@popper2002]
+The whole development of dialectic should be a warning against the dangers inherent in philosophical system-building. It should remind us that **philosophy must not be made a basis for any sort of scientific system** and that philosophers should be much more modest in their claims. One task which they can fulfill quite usefully is the study of the critical methods of science [@popper2002].
 
 
 ## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
@@ -1281,9 +1429,9 @@ Popper interprets Marx as an economic determinist and historicist
 
 Popper views Marx’s predictions, based on dialectical materialism, as something exact, subject to testing and refutation. At the same time, he points out that some of Marx’s predictions did not hold up when tested against history.
 
-Although Popper praises Marx for his anti-dogmatic stance, he argues that criticisms of dialectical materialism were never tolerated by orthodox Marxists.
+Although Popper praises Marx for his anti-dogmatic stance, he argues that criticisms of dialectical materialism were never tolerated by orthodox Marxists
 
-Popper asserts that the dialectical method is dangerous because it can be used as a form of evasion, thus becoming a tool for reinforcing dogma.
+Popper asserts that the dialectical method is dangerous because it can be used as a form of evasion, thus becoming a tool for reinforcing dogma
 
 ## (AP) Popper *versus* Dialetical materialism {visibility="uncounted"}
 
@@ -1295,9 +1443,9 @@ Popper asserts that the dialectical method is dangerous because it can be used a
 
 ## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
 
-"Nevertheless I personally think that Marx’s economism — his emphasis on the economic background as the ultimate basis of any sort of development — is mistaken and in fact untenable." [@popper2002]
+Nevertheless I personally think that Marx’s economism — his emphasis on the economic background as the ultimate basis of any sort of development — is mistaken and in fact untenable [@popper2002]
 
-"According to the materialist conception of history, the ultimately determining element in history is the production and reproduction of real life. More than this neither Marx nor I have ever asserted. **Hence if somebody twists this into saying that the economic element is the only determining one, he transforms that proposition into a meaningless, abstract, senseless phrase**." [@engels1978a]
+According to the materialist conception of history, the ultimately determining element in history is the production and reproduction of real life. More than this neither Marx nor I have ever asserted. **Hence if somebody twists this into saying that the economic element is the only determining one, he transforms that proposition into a meaningless, abstract, senseless phrase** [@engels1978a].
 
 ## (AP) Popper *versus* Dialetical materialism {.smaller visibility="uncounted"}
 
@@ -1390,7 +1538,7 @@ may indeed be looked upon as improvements and rationalizations of the Hegelian d
 
 ## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 
-“*Notre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de **confirmer** ou d'infirmer une théorie. [...] la philosophie positive est le véritable **état définitif** de l'intelligence humaine [...]*” [@comte1892, pp. 9-10]
+*Notre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de **confirmer** ou d'infirmer une théorie. [...] la philosophie positive est le véritable **état définitif** de l'intelligence humaine [...]* [@comte1892, pp. 9-10].
 
 **Why post-positivist?**
 
@@ -1400,7 +1548,7 @@ may indeed be looked upon as improvements and rationalizations of the Hegelian d
 
 ## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 
-But I shall certainly admit a system as empirical or scientific only if it is capable of being tested by experience. These considerations suggest that **not the _verifiability_ but the _falsifiability_ of a system is to be taken as a criterion of demarcation**. In other words: I shall not require of a scientific system that it shall be capable of being singled out, once and for all, in a positive sense; but I shall require that its logical form shall be such that it can be singled out, by means of empirical tests, in a negative sense: *it must be possible for an empirical scientific system to be refuted by experience*.
+But I shall certainly admit a system as empirical or scientific only if it is capable of being tested by experience. These considerations suggest that **not the _verifiability_ but the _falsifiability_ of a system is to be taken as a criterion of demarcation**. In other words: I shall not require of a scientific system that it shall be capable of being singled out, once and for all, in a positive sense; but I shall require that its logical form shall be such that it can be singled out, by means of empirical tests, in a negative sense: **it must be possible for an empirical scientific system to be refuted by experience**.
 
 ::: footer
 [@popper2005a]
@@ -1418,8 +1566,8 @@ Everybody knows nowadays that **logical positivism is dead**. But nobody seems t
 
 :::: {.columns}
 ::: {.column width="50%"}
-(@) It is easy to obtain confirmations, or verifications, for nearly every theory —if we look for confirmations.
-(@) Confirmations should count only if they are the result of *risky predictions*; that is to say, if, unenlightened by the theory in question, we should have expected an event which was incompatible with the theory—an event which would have refuted the theory.
+(@) It is easy to obtain confirmations, or verifications, for nearly every theory —if we look for confirmations
+(@) Confirmations should count only if they are the result of *risky predictions*; that is to say, if, unenlightened by the theory in question, we should have expected an event which was incompatible with the theory—an event which would have refuted the theory
 :::
 
 ::: {.column width="50%"}
@@ -1455,7 +1603,7 @@ Irrefutability is not a virtue of a theory (as people often think) but a vice.
 ::: {.column width="50%"}
 (@) Every genuine *test* of a theory is an attempt to falsify it, or to refute it.
 Testability is falsifiability; but there are degrees of testability: some theories are more testable, more exposed to refutation, than others; they take, as it were, greater risks.
-(@) Confirming evidence should not count *except when it is the result of a genuine test of the theory*; and this means that it can be presented as a serious but unsuccessful attempt to falsify the theory. (I now speak in such cases of ‘corroborating evidence’).    
+(@) Confirming evidence should not count *except when it is the result of a genuine test of the theory*; and this means that it can be presented as a serious but unsuccessful attempt to falsify the theory. (I now speak in such cases of ‘corroborating evidence’) 
 :::
 
 ::: {.column width="50%"}
@@ -1488,7 +1636,7 @@ a ‘*conventionalist stratagem*’).
 
 :::: {.columns}
 ::: {.column width="50%"}
-One can sum up all this by saying that **_the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability_**.
+One can sum up all this by saying that **_the criterion of the scientific status of a theory is its falsifiability, or refutability, or testability_**
 :::
 
 ::: {.column width="50%"}
