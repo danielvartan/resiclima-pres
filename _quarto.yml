@@ -58,6 +58,10 @@ format:
     pdf-max-pages-per-slide: 1
     template-partials:
       - html/title-slide.html
+    menu:
+      titleSelector: [h1 h2]
+      useTextContentForMissingTitles: false
+      hideMissingTitles: true
 
 google-scholar: false
 bibliography: references.bib
