@@ -175,11 +175,11 @@
     "text": "Tools for conceptual modelling"
   },
   {
-    "objectID": "index.html#key-components-of-agent-based-models",
-    "href": "index.html#key-components-of-agent-based-models",
+    "objectID": "index.html#key-components-of-abms",
+    "href": "index.html#key-components-of-abms",
     "title": "Exploring complexity with agent-based models",
-    "section": "Key components of agent-based models",
-    "text": "Key components of agent-based models\n\n\nAgents\nEnvironment\nInteraction\n\n️🟥"
+    "section": "Key components of ABMs",
+    "text": "Key components of ABMs\n\n\nAgents\nEnvironment\nInteraction\n\n️🟥"
   },
   {
     "objectID": "index.html#analyzing-agent-based-models",
@@ -490,11 +490,11 @@
     "text": "(AP) Reductionism\n\n\n(Moore, 1986, p. 22)"
   },
   {
-    "objectID": "index.html#ap-reducionism-versus-compression",
-    "href": "index.html#ap-reducionism-versus-compression",
+    "objectID": "index.html#ap-reductionism-versus-compression",
+    "href": "index.html#ap-reductionism-versus-compression",
     "title": "Exploring complexity with agent-based models",
-    "section": "(AP) Reducionism versus Compression",
-    "text": "(AP) Reducionism versus Compression\n\nWe’re not looking down levels to explain the level of interest. And that’s one of it’s defining features that will come back to at some point when we talk about emergence.\n\n\n\n(Krakauer, 2023)"
+    "section": "(AP) Reductionism versus Compression",
+    "text": "(AP) Reductionism versus Compression\n\nWe’re not looking down levels to explain the level of interest. And that’s one of it’s defining features that will come back to at some point when we talk about emergence.\n\n\n\n(Krakauer, 2023)"
   },
   {
     "objectID": "index.html#ap-quem-te-viu-quem-te-vê",
@@ -739,7 +739,7 @@
     "href": "index.html#ap-popper-against-positivism-or-the-problem-of-induction-2",
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) Popper against positivism (or the problem of induction)",
-    "text": "(AP) Popper against positivism (or the problem of induction)\nEverybody knows nowadays that logical positivism is dead. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) I fear that I must admit responsibility.\n\n(K. Popper, 2005)"
+    "text": "(AP) Popper against positivism (or the problem of induction)\n\n\nEverybody knows nowadays that logical positivism is dead. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) I fear that I must admit responsibility.\n\n\n\n\n\n\n\n(K. Popper, 2005)"
   },
   {
     "objectID": "index.html#ap-the-7-conclusions-of-popper-on-science",

@@ -157,7 +157,7 @@ It is not **self-organized**.
 :::
 
 ::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 65%; padding-top: 75px;"}
+![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 75px;"}
 :::
 ::::
 
@@ -557,7 +557,7 @@ A good model is simple, valid, and robust [@sayama2015].
 ::: {.notes}
 :::
 
-## Key components of agent-based models
+## Key components of ABMs
 
 :::: {.columns}
 ::: {.column style="width: 50%; padding-top: 0px;"}
@@ -1355,7 +1355,7 @@ Is love just a chemical?
 ::: {.notes}
 :::
 
-## (AP) Reducionism *versus* Compression {.smaller visibility="uncounted"}
+## (AP) Reductionism *versus* Compression {.smaller visibility="uncounted"}
 
 ::: {style="font-size: 0.9em;"}
 **We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
@@ -1925,9 +1925,17 @@ But I shall certainly admit a system as empirical or scientific only if it is ca
 ::: {.notes}
 :::
 
-## (AP) Popper against positivism (or the problem of induction) {visibility="uncounted"}
+## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
 Everybody knows nowadays that **logical positivism is dead**. But nobody seems to suspect that there may be a question to be asked here — the question “Who is responsible?” or, rather, the question “Who has done it?”. (Passmore’s excellent historical article does not raise this question.) **I fear that I must admit responsibility**.
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/karl-popper-figure-8.jpg){fig-align="center" style="width: 90%; padding-top: 0px;"}
+:::
+::::
 
 ::: footer
 [@popper2005]

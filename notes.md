@@ -102,7 +102,7 @@ ABMs can also be implemented in continuous time, but most are designed as discre
 
 ## Tools for conceptual modelling [line 539]
 
-## Key components of agent-based models [line 560]
+## Key components of ABMs [line 560]
 
 ## Analyzing agent-based models [line 583]
 
@@ -221,7 +221,7 @@ Fig. 8. Structural levels in the organization of the nervous system, a reflectio
 
 ## (AP) Reductionism [line 1347]
 
-## (AP) Reducionism *versus* Compression [line 1358]
+## (AP) Reductionism *versus* Compression [line 1358]
 
 ## (AP) *Quem te viu, quem te vê* [line 1373]
 
@@ -307,12 +307,12 @@ We call this the ‘Medawar zone’ because Medawar described a similar relation
 
 ## (AP) Popper against positivism (or the problem of induction) [line 1928]
 
-## (AP) The 7 conclusions of Popper on science [line 1939]
+## (AP) The 7 conclusions of Popper on science [line 1947]
 
-## (AP) The 7 conclusions of Popper on science [line 1959]
+## (AP) The 7 conclusions of Popper on science [line 1967]
 
-## (AP) The 7 conclusions of Popper on science [line 1980]
+## (AP) The 7 conclusions of Popper on science [line 1988]
 
-## (AP) The 7 conclusions of Popper on science [line 2001]
+## (AP) The 7 conclusions of Popper on science [line 2009]
 
-## (AP) The 7 conclusions of Popper on science [line 2021]
+## (AP) The 7 conclusions of Popper on science [line 2029]
