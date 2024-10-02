@@ -8,6 +8,7 @@ project:
   type: website
   output-dir: docs
   render: [index.qmd]
+  post-render: "R/_post-render.R"
 
 title: "Exploring complexity with agent-based models"
 author: "Daniel Vartanian"
@@ -61,7 +62,7 @@ format:
     menu:
       titleSelector: [h1 h2]
       useTextContentForMissingTitles: false
-      hideMissingTitles: true
+      hideMissingTitles: false
 
 google-scholar: false
 bibliography: references.bib

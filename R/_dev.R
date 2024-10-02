@@ -34,3 +34,9 @@
 #
 # quarto render
 # quarto render index.qmd --to pdf
+
+## Copy notes to clipboard -----
+
+# here::here("notes.md") |>
+#   readr::read_lines() |>
+#   utils::writeClipboard()
