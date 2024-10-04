@@ -323,6 +323,7 @@ A word about emergence [@holland2012, Topic 5.5].
 :::
 
 ::: {.notes}
+Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).
 :::
 
 ## Leverage points {.smaller}
@@ -406,7 +407,7 @@ Complexity science seeks to **explain emergent phenomena** or mechanisms that �
 
 There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:
 
-(*See the appendix section for more information on these concepts*)
+(*See the appendices section for more information on these concepts*)
 
 :::: {.columns}
 ::: {.column style="width: 50%; padding-top: 0px;"}
@@ -673,8 +674,6 @@ $$
 $$
 
 <br>
-
-**Life is not deterministic**.
 
 Global (Top-Down) approach.
 
@@ -1357,9 +1356,7 @@ Is love just a chemical?
 
 ## (AP) Reductionism *versus* Compression {.smaller visibility="uncounted"}
 
-::: {style="font-size: 0.9em;"}
-**We're not looking down levels to explain the level of interest**. And that's one of it's defining features that will come back to at some point when we talk about emergence.
-:::
+**We're not looking down levels to explain the level of interest**.
 
 ![](images/krakauer-2023-figure-1.png){fig-align="center" style="width: 100%; padding-top: 25px; padding-bottom: 35px;"}
 
@@ -1875,6 +1872,15 @@ flowchart LR
 Here $\text{P}_1$, is the **problem** from which we start, $\text{TT}$ (the ‘tentative theory’) is the imaginative conjectural solution which we first reach, for example our first **tentative interpretation**. $\text{EE}$ (‘**error- elimination**’) consists of a severe critical examination of our conjecture, our tentative interpretation: it consists, for example, of the critical use of documentary evidence and, if we have at this early stage more than one conjecture at our disposal, it will also consist of a critical discussion and comparative evaluation of the competing conjectures. $\text{P}_2$ is the problem situation as it emerges from our first critical attempt to solve our problems.
 It leads up to our second attempt (**and so on**).
 
+```{mermaid}
+%%| fig-width: 6.5
+
+flowchart LR
+  A(P1) --> B(TT)
+  B --> C(EE)
+  C --> D(P2)
+```
+
 ::: footer
 [@popper1979, p. 164]
 :::
@@ -1906,13 +1912,13 @@ may indeed be looked upon as improvements and rationalizations of the Hegelian d
 
 ## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 
-*Notre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de **confirmer** ou d'infirmer une théorie. [...] la philosophie positive est le véritable **état définitif** de l'intelligence humaine [...]* [@comte1892, pp. 9-10].
+*Notre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple **désir de confirmer** ou d'infirmer une théorie. [...] la philosophie positive est le véritable **état définitif** de l'intelligence humaine [...]* [@comte1892, pp. 9-10].
 
 **Why post-positivist?**
 
-- Anti-positivist (positive: “imposed on the mind by experience”)
 - Anti-inductivist (deduction, satisfactory answers)
 - Anti-verificationist (falsifiability as demarcation criterion)
+- Anti-historicist (rebuttable presumptions)
 
 ## (AP) Popper against positivism (or the problem of induction) {.smaller visibility="uncounted"}
 

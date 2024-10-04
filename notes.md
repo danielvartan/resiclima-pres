@@ -62,11 +62,13 @@ Microscopic patterns that accumulate over time, similarly to evolutionary patter
 
 ## Emergence [line 305]
 
-## Leverage points [line 328]
+Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).
 
-## {data-menu-title="NetLogo Web: Fire model" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true} [line 346]
+## Leverage points [line 329]
 
-## Generative science [line 351]
+## {data-menu-title="NetLogo Web: Fire model" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true} [line 347]
+
+## Generative science [line 352]
 
 Like **deduction**, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively.
 
@@ -74,104 +76,104 @@ Unlike typical **induction**, however, the simulated data comes from a rigorousl
 
 While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**.
 
-## Complexity science(s?) [line 385]
+## Complexity science(s?) [line 386]
 
 "Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015].
 
-## Other concepts [line 405]
+## Other concepts [line 406]
 
-# Entering the world of agent-based models [line 438]
+# Entering the world of agent-based models [line 439]
 
 The main objective of this section is to introduce the concept of agent-based models (ABMs) and other important concepts related to modeling in general.
 
-## Agent-based models [line 444]
+## Agent-based models [line 445]
 
-## Types of models [line 471]
+## Types of models [line 472]
 
 ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.
 
 **Agent-Based Models** (Social Science) *versus* **Individual-Based Models** (IBMs) (Ecology) *versus* **Multi-Agent Systems** (MAS) (Engineering) *==* **Computer-Based Models**.
 
-## What is a model? [line 485]
+## What is a model? [line 486]
 
-## The modeling cycle [line 510]
+## The modeling cycle [line 511]
 
-## Nonrealistic models [line 521]
+## Nonrealistic models [line 522]
 
-## Conceptual models [line 528]
+## Conceptual models [line 529]
 
-## Tools for conceptual modelling [line 539]
+## Tools for conceptual modelling [line 540]
 
-## Key components of ABMs [line 560]
+## Key components of ABMs [line 561]
 
-## Analyzing agent-based models [line 583]
+## Analyzing agent-based models [line 584]
 
 Joke: You can always use other tools, but know that I will judge you for that.
 
-## Verification and validation [line 605]
+## Verification and validation [line 606]
 
-## Why use ABM? [line 637]
+## Why use ABM? [line 638]
 
 By my own experience. Use of ABM in the classroom (Camilo, 2012).
 
 You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.
 
-## A picture is worth a thousand words [line 663]
+## A picture is worth a thousand words [line 664]
 
-## When to use ABMs? [line 696]
+## When to use ABMs? [line 695]
 
-## ABM Frameworks [line 719]
+## ABM Frameworks [line 718]
 
-## NetLogo [line 746]
+## NetLogo [line 745]
 
 - Logo (Seymour Papert: 1967
 - NetLogo (Uri Wilensky): 1999) (Rand, Unit 8).
 
-# Real-world applications [line 772]
+# Real-world applications [line 771]
 
-## Historical ecology [line 774]
+## Historical ecology [line 773]
 
-## Public health [line 787]
+## Public health [line 786]
 
-## Biophysics [line 800]
+## Biophysics [line 799]
 
-## Systems biology [line 813]
+## Systems biology [line 812]
 
-## Urban planning [line 826]
+## Urban planning [line 825]
 
-## Epidemiology [line 839]
+## Epidemiology [line 838]
 
-## Climatology [line 852]
+## Climatology [line 851]
 
-## Social psychology [line 865]
+## Social psychology [line 864]
 
-## ABM + AI: Agent hospital [line 878]
+## ABM + AI: Agent hospital [line 877]
 
-# Final remarks [line 892]
+# Final remarks [line 891]
 
-## Summary of key takeaways [line 894]
+## Summary of key takeaways [line 893]
 
-## How to learn more? [line 905]
+## How to learn more? [line 904]
 
-## How to learn more? [line 924]
+## How to learn more? [line 923]
 
-## How to learn more? [line 941]
+## How to learn more? [line 940]
 
-## Closing Remarks [line 962]
+## Closing Remarks [line 961]
 
-## References [line 982]
+## References [line 981]
 
-## Thank you! [line 994]
+## Thank you! [line 993]
 
-## {data-menu-title="QR codes" .nostretch} [line 1005]
+## {data-menu-title="QR codes" .nostretch} [line 1004]
 
-# Appendices [line 1024]
+# Appendices [line 1023]
 
-## (AP) A unit of cultural transmission [line 1026]
+## (AP) A unit of cultural transmission [line 1025]
 
-## (AP) Warning [line 1045]
+## (AP) Warning [line 1044]
 
-## (AP) Complex *versus* Complicated [line 1054]
+## (AP) Complex *versus* Complicated [line 1053]
 
 If someone designed this here, they weren't doing well. This system wasn't designed by a watchmaker, but by evolution.
 
@@ -179,75 +181,75 @@ This is the result of a juggling act of billions of years of evolution. There ar
 
 You would hate have this clock. You would be late for everything. Its always changing. That's because it's not a clock, it's a timing system.
 
-## (AP) Complex structures [line 1072]
+## (AP) Complex structures [line 1071]
 
-## (AP) Complex *versus* Complicated [line 1098]
+## (AP) Complex *versus* Complicated [line 1097]
 
-## (AP) What is a complex system? [line 1109]
+## (AP) What is a complex system? [line 1108]
 
-## (AP) The 7 basics [line 1120]
+## (AP) The 7 basics [line 1119]
 
-## (AP) Human difficulties in understanding complex systems [line 1151]
+## (AP) Human difficulties in understanding complex systems [line 1150]
 
-## (AP) Chaos [line 1162]
+## (AP) Chaos [line 1161]
 
 Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R [@mitchell2009].
 
-## (AP) Chaos [line 1178]
+## (AP) Chaos [line 1177]
 
 See also: @muller2020 .
 
-## (AP) Isn't that psychohistory? [line 1192]
+## (AP) Isn't that psychohistory? [line 1191]
 
-## (AP) Power laws & Factor sparsity [line 1199]
+## (AP) Power laws & Factor sparsity [line 1198]
 
-## (AP) Power laws & Factor sparsity [line 1228]
+## (AP) Power laws & Factor sparsity [line 1227]
 
-## (AP) Feedback loops [line 1245]
+## (AP) Feedback loops [line 1244]
 
 As commonly used, the term "feedback" denotes that an action or activity initiated by someone or something sets in motion activities or responses by others which then affect the original source of the activity [@puccia1985].
 
-## (AP) Robustness [line 1265]
+## (AP) Robustness [line 1264]
 
-## (AP) Equilibrium states [line 1284]
+## (AP) Equilibrium states [line 1283]
 
-## (AP) Structural levels [line 1297]
+## (AP) Structural levels [line 1296]
 
 Fig. 8. Structural levels in the organization of the nervous system, a reflection of the hierarchical systems that may underlie the generation of higher cognitive functions, including consciousness. Courtesy of Patricia Churchland and Terrence Sejnowski.
 
-## (AP) How can something be more than the sum of its parts? [line 1309]
+## (AP) How can something be more than the sum of its parts? [line 1308]
 
-## (AP) Emergence [line 1336]
+## (AP) Emergence [line 1335]
 
-## (AP) Reductionism [line 1347]
+## (AP) Reductionism [line 1346]
 
-## (AP) Reductionism *versus* Compression [line 1358]
+## (AP) Reductionism *versus* Compression [line 1357]
 
-## (AP) *Quem te viu, quem te vê* [line 1373]
+## (AP) *Quem te viu, quem te vê* [line 1370]
 
-## (AP) Map of the complexity sciences [line 1392]
+## (AP) Map of the complexity sciences [line 1389]
 
-## {visibility="uncounted" data-menu-title="NetLogo Web: Climate change" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true} [line 1405]
+## {visibility="uncounted" data-menu-title="NetLogo Web: Climate change" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true} [line 1402]
 
-## (AP) Del rigor en la ciencia [line 1410]
+## (AP) Del rigor en la ciencia [line 1407]
 
-## (AP) On exactitude in science [line 1431]
+## (AP) On exactitude in science [line 1428]
 
-## (AP) A map on a scale of 1 to 1 [line 1452]
+## (AP) A map on a scale of 1 to 1 [line 1449]
 
-## (AP) Laplace's demon [line 1481]
+## (AP) Laplace's demon [line 1478]
 
-## (AP) Laplace's demon [line 1500]
+## (AP) Laplace's demon [line 1497]
 
-## (AP) Nonrealistic models [line 1519]
+## (AP) Nonrealistic models [line 1516]
 
-## {visibility="uncounted" data-menu-title="(AP) Tyson's tweet" .center-x} [line 1530]
+## {visibility="uncounted" data-menu-title="(AP) Tyson's tweet" .center-x} [line 1527]
 
 The universe is under no obligation to make sense to you [@tyson2021].
 
-## (AP) Pattern-oriented model design [line 1542]
+## (AP) Pattern-oriented model design [line 1539]
 
-## (AP) Abstract *versus* Empirical models [line 1553]
+## (AP) Abstract *versus* Empirical models [line 1550]
 
 *Simple* [@sun2016; @rand2007] or *abstract* [@sun2016] models *versus* *photograph* [@parker2003], *empirical*, *complicated* [@sun2016], *elaborated and realistic (ER)* [@rand2007] models.
 
@@ -255,64 +257,64 @@ Simple model example: Schelling's segregation model [@schelling1971].
 
 We call this the ‘Medawar zone’ because Medawar described a similar relation between the difficulty of a scientific problem and its payoff [@grimm2005a].
 
-## (AP) Geography [line 1581]
+## (AP) Geography [line 1578]
 
-## (AP) Fishery [line 1594]
+## (AP) Fishery [line 1591]
 
-## (AP) Urban planning [line 1607]
+## (AP) Urban planning [line 1604]
 
-## {visibility="uncounted" data-menu-title="Epidemiology: Imperial College" background-image="images/imperial-college-covid-sim.png" background-position="top left" background-size="100%" .scrollable} [line 1620]
+## {visibility="uncounted" data-menu-title="Epidemiology: Imperial College" background-image="images/imperial-college-covid-sim.png" background-position="top left" background-size="100%" .scrollable} [line 1617]
 
-## {visibility="uncounted" data-menu-title="Climatology: CMIP" background-image="images/cmip-webpage.png" background-position="top left" background-size="100%" .scrollable} [line 1622]
+## {visibility="uncounted" data-menu-title="Climatology: CMIP" background-image="images/cmip-webpage.png" background-position="top left" background-size="100%" .scrollable} [line 1619]
 
-## (AP) ABM + AI: Hide-and-seek [line 1624]
+## (AP) ABM + AI: Hide-and-seek [line 1621]
 
-## (AP) ABM + AI: Project Sid [line 1637]
+## (AP) ABM + AI: Project Sid [line 1634]
 
-## (AP) Dialectical materialism's conjecture [line 1650]
+## (AP) Dialectical materialism's conjecture [line 1647]
 
-## (AP) Dialectical materialism's conjecture [line 1658]
+## (AP) Dialectical materialism's conjecture [line 1655]
 
-## (AP) Dialectical materialism's conjecture [line 1677]
+## (AP) Dialectical materialism's conjecture [line 1674]
 
-## (AP) Dialectical materialism's conjecture [line 1701]
+## (AP) Dialectical materialism's conjecture [line 1698]
 
-## (AP) Dialetics and the law of excluded middle [line 1730]
+## (AP) Dialetics and the law of excluded middle [line 1727]
 
-## (AP) Popper's vision of science [line 1737]
+## (AP) Popper's vision of science [line 1734]
 
-## (AP) Dialetics: a non-falsiable conjecture [line 1756]
+## (AP) Dialetics: a non-falsiable conjecture [line 1753]
 
-## (AP) Popper *versus* Dialetical materialism [line 1765]
+## (AP) Popper *versus* Dialetical materialism [line 1762]
 
-## (AP) Popper *versus* Dialetical materialism [line 1780]
+## (AP) Popper *versus* Dialetical materialism [line 1777]
 
-## (AP) Popper *versus* Dialetical materialism [line 1791]
+## (AP) Popper *versus* Dialetical materialism [line 1788]
 
-## (AP) Popper *versus* Dialetical materialism [line 1800]
+## (AP) Popper *versus* Dialetical materialism [line 1797]
 
-## (AP) Popper *versus* Dialetical materialism [line 1814]
+## (AP) Popper *versus* Dialetical materialism [line 1811]
 
-## (AP) Popper *versus* Dialetical materialism [line 1827]
+## (AP) Popper *versus* Dialetical materialism [line 1824]
 
-## (AP) Popper's hypothetico-deductive method [line 1838]
+## (AP) Popper's hypothetico-deductive method [line 1835]
 
-## (AP) Popper's hypothetico-deductive method [line 1873]
+## (AP) Popper's hypothetico-deductive method [line 1870]
 
-## (AP) Popper's hypothetico-deductive method [line 1885]
+## (AP) Popper's hypothetico-deductive method [line 1891]
 
-## (AP) Popper against positivism (or the problem of induction) [line 1907]
+## (AP) Popper against positivism (or the problem of induction) [line 1913]
 
-## (AP) Popper against positivism (or the problem of induction) [line 1917]
+## (AP) Popper against positivism (or the problem of induction) [line 1923]
 
-## (AP) Popper against positivism (or the problem of induction) [line 1928]
+## (AP) Popper against positivism (or the problem of induction) [line 1934]
 
-## (AP) The 7 conclusions of Popper on science [line 1947]
+## (AP) The 7 conclusions of Popper on science [line 1953]
 
-## (AP) The 7 conclusions of Popper on science [line 1967]
+## (AP) The 7 conclusions of Popper on science [line 1973]
 
-## (AP) The 7 conclusions of Popper on science [line 1988]
+## (AP) The 7 conclusions of Popper on science [line 1994]
 
-## (AP) The 7 conclusions of Popper on science [line 2009]
+## (AP) The 7 conclusions of Popper on science [line 2015]
 
-## (AP) The 7 conclusions of Popper on science [line 2029]
+## (AP) The 7 conclusions of Popper on science [line 2035]

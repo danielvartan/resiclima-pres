@@ -95,7 +95,7 @@
     "href": "index.html#emergence-1",
     "title": "Exploring complexity with agent-based models",
     "section": "Emergence",
-    "text": "Emergence\nIn complex adaptive systems, emergent properties often occur when coevolving signals and boundaries generate new levels of organization.\nA word about emergence (Holland, 2012, Topic 5.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Holland, 2012)"
+    "text": "Emergence\nIn complex adaptive systems, emergent properties often occur when coevolving signals and boundaries generate new levels of organization.\nA word about emergence (Holland, 2012, Topic 5.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Holland, 2012)\n\nEmergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human)."
   },
   {
     "objectID": "index.html#leverage-points",
@@ -123,7 +123,7 @@
     "href": "index.html#other-concepts",
     "title": "Exploring complexity with agent-based models",
     "section": "Other concepts",
-    "text": "Other concepts\nThere are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:\n(See the appendix section for more information on these concepts)\n\n\n\nPower laws & Factor sparsity\nFeedback loops\nRobustness\nEquilibrium states\nAdaptation\nSelf-organization\nPath dependence\n\n\n\nCriticality\nScaling invariance\nNonlinear dynamics\nPhase transitions\nAttractors\nFractal dimensions\nNetwork dynamics"
+    "text": "Other concepts\nThere are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:\n(See the appendices section for more information on these concepts)\n\n\n\nPower laws & Factor sparsity\nFeedback loops\nRobustness\nEquilibrium states\nAdaptation\nSelf-organization\nPath dependence\n\n\n\nCriticality\nScaling invariance\nNonlinear dynamics\nPhase transitions\nAttractors\nFractal dimensions\nNetwork dynamics"
   },
   {
     "objectID": "index.html#agent-based-models",
@@ -207,7 +207,7 @@
     "href": "index.html#a-picture-is-worth-a-thousand-words",
     "title": "Exploring complexity with agent-based models",
     "section": "A picture is worth a thousand words",
-    "text": "A picture is worth a thousand words\n\n\n\\[\n\\begin{cases}\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{S} = - \\lambda \\text{S} \\text{I} \\\\\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{I} = \\lambda \\text{S} \\text{I} - \\gamma \\text{I} \\\\\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{R} = \\gamma \\text{I} \\\\\n\\end{cases}\n\\]\n\nLife is not deterministic.\nGlobal (Top-Down) approach.\nLocal (Bottom-Up) approach.\n\n\n\n\n\n\n\n(Kermack & McKendrick, 1927)"
+    "text": "A picture is worth a thousand words\n\n\n\\[\n\\begin{cases}\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{S} = - \\lambda \\text{S} \\text{I} \\\\\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{I} = \\lambda \\text{S} \\text{I} - \\gamma \\text{I} \\\\\n\\cfrac{\\mathrm{d}}{\\mathrm{d} t} \\text{R} = \\gamma \\text{I} \\\\\n\\end{cases}\n\\]\n\nGlobal (Top-Down) approach.\nLocal (Bottom-Up) approach.\n\n\n\n\n\n\n\n(Kermack & McKendrick, 1927)"
   },
   {
     "objectID": "index.html#when-to-use-abms",
@@ -494,7 +494,7 @@
     "href": "index.html#ap-reductionism-versus-compression",
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) Reductionism versus Compression",
-    "text": "(AP) Reductionism versus Compression\n\nWe’re not looking down levels to explain the level of interest. And that’s one of it’s defining features that will come back to at some point when we talk about emergence.\n\n\n\n(Krakauer, 2023)"
+    "text": "(AP) Reductionism versus Compression\nWe’re not looking down levels to explain the level of interest.\n\n\n(Krakauer, 2023)"
   },
   {
     "objectID": "index.html#ap-quem-te-viu-quem-te-vê",
@@ -711,7 +711,7 @@
     "href": "index.html#ap-poppers-hypothetico-deductive-method-1",
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) Popper’s hypothetico-deductive method",
-    "text": "(AP) Popper’s hypothetico-deductive method\nHere \\(\\text{P}_1\\), is the problem from which we start, \\(\\text{TT}\\) (the ‘tentative theory’) is the imaginative conjectural solution which we first reach, for example our first tentative interpretation. \\(\\text{EE}\\) (‘error- elimination’) consists of a severe critical examination of our conjecture, our tentative interpretation: it consists, for example, of the critical use of documentary evidence and, if we have at this early stage more than one conjecture at our disposal, it will also consist of a critical discussion and comparative evaluation of the competing conjectures. \\(\\text{P}_2\\) is the problem situation as it emerges from our first critical attempt to solve our problems. It leads up to our second attempt (and so on).\n\n(K. R. Popper, 1979, p. 164)"
+    "text": "(AP) Popper’s hypothetico-deductive method\nHere \\(\\text{P}_1\\), is the problem from which we start, \\(\\text{TT}\\) (the ‘tentative theory’) is the imaginative conjectural solution which we first reach, for example our first tentative interpretation. \\(\\text{EE}\\) (‘error- elimination’) consists of a severe critical examination of our conjecture, our tentative interpretation: it consists, for example, of the critical use of documentary evidence and, if we have at this early stage more than one conjecture at our disposal, it will also consist of a critical discussion and comparative evaluation of the competing conjectures. \\(\\text{P}_2\\) is the problem situation as it emerges from our first critical attempt to solve our problems. It leads up to our second attempt (and so on).\n\n\n\n\n\nflowchart LR\n  A(P1) --&gt; B(TT)\n  B --&gt; C(EE)\n  C --&gt; D(P2)\n\n\n\n\n\n\n\n(K. R. Popper, 1979, p. 164)"
   },
   {
     "objectID": "index.html#ap-poppers-hypothetico-deductive-method-2",
@@ -725,7 +725,7 @@
     "href": "index.html#ap-popper-against-positivism-or-the-problem-of-induction",
     "title": "Exploring complexity with agent-based models",
     "section": "(AP) Popper against positivism (or the problem of induction)",
-    "text": "(AP) Popper against positivism (or the problem of induction)\nNotre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de confirmer ou d’infirmer une théorie. […] la philosophie positive est le véritable état définitif de l’intelligence humaine […] (Comte, 1892, pp. 9–10).\nWhy post-positivist?\n\nAnti-positivist (positive: “imposed on the mind by experience”)\nAnti-inductivist (deduction, satisfactory answers)\nAnti-verificationist (falsifiability as demarcation criterion)"
+    "text": "(AP) Popper against positivism (or the problem of induction)\nNotre activité intellectuelle est suffisamment excitée par le pur espoir de découvrir les lois des phénomènes, par le simple désir de confirmer ou d’infirmer une théorie. […] la philosophie positive est le véritable état définitif de l’intelligence humaine […] (Comte, 1892, pp. 9–10).\nWhy post-positivist?\n\nAnti-inductivist (deduction, satisfactory answers)\nAnti-verificationist (falsifiability as demarcation criterion)\nAnti-historicist (rebuttable presumptions)"
   },
   {
     "objectID": "index.html#ap-popper-against-positivism-or-the-problem-of-induction-1",
