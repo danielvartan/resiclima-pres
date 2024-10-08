@@ -379,7 +379,18 @@
 </figure>
 </div>
 </div></div>
-<aside class="notes"><style type="text/css">
+<aside class="notes"><ol type="1">
+<li>
+<strong>Introduction</strong> [2.5m]</li>
+<li>
+<strong>Key concepts of complex systems</strong> [15m]</li>
+<li>
+<strong>Entering the world of agent-based models</strong> [10m]</li>
+<li>
+<strong>Real-world applications</strong> [5m]</li>
+<li>
+<strong>Final remarks</strong> [2.5m]</li>
+</ol><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -395,12 +406,12 @@
 <div class="columns">
 <div class="column" style="width: 50%; padding-top: 0px;">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/biological-clock.png" class="quarto-figure quarto-figure-center" style="width: 77.5%; padding-top: 75px;"></p>
+<figure><p><img data-src="images/biological-clock.png" class="quarto-figure quarto-figure-center" style="width: 77.5%; padding-top: 60px;"></p>
 </figure>
 </div>
 </div><div class="column" style="width: 50%; padding-top: 0px;">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/mechanical-clock-figure-2.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 75px;"></p>
+<figure><p><img data-src="images/mechanical-clock-figure-2.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 60px;"></p>
 </figure>
 </div>
 </div></div>
@@ -420,7 +431,7 @@
           display:block!important;
       }</style></aside></section><section id="complex-versus-complicated-1" class="slide level2 smaller"><h2>Complex <em>versus</em> Complicated</h2>
 
-<img data-src="images/rolex-figure-2.jpg" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
+<img data-src="images/rolex-figure-3.jpg" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
 <p>(Photo by <a href="https://www.watchclub.com/rolex/cosmograph-daytona/sigmadialnodaytona-ref-6265-year-1974">Yarek Baranik</a>)</p>
 </div>
 <aside class="notes"><p>A look at the internals of a mechanical clock.</p>
@@ -533,7 +544,7 @@
 <p>It is not <strong>self-organized</strong>.</p>
 </div><div class="column" style="width: 50%; padding-top: 0px;">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/mechanical-clock-figure-2.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 75px;"></p>
+<figure><p><img data-src="images/mechanical-clock-figure-2.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 60px;"></p>
 </figure>
 </div>
 </div></div>
@@ -613,7 +624,8 @@
 <div class="footer">
 <p>(Animation by <a href="https://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/">Jake VanderPlas</a>)</p>
 </div>
-<aside class="notes"><style type="text/css">
+<aside class="notes"><p>See: <a href="https://danielvartan.github.io/lorenz-system/">Lorenz system</a>.</p>
+<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -672,102 +684,8 @@
 </div><div class="column" style="width: 50%; padding-top: 0px;">
 <p><a href="https://doi.org/10.1073/pnas.0611320104"><img data-src="images/spontaneous-knotting.gif"></a></p>
 </div></div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="emergence" class="slide level2"><h2>Emergence</h2>
-<div class="columns">
-<div class="column" style="width: 50%; font-size: 0.9em; padding-top: 0px;">
-<p><strong>Emergence isn’t magic</strong> <span class="citation" data-cites="wilson2004">(<a href="#/references" role="doc-biblioref" onclick="">Wilson, 2004</a>)</span>.</p>
-<p>You are dealing with an emergence phenomenon when there is no need to look under the hood <span class="citation" data-cites="krakauer2023">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer, 2023</a>)</span>.</p>
-<p>[…] we defined emergent phenomena to be simply <strong>stable macroscopic patterns</strong> arising from <strong>local interaction</strong> of agents <span class="citation" data-cites="epstein1999">(<a href="#/references" role="doc-biblioref" onclick="">Epstein, 1999</a>)</span>.</p>
-</div><div class="column" style="width: 50%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/homer-emerging.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 75px;"></p>
-</figure>
-</div>
-</div></div>
-<aside class="notes"><p>Microscopic patterns that accumulate over time, similarly to evolutionary patterns.</p>
+<aside class="notes"><p>Agent-based modeling is “naive” (DeAngelis et al.&nbsp;1994) in the sense that we are not trying to aggregate agents and what they are doing in some abstract variables like abundance, biomass, overall wealth, demo- graphic rates, or nutrient fluxes. Instead, we naively and directly represent the agents and their behavior. We create these agents, put them in a virtual environment, and then let the virtual world run and see what we can learn from it <span class="citation" data-cites="railsback2019">(<a href="#/references" role="doc-biblioref" onclick="">Railsback &amp; Grimm, 2019, pp. 7–8</a>)</span></p>
 <style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside><aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="emergence-1" class="slide level2 smaller"><h2>Emergence</h2>
-<p>In complex adaptive systems, <strong>emergent properties</strong> often occur when coevolving signals and boundaries generate <strong>new levels of organization</strong>.</p>
-<p>A word about emergence <span class="citation" data-cites="holland2012">(<a href="#/references" role="doc-biblioref" onclick="">Holland, 2012</a>, Topic 5.5)</span>.</p>
-<div class="columns">
-<div class="column" style="width: 66%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/holland-2012-figure-1.png" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 25px;"></p>
-</figure>
-</div>
-</div><div class="column" style="width: 33%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/seinfeld-kramer-levels.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 90px;"></p>
-</figure>
-</div>
-</div></div>
-<div class="footer">
-<p><span class="citation" data-cites="holland2012">(<a href="#/references" role="doc-biblioref" onclick="">Holland, 2012</a>)</span></p>
-</div>
-<aside class="notes"><p>Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="leverage-points" class="slide level2 smaller"><h2>Leverage points</h2>
-<div class="columns">
-<div class="column" style="width: 50%; padding-top: 0px;">
-<p>There are places within a complex system where <strong>a small shift in one thing can produce big changes in everything</strong> <span class="citation" data-cites="meadows1999">(<a href="#/references" role="doc-biblioref" onclick="">D. Meadows, 1999</a>)</span>.</p>
-<p>Leverage points are points of power <span class="citation" data-cites="meadows2008">(<a href="#/references" role="doc-biblioref" onclick="">D. H. Meadows, 2008</a>)</span>.</p>
-<p>Possible states, even if unlikely: by modelling such interactions, <strong>it can suggest that properties exist in the system that had not been noticed in the real world situation</strong> <span class="citation" data-cites="dodig-crnkovic2013a">(<a href="#/references" role="doc-biblioref" onclick="">Dodig-Crnkovic &amp; Giovagnoli, 2013</a>)</span>.</p>
-</div><div class="column" style="width: 50%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/encontro.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 115px;"></p>
-</figure>
-</div>
-</div></div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="section-1" class="slide level2" data-menu-title="NetLogo Web: Fire model" data-background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" data-background-interactive="true"><h2></h2>
-<aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -783,7 +701,7 @@
 <div>
 
 </div>
-<div class="quarto-layout-panel" style="text-align: center; font-size: 1.25em; padding-top: 75px" data-layout-nrow="2">
+<div class="quarto-layout-panel" data-layout-nrow="2" style="text-align: center; font-size: 1.25em; padding-top: 75px">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
 <p><strong>Simulation is a third<br>way of doing science</strong><br><span class="citation" data-cites="axelrod1997">(<a href="#/references" role="doc-biblioref" onclick="">Axelrod, 1997, p. 24</a>)</span>.</p>
@@ -802,7 +720,7 @@
 <div>
 
 </div>
-<div class="quarto-layout-panel" style="padding-top: 0px" data-layout-nrow="2">
+<div class="quarto-layout-panel" data-layout-nrow="2" style="padding-top: 0px">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -821,82 +739,13 @@
 </div>
 </div>
 </div></div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside><div class="footer">
+<div class="footer">
 <p>(Artwork by <a href="https://www.shutterstock.com/pt/image-illustration/illustrative-drawing-top-down-bottom-hand-1927000661">DaViDa S/Shutterstock</a>. Flocking model by <a href="https://ccl.northwestern.edu/netlogo/models/Flocking">Wilenski</a>. Video by <a href="https://www.youtube.com/watch?v=V4f_1_r80RY">National Geographic</a>)</p>
 </div>
 <aside class="notes"><p>Like <strong>deduction</strong>, it starts with a set of explicit assumptions. But unlike deduction, it does not prove theorems. Instead, a simulation generates data that can be analyzed inductively.</p>
 <p>Unlike typical <strong>induction</strong>, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world.</p>
 <p>While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as <strong>an aid intuition</strong>.</p>
 <style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="complexity-sciences" class="slide level2 nostretch smaller"><h2>Complexity science(s?)</h2>
-<div class="columns">
-<div class="column" style="width: 40%; padding-top: 0px;">
-<p>Complexity science seeks to <strong>explain emergent phenomena</strong> or mechanisms that “screen-off” their constituent parts and thereby allow new levels of description and understanding <span class="citation" data-cites="krakauer2024">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer &amp; Wolpert, 2024</a>)</span>.</p>
-</div><div class="column" style="width: 60%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/sayama-2015-figure-1.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></p>
-</figure>
-</div>
-</div></div>
-<div class="footer">
-<p><span class="citation" data-cites="sayama2015">(Artwork by <a href="#/references" role="doc-biblioref" onclick="">Sayama, 2015</a>)</span></p>
-</div>
-<aside class="notes"><p>“Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas.” <span class="citation" data-cites="sayama2015">(<a href="#/references" role="doc-biblioref" onclick="">Sayama, 2015</a>)</span>.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="other-concepts" class="slide level2 smaller"><h2>Other concepts</h2>
-<p>There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:</p>
-<p>(<em>See the appendices section for more information on these concepts</em>)</p>
-<div class="columns">
-<div class="column" style="width: 50%; padding-top: 0px;">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Pareto_principle">Power laws &amp; Factor sparsity</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Feedback">Feedback loops</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Robustness">Robustness</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_types_of_equilibrium">Equilibrium states</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Adaptive_system">Adaptation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Self-organization">Self-organization</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Path_dependence">Path dependence</a></li>
-</ul>
-</div><div class="column" style="width: 50%; padding-top: 0px;">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Critical_phenomena">Criticality</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Scale_invariance">Scaling invariance</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Nonlinear_system">Nonlinear dynamics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Phase_transition">Phase transitions</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Attractor">Attractors</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Fractal_dimension">Fractal dimensions</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Network_dynamics">Network dynamics</a></li>
-</ul>
-</div></div>
-<aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -928,7 +777,7 @@
 <div>
 
 </div>
-<div class="quarto-layout-panel" style="padding-top: 25px" data-layout-nrow="2">
+<div class="quarto-layout-panel" data-layout-nrow="2" style="padding-top: 25px">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -951,26 +800,6 @@
 <p>(Video and image by <a href="https://www.youtube.com/watch?v=YNMkADpvO4w">Primer</a>)</p>
 </div>
 <aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="types-of-models" class="slide level2 smaller nostretch"><h2>Types of models</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/types-of-models.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 50px; padding-bottom: 25px;"></p>
-</figure>
-</div>
-<div class="footer">
-<p>(Artwork by <a href="https://www.stevens.edu/">Stevens Institute of Technology</a>)</p>
-</div>
-<aside class="notes"><p>ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.</p>
-<p><strong>Agent-Based Models</strong> (Social Science) <em>versus</em> <strong>Individual-Based Models</strong> (IBMs) (Ecology) <em>versus</em> <strong>Multi-Agent Systems</strong> (MAS) (Engineering) <em>==</em> <strong>Computer-Based Models</strong>.</p>
-<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -1008,19 +837,8 @@
 <img data-src="images/puccia-1985-figure-1-1.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
 <p><span class="citation" data-cites="puccia1985">(<a href="#/references" role="doc-biblioref" onclick="">Puccia &amp; Levins, 1985, p. 3</a>)</span></p>
 </div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="nonrealistic-models" class="slide level2"><h2>Nonrealistic models</h2>
-
-<img data-src="images/cool-car.gif" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px;"><aside class="notes"><style type="text/css">
+<aside class="notes"><p>We have to force ourselves to simplify as much as we can, or even more. The modeling cycle must be started with the most simple model possible, because we want to develop understanding gradually, while iterating through the cycle. A common mistake of begin- ners is to throw too much into the first model version—usually arguing that all these factors are well known and can’t possibly be ignored. The modeling expert’s answer to this is, yes, you might be right, but—let us focus on the absolute minimum number of factors first. Put all the other elements that you think might need to be in the model on your “wish list” and check their importance later <span class="citation" data-cites="railsback2019">(<a href="#/references" role="doc-biblioref" onclick="">Railsback &amp; Grimm, 2019, p. 8</a>)</span>.</p>
+<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -1045,53 +863,12 @@
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="tools-for-conceptual-modelling" class="slide level2"><h2>Tools for conceptual modelling</h2>
-<div>
-
-</div>
-<div class="quarto-layout-panel" style="padding-top: 25px" data-layout-nrow="2">
-<div class="quarto-layout-row">
-<div class="columns quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<div class="column" style="width: 50%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><a href="https://ncase.me/loopy/"><img data-src="images/loopy-logo.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></a></p>
-</figure>
-</div>
-</div><div class="column" style="width: 50%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><a href="https://insightmaker.com/"><img data-src="images/insight-maker-logo.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></a></p>
-</figure>
-</div>
-</div></div>
-</div>
-<div class="quarto-layout-row">
-<div class="center-x quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><a href="https://kumu.io/"><img data-src="images/kumu-logo.png" class="quarto-figure quarto-figure-center" style="width: 30%; top: -40px;"></a></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
       }</style></aside></section><section id="key-components-of-abms" class="slide level2"><h2>Key components of ABMs</h2>
 <div class="columns">
 <div class="column" style="width: 50%; padding-top: 0px;">
 <p>Agents</p>
 <p>Environment</p>
 <p>Interaction</p>
-<div class="fragment fade-in">
-<p>️🟥</p>
-</div>
 </div><div class="column" style="width: 50%; padding-top: 25px;">
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="images/abm-components.png" class="quarto-figure quarto-figure-center"></p>
@@ -1099,43 +876,6 @@
 </div>
 </div></div>
 <aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="analyzing-agent-based-models" class="slide level2"><h2>Analyzing agent-based models</h2>
-<div class="columns">
-<div class="column" style="width: 20%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-r-1.gif" class="quarto-figure quarto-figure-center" style="padding-top: 70px;"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-r-1.gif" class="quarto-figure quarto-figure-center" style="padding-top: 0px;"></p>
-</figure>
-</div>
-</div><div class="column" style="width: 60%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-r-3.png" class="quarto-figure quarto-figure-center" style="padding-top: 50px;"></p>
-</figure>
-</div>
-</div><div class="column" style="width: 20%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-r-2.gif" class="quarto-figure quarto-figure-center" style="padding-top: 70px;"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-r-2.gif" class="quarto-figure quarto-figure-center" style="padding-top: 0px;"></p>
-</figure>
-</div>
-</div></div>
-<aside class="notes"><p>Joke: You can always use other tools, but know that I will judge you for that.</p>
-<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -1182,38 +922,6 @@
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="why-use-abm" class="slide level2"><h2>Why use ABM?</h2>
-<div class="columns">
-<div class="column" style="width: 35%; padding-top: 0px;">
-<ul>
-<li>Description</li>
-<li>Explanation</li>
-<li>Experimentation</li>
-<li>Analogy</li>
-<li>Education</li>
-<li>Prediction</li>
-</ul>
-</div><div class="column" style="width: 65%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/mit-papert-figure-5.jpg" class="quarto-figure quarto-figure-center" style="padding-top: 0px; padding-bottom: 0px;"></p>
-</figure>
-</div>
-</div></div>
-<div class="footer">
-<p>(Seymour Papert (1928–2016) – <a href="https://www.nature.com/articles/537308a">Father of educational computing</a>. Photo by <a href="https://mitmuseum.mit.edu/collections/person/papert-seymour-aubrey-12338">MIT Museum</a>)</p>
-</div>
-<aside class="notes"><p>By my own experience. Use of ABM in the classroom (Camilo, 2012).</p>
-<p>You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
       }</style></aside></section><section id="a-picture-is-worth-a-thousand-words" class="slide level2 smaller"><h2>A picture is worth a thousand words</h2>
 <div class="columns">
 <div class="column" style="width: 50%; padding-top: 50px;">
@@ -1236,7 +944,9 @@
 <div class="footer">
 <p><span class="citation" data-cites="kermack1927">(<a href="#/references" role="doc-biblioref" onclick="">Kermack &amp; McKendrick, 1927</a>)</span></p>
 </div>
-<aside class="notes"><style type="text/css">
+<aside class="notes"><p>Understanding local interactions helps identify potential leverage points or types of interactions that can amplify the spread of a phenomenon. For instance, by analyzing contact interactions, one might recommend mask usage or design specific protocols for tracking and isolating infected individuals. A global approach, on its own, would not reveal these crucial details.</p>
+<p>See: <a href="https://danielvartan.github.io/sir/">SIR model</a>; <a href="https://danielvartan.github.io/lotka-volterra/">Lotka–Volterra’s predator–prey model</a>.</p>
+<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -1478,22 +1188,6 @@
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="social-psychology" class="slide level2 smaller"><h2>Social psychology</h2>
-<p>How social groups influence political preferences and how these preferences can lead to segregation behaviors? (<em>NetLogo/Scala-Java</em>).</p>
-
-<img data-src="images/vartanian-2024-abm.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 25px; padding-bottom: 25px;"><div class="footer">
-<p>(Vartanian, 2024, Unpublished)</p>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
       }</style></aside></section><section id="abm-ai-agent-hospital" class="slide level2 smaller"><h2>ABM + AI: Agent hospital</h2>
 <p>A simulacrum of hospital with evolvable medical agents.</p>
 
@@ -1665,6 +1359,9 @@ Flanagan, A., Bechtold, D. A., Pot, G. K., &amp; Johnston, J. D. (2021). Chrono-
 </div>
 <div id="ref-friston2010" class="csl-entry" role="listitem">
 Friston, K. (2010). The free-energy principle: A unified brain theory? <em>Nature Reviews Neuroscience</em>, <em>11</em>(2), 127–138. <a href="https://doi.org/10.1038/nrn2787">https://doi.org/10.1038/nrn2787</a>
+</div>
+<div id="ref-gilbert2009" class="csl-entry" role="listitem">
+Gilbert, N., Hawksworth, J. C., &amp; Swinney, P. A. (2009). An agent-based model of the english housing market. <em>Papers from the 2009 <span>AAAI Spring Symposium</span>: <span>No</span>. 9: <span>Technosocial Predictive Analytics</span></em>, 30–35. <a href="https://aaai.org/papers/0007-ss09-09-007-an-agent-based-model-of-the-english-housing-market/">https://aaai.org/papers/0007-ss09-09-007-an-agent-based-model-of-the-english-housing-market/</a>
 </div>
 <div id="ref-grimm2005a" class="csl-entry" role="listitem">
 Grimm, V., Revilla, E., Berger, U., Jeltsch, F., Mooij, W. M., Railsback, S. F., Thulke, H.-H., Weiner, J., Wiegand, T., &amp; DeAngelis, D. L. (2005). Pattern-oriented modeling of agent-based complex systems: Lessons from ecology. <em>Science</em>, <em>310</em>(5750), 987–991. <a href="https://doi.org/10.1126/science.1116681">https://doi.org/10.1126/science.1116681</a>
@@ -1872,7 +1569,7 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="section-2" class="slide level2 nostretch" data-menu-title="QR codes"><h2></h2>
+      }</style></aside></section><section id="section-1" class="slide level2 nostretch" data-menu-title="QR codes"><h2></h2>
 <div class="columns">
 <div class="column" style="width: 50%; text-align: center; padding-top: 25px;">
 <p>Linktree</p>
@@ -1935,7 +1632,22 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="ap-complex-versus-complicated" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Complex <em>versus</em> Complicated</h2>
+      }</style></aside></section><section id="ap-complex-versus-complicated" class="slide level2" data-visibility="uncounted"><h2>(AP) Complex <em>versus</em> Complicated</h2>
+<p>From the <strong>etymological perspective</strong>, “complicated” and “complex” share the same preﬁx “com”, which means together in its Proto-indo-european (PIE) root. But “complicated” comes from the Latin verb <strong>“plicare”</strong> which means fold (noun, as in ten folds) and implies many; “complex” has the Latin root, <strong>“plectere”</strong>, which means <strong>braiding, linking, weave, interlace, and intertwine</strong>. Thus, complex has the implication of interaction and intertwining besides the meaning of “many parts” shared with complicated.</p>
+<div class="footer">
+<p><span class="citation" data-cites="sun2016">(<a href="#/references" role="doc-biblioref" onclick="">Sun et al., 2016</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-complex-versus-complicated-1" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Complex <em>versus</em> Complicated</h2>
 <p>If you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a <strong>Rube Goldberg machine</strong> <span class="citation" data-cites="merrow2020">(<a href="#/references" role="doc-biblioref" onclick="">Merrow &amp; Roenneberg, 2020</a>)</span>.</p>
 
 <img data-src="images/rube-goldberg-machine.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 25px; padding-bottom: 25px"><div class="footer">
@@ -1973,21 +1685,6 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
 </div></div>
 <div class="footer">
 <p>(Video by <a href="https://www.youtube.com/watch?v=DxL2HoqLbyA">Derek Muller</a>)</p>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="ap-complex-versus-complicated-1" class="slide level2" data-visibility="uncounted"><h2>(AP) Complex <em>versus</em> Complicated</h2>
-<p>From the <strong>etymological perspective</strong>, “complicated” and “complex” share the same preﬁx “com”, which means together in its Proto-indo-european (PIE) root. But “complicated” comes from the Latin verb <strong>“plicare”</strong> which means fold (noun, as in ten folds) and implies many; “complex” has the Latin root, <strong>“plectere”</strong>, which means <strong>braiding, linking, weave, interlace, and intertwine</strong>. Thus, complex has the implication of interaction and intertwining besides the meaning of “many parts” shared with complicated.</p>
-<div class="footer">
-<p><span class="citation" data-cites="sun2016">(<a href="#/references" role="doc-biblioref" onclick="">Sun et al., 2016</a>)</span></p>
 </div>
 <aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {
@@ -2109,6 +1806,157 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
+      }</style></aside></section><section id="ap-emergence" class="slide level2" data-visibility="uncounted"><h2>(AP) Emergence</h2>
+<div class="columns">
+<div class="column" style="width: 50%; font-size: 0.9em; padding-top: 0px;">
+<p><strong>Emergence isn’t magic</strong> <span class="citation" data-cites="wilson2004">(<a href="#/references" role="doc-biblioref" onclick="">Wilson, 2004</a>)</span>.</p>
+<p>You are dealing with an emergence phenomenon when there is no need to look under the hood <span class="citation" data-cites="krakauer2023">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer, 2023</a>)</span>.</p>
+<p>[…] we defined emergent phenomena to be simply <strong>stable macroscopic patterns</strong> arising from <strong>local interaction</strong> of agents <span class="citation" data-cites="epstein1999">(<a href="#/references" role="doc-biblioref" onclick="">Epstein, 1999</a>)</span>.</p>
+</div><div class="column" style="width: 50%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/homer-emerging.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 75px;"></p>
+</figure>
+</div>
+</div></div>
+<aside class="notes"><p>Microscopic patterns that accumulate over time, similarly to evolutionary patterns.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside><aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-emergence-1" class="slide level2" data-visibility="uncounted"><h2>(AP) Emergence</h2>
+
+<img data-src="images/janssen-2020-figure-1.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width: 100%; padding-top: 10px; padding-bottom: 25px;"><div class="footer">
+<p><span class="citation" data-cites="janssen2020">(<a href="#/references" role="doc-biblioref" onclick="">Janssen, 2020</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-emergence-2" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Emergence</h2>
+<p>In complex adaptive systems, <strong>emergent properties</strong> often occur when coevolving signals and boundaries generate <strong>new levels of organization</strong>.</p>
+<p>A word about emergence <span class="citation" data-cites="holland2012">(<a href="#/references" role="doc-biblioref" onclick="">Holland, 2012</a>, Topic 5.5)</span>.</p>
+<div class="columns">
+<div class="column" style="width: 66%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/holland-2012-figure-1.png" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 25px;"></p>
+</figure>
+</div>
+</div><div class="column" style="width: 33%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/seinfeld-kramer-levels.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 90px;"></p>
+</figure>
+</div>
+</div></div>
+<div class="footer">
+<p><span class="citation" data-cites="holland2012">(<a href="#/references" role="doc-biblioref" onclick="">Holland, 2012</a>)</span></p>
+</div>
+<aside class="notes"><p>Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-structural-levels" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Structural levels</h2>
+
+<img data-src="images/lewin-1993-figure-8.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 10px; padding-bottom: 30px;"><div class="footer">
+<p><span class="citation" data-cites="lewin1993">(<a href="#/references" role="doc-biblioref" onclick="">Lewin, 1993, p. 165</a>)</span></p>
+</div>
+<aside class="notes"><p>Fig. 8. Structural levels in the organization of the nervous system, a reflection of the hierarchical systems that may underlie the generation of higher cognitive functions, including consciousness. Courtesy of Patricia Churchland and Terrence Sejnowski.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-how-can-something-be-more-than-the-sum-of-its-parts" class="slide level2" data-visibility="uncounted"><h2>(AP) How can something be more than the sum of its parts?</h2>
+<div class="columns">
+<div class="column" style="width: 50%; font-size: 0.9em; padding-top: 0px;">
+<p>Is a molecule of <span class="math inline">\(\text{H}_2\text{O}\)</span> water?</p>
+<p>Can you understand a anthill by studying a single ant?</p>
+<p>Are you just a collection of cells?</p>
+<p><em>Uma andorinha não faz verão</em>.</p>
+<p>Is love just a chemical?</p>
+</div><div class="column" style="width: 50%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/kurzgesagt-2017-emergence-figure-1.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 75px;"></p>
+</figure>
+</div>
+</div></div>
+<div class="footer">
+<p>(Video by <a href="https://www.youtube.com/watch?v=16W7c0mb-rE">Kurzgesagt – In a Nutshell</a>)</p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-reductionism" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Reductionism</h2>
+
+<img data-src="images/moore-1986-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
+<p><span class="citation" data-cites="moore1986">(<a href="#/references" role="doc-biblioref" onclick="">Moore, 1986, p. 22</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-reductionism-versus-compression" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Reductionism <em>versus</em> Compression</h2>
+<p><strong>We’re not looking down levels to explain the level of interest</strong>.</p>
+
+<img data-src="images/krakauer-2023-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width: 100%; padding-top: 25px; padding-bottom: 35px;"><div class="footer">
+<p><span class="citation" data-cites="krakauer2023">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer, 2023</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
       }</style></aside></section><section id="ap-power-laws-factor-sparsity" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Power laws &amp; Factor sparsity</h2>
 <div class="columns">
 <div class="column" style="width: 50%; padding-top: 0px;">
@@ -2219,12 +2067,53 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="ap-structural-levels" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Structural levels</h2>
-
-<img data-src="images/lewin-1993-figure-8.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 10px; padding-bottom: 30px;"><div class="footer">
-<p><span class="citation" data-cites="lewin1993">(<a href="#/references" role="doc-biblioref" onclick="">Lewin, 1993, p. 165</a>)</span></p>
+      }</style></aside></section><section id="ap-leverage-points" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Leverage points</h2>
+<div class="columns">
+<div class="column" style="width: 50%; padding-top: 0px;">
+<p>There are places within a complex system where <strong>a small shift in one thing can produce big changes in everything</strong> <span class="citation" data-cites="meadows1999">(<a href="#/references" role="doc-biblioref" onclick="">D. Meadows, 1999</a>)</span>.</p>
+<p>Leverage points are points of power <span class="citation" data-cites="meadows2008">(<a href="#/references" role="doc-biblioref" onclick="">D. H. Meadows, 2008</a>)</span>.</p>
+<p>Possible states, even if unlikely: by modelling such interactions, <strong>it can suggest that properties exist in the system that had not been noticed in the real world situation</strong> <span class="citation" data-cites="dodig-crnkovic2013a">(<a href="#/references" role="doc-biblioref" onclick="">Dodig-Crnkovic &amp; Giovagnoli, 2013</a>)</span>.</p>
+</div><div class="column" style="width: 50%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/encontro.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 115px;"></p>
+</figure>
 </div>
-<aside class="notes"><p>Fig. 8. Structural levels in the organization of the nervous system, a reflection of the hierarchical systems that may underlie the generation of higher cognitive functions, including consciousness. Courtesy of Patricia Churchland and Terrence Sejnowski.</p>
+</div></div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="section-2" class="slide level2" data-visibility="uncounted" data-menu-title="NetLogo Web: Fire model" data-background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" data-background-interactive="true"><h2></h2>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-complexity-sciences" class="slide level2 nostretch smaller" data-visibility="uncounted"><h2>(AP) Complexity science(s?)</h2>
+<div class="columns">
+<div class="column" style="width: 40%; padding-top: 0px;">
+<p>Complexity science seeks to <strong>explain emergent phenomena</strong> or mechanisms that “screen-off” their constituent parts and thereby allow new levels of description and understanding <span class="citation" data-cites="krakauer2024">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer &amp; Wolpert, 2024</a>)</span>.</p>
+</div><div class="column" style="width: 60%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/sayama-2015-figure-1.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></p>
+</figure>
+</div>
+</div></div>
+<div class="footer">
+<p><span class="citation" data-cites="sayama2015">(Artwork by <a href="#/references" role="doc-biblioref" onclick="">Sayama, 2015</a>)</span></p>
+</div>
+<aside class="notes"><p>“Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas.” <span class="citation" data-cites="sayama2015">(<a href="#/references" role="doc-biblioref" onclick="">Sayama, 2015</a>)</span>.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2235,68 +2124,12 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="ap-how-can-something-be-more-than-the-sum-of-its-parts" class="slide level2" data-visibility="uncounted"><h2>(AP) How can something be more than the sum of its parts?</h2>
-<div class="columns">
-<div class="column" style="width: 50%; font-size: 0.9em; padding-top: 0px;">
-<p>Is a molecule of <span class="math inline">\(\text{H}_2\text{O}\)</span> water?</p>
-<p>Can you understand a anthill by studying a single ant?</p>
-<p>Are you just a collection of cells?</p>
-<p><em>Uma andorinha não faz verão</em>.</p>
-<p>Is love just a chemical?</p>
-</div><div class="column" style="width: 50%; padding-top: 0px;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/kurzgesagt-2017-emergence-figure-1.gif" class="quarto-figure quarto-figure-center" style="width: 100%; padding-top: 75px;"></p>
-</figure>
+      }</style></aside></section><section id="ap-map-of-the-complexity-sciences" class="slide level2 smaller nostretch" data-visibility="uncounted"><h2>(AP) Map of the complexity sciences</h2>
+<div class="center" style="padding-top: 0px; padding-left: 35px; padding-right: 35px; padding-bottom: 25px;">
+<p><a href="https://www.art-sciencefactory.com/complexity-map_feb09.html"><img data-src="images/castellani-2021-map.png"></a></p>
 </div>
-</div></div>
 <div class="footer">
-<p>(Video by <a href="https://www.youtube.com/watch?v=16W7c0mb-rE">Kurzgesagt – In a Nutshell</a>)</p>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="ap-emergence" class="slide level2" data-visibility="uncounted"><h2>(AP) Emergence</h2>
-
-<img data-src="images/janssen-2020-figure-1.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width: 100%; padding-top: 10px; padding-bottom: 25px;"><div class="footer">
-<p><span class="citation" data-cites="janssen2020">(<a href="#/references" role="doc-biblioref" onclick="">Janssen, 2020</a>)</span></p>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="ap-reductionism" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Reductionism</h2>
-
-<img data-src="images/moore-1986-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
-<p><span class="citation" data-cites="moore1986">(<a href="#/references" role="doc-biblioref" onclick="">Moore, 1986, p. 22</a>)</span></p>
-</div>
-<aside class="notes"><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside></section><section id="ap-reductionism-versus-compression" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Reductionism <em>versus</em> Compression</h2>
-<p><strong>We’re not looking down levels to explain the level of interest</strong>.</p>
-
-<img data-src="images/krakauer-2023-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width: 100%; padding-top: 25px; padding-bottom: 35px;"><div class="footer">
-<p><span class="citation" data-cites="krakauer2023">(<a href="#/references" role="doc-biblioref" onclick="">Krakauer, 2023</a>)</span></p>
+<p>(Artwork by <a href="https://www.art-sciencefactory.com/complexity-map_feb09.html">Brian Castellani &amp; Lasse Gerrits</a>)</p>
 </div>
 <aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {
@@ -2332,13 +2165,31 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="ap-map-of-the-complexity-sciences" class="slide level2 smaller nostretch" data-visibility="uncounted"><h2>(AP) Map of the complexity sciences</h2>
-<div class="center" style="padding-top: 0px; padding-left: 35px; padding-right: 35px; padding-bottom: 25px;">
-<p><a href="https://www.art-sciencefactory.com/complexity-map_feb09.html"><img data-src="images/castellani-2021-map.png"></a></p>
-</div>
-<div class="footer">
-<p>(Artwork by <a href="https://www.art-sciencefactory.com/complexity-map_feb09.html">Brian Castellani &amp; Lasse Gerrits</a>)</p>
-</div>
+      }</style></aside></section><section id="ap-other-concepts" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Other concepts</h2>
+<p>There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:</p>
+<p>(<em>See the appendices section for more information on these concepts</em>)</p>
+<div class="columns">
+<div class="column" style="width: 50%; padding-top: 0px;">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Pareto_principle">Power laws &amp; Factor sparsity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Feedback">Feedback loops</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Robustness">Robustness</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_types_of_equilibrium">Equilibrium states</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Adaptive_system">Adaptation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Self-organization">Self-organization</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Path_dependence">Path dependence</a></li>
+</ul>
+</div><div class="column" style="width: 50%; padding-top: 0px;">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Critical_phenomena">Criticality</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Scale_invariance">Scaling invariance</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nonlinear_system">Nonlinear dynamics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phase_transition">Phase transitions</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Attractor">Attractors</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fractal_dimension">Fractal dimensions</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_dynamics">Network dynamics</a></li>
+</ul>
+</div></div>
 <aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2351,6 +2202,58 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           display:block!important;
       }</style></aside></section><section id="section-3" class="slide level2" data-visibility="uncounted" data-menu-title="NetLogo Web: Climate change" data-background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" data-background-interactive="true"><h2></h2>
 <aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-why-use-abm" class="slide level2" data-visibility="uncounted"><h2>(AP) Why use ABM?</h2>
+<div class="columns">
+<div class="column" style="width: 35%; padding-top: 0px;">
+<ul>
+<li>Description</li>
+<li>Explanation</li>
+<li>Experimentation</li>
+<li>Analogy</li>
+<li>Education</li>
+<li>Prediction</li>
+</ul>
+</div><div class="column" style="width: 65%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/mit-papert-figure-5.jpg" class="quarto-figure quarto-figure-center" style="padding-top: 0px; padding-bottom: 0px;"></p>
+</figure>
+</div>
+</div></div>
+<div class="footer">
+<p>(Seymour Papert (1928–2016) – <a href="https://www.nature.com/articles/537308a">Father of educational computing</a>. Photo by <a href="https://mitmuseum.mit.edu/collections/person/papert-seymour-aubrey-12338">MIT Museum</a>)</p>
+</div>
+<aside class="notes"><p>By my own experience. Use of ABM in the classroom (Camilo, 2012).</p>
+<p>You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-types-of-models" class="slide level2 smaller nostretch" data-visibility="uncounted"><h2>(AP) Types of models</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/types-of-models.png" class="quarto-figure quarto-figure-center" style="width: 75%; padding-top: 50px; padding-bottom: 25px;"></p>
+</figure>
+</div>
+<div class="footer">
+<p>(Artwork by <a href="https://www.stevens.edu/">Stevens Institute of Technology</a>)</p>
+</div>
+<aside class="notes"><p>ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.</p>
+<p><strong>Agent-Based Models</strong> (Social Science) <em>versus</em> <strong>Individual-Based Models</strong> (IBMs) (Ecology) <em>versus</em> <strong>Multi-Agent Systems</strong> (MAS) (Engineering) <em>==</em> <strong>Computer-Based Models</strong>.</p>
+<style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
           clip: rect(1px, 1px, 1px, 1px);
@@ -2482,7 +2385,89 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="ap-nonrealistic-models" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Nonrealistic models</h2>
+      }</style></aside></section><section id="ap-the-modelling-cycle" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) The modelling cycle</h2>
+<div class="columns">
+<div class="column" style="width: 35%; font-size: 0.85em; padding-top: 30px;">
+<ol type="1">
+<li>Formulate the question.</li>
+<li>Assemble hypotheses for essential processes and structures.</li>
+<li>Choose scales, entities, state variables, processes, and parameters.</li>
+<li>Implement the model.</li>
+<li>Analyze, test, and revise the model.</li>
+<li>Communicate the model.</li>
+</ol>
+<p><br></p>
+<p>Popper’s hypothetico-deductive method.</p>
+</div><div class="column" style="width: 65%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/railsback-2019-figure-1-3.png" class="quarto-figure quarto-figure-center" style="width: 85%; padding-top: 20px;"></p>
+</figure>
+</div>
+</div></div>
+<div class="footer">
+<p><span class="citation" data-cites="railsback2019">(<a href="#/references" role="doc-biblioref" onclick="">Railsback &amp; Grimm, 2019, pp. 7–10</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-tools-for-conceptual-modelling" class="slide level2" data-visibility="uncounted"><h2>(AP) Tools for conceptual modelling</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-nrow="2" style="padding-top: 25px">
+<div class="quarto-layout-row">
+<div class="columns quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="column" style="width: 50%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><a href="https://ncase.me/loopy/"><img data-src="images/loopy-logo.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></a></p>
+</figure>
+</div>
+</div><div class="column" style="width: 50%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><a href="https://insightmaker.com/"><img data-src="images/insight-maker-logo.png" class="quarto-figure quarto-figure-center" style="width: 90%; padding-top: 0px;"></a></p>
+</figure>
+</div>
+</div></div>
+</div>
+<div class="quarto-layout-row">
+<div class="center-x quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><a href="https://kumu.io/"><img data-src="images/kumu-logo.png" class="quarto-figure quarto-figure-center" style="width: 30%; top: -40px;"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-nonrealistic-models" class="slide level2" data-visibility="uncounted"><h2>(AP) Nonrealistic models</h2>
+
+<img data-src="images/cool-car.gif" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px;"><aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-nonrealistic-models-1" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Nonrealistic models</h2>
 
 <img data-src="images/oinonen-2021-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 25px;"><div class="footer">
 <p>(Artwork by <a href="https://www.businessillustrator.com/complexity-and-policy-making-cartoon-summary-2/">Virpi Oinonen</a>)</p>
@@ -2503,6 +2488,43 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
 <p><span class="citation" data-cites="tyson2021">(<a href="#/references" role="doc-biblioref" onclick="">Tyson, 2021</a>)</span></p>
 </div>
 <aside class="notes"><p>The universe is under no obligation to make sense to you <span class="citation" data-cites="tyson2021">(<a href="#/references" role="doc-biblioref" onclick="">Tyson, 2021</a>)</span>.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-analyzing-agent-based-models" class="slide level2" data-visibility="uncounted"><h2>(AP) Analyzing agent-based models</h2>
+<div class="columns">
+<div class="column" style="width: 20%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/meme-r-1.gif" class="quarto-figure quarto-figure-center" style="padding-top: 70px;"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/meme-r-1.gif" class="quarto-figure quarto-figure-center" style="padding-top: 0px;"></p>
+</figure>
+</div>
+</div><div class="column" style="width: 60%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/meme-r-3.png" class="quarto-figure quarto-figure-center" style="padding-top: 50px;"></p>
+</figure>
+</div>
+</div><div class="column" style="width: 20%; padding-top: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/meme-r-2.gif" class="quarto-figure quarto-figure-center" style="padding-top: 70px;"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/meme-r-2.gif" class="quarto-figure quarto-figure-center" style="padding-top: 0px;"></p>
+</figure>
+</div>
+</div></div>
+<aside class="notes"><p>Joke: You can always use other tools, but know that I will judge you for that.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2593,6 +2615,38 @@ Wilson, R. (2004, October 2). Emergence isn’t magic. <em>New Scientist</em>, <
 
 <img data-src="images/cityscience-champs-elysees-figure-1.gif" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 25px; padding-bottom: 25px;"><div class="footer">
 <p><span class="citation" data-cites="cityscience">(<a href="#/references" role="doc-biblioref" onclick="">City Science, n.d.</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="ap-housing-market" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Housing market</h2>
+<p>An agent-based model of the UK housing market (<em>NetLogo/Scala-Java</em>).</p>
+
+<img data-src="images/gilbert-2009-figure-1.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 0px; padding-bottom: 0px;"><div class="footer">
+<p><span class="citation" data-cites="gilbert2009">(<a href="#/references" role="doc-biblioref" onclick="">Gilbert et al., 2009</a>)</span></p>
+</div>
+<aside class="notes"><style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside></section><section id="social-psychology" class="slide level2 smaller"><h2>Social psychology</h2>
+<p>How social groups influence political preferences and how these preferences can lead to segregation behaviors? (<em>NetLogo/Scala-Java</em>).</p>
+
+<img data-src="images/vartanian-2024-abm.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 25px; padding-bottom: 25px;"><div class="footer">
+<p>(Vartanian, 2024, Unpublished)</p>
 </div>
 <aside class="notes"><style type="text/css">
         span.MJX_Assistive_MathML {

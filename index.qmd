@@ -25,6 +25,11 @@ Our journey will follow this path:
 ::::
 
 ::: {.notes}
+1. **Introduction** [2.5m]
+1. **Key concepts of complex systems** [15m]
+1. **Entering the world of agent-based models** [10m]
+1. **Real-world applications** [5m]
+1. **Final remarks** [2.5m]
 :::
 
 
@@ -34,11 +39,11 @@ Our journey will follow this path:
 
 :::: {.columns}
 ::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/biological-clock.png){fig-align="center" style="width: 77.5%; padding-top: 75px;"}
+![](images/biological-clock.png){fig-align="center" style="width: 77.5%; padding-top: 60px;"}
 :::
 
 ::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 75px;"}
+![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 60px;"}
 :::
 ::::
 
@@ -52,7 +57,7 @@ A biological clock is complex, but a mechanical clock is complicated.
 
 ## Complex *versus* Complicated {.smaller}
 
-![](images/rolex-figure-2.jpg){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
+![](images/rolex-figure-3.jpg){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
 
 ::: footer
 (Photo by [Yarek Baranik](https://www.watchclub.com/rolex/cosmograph-daytona/sigmadialnodaytona-ref-6265-year-1974))
@@ -157,7 +162,7 @@ It is not **self-organized**.
 :::
 
 ::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 75px;"}
+![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 60px;"}
 :::
 ::::
 
@@ -235,6 +240,7 @@ The behavior of some **simple**, **deterministic** systems **can be impossible, 
 :::
 
 ::: {.notes}
+See: [Lorenz system](https://danielvartan.github.io/lorenz-system/).
 :::
 
 ## Pseudonoise
@@ -277,76 +283,7 @@ Micromotives and macrobehavior [@schelling2006].
 ::::
 
 ::: {.notes}
-:::
-
-## Emergence
-
-:::: {.columns}
-::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
-**Emergence isn't magic** [@wilson2004].
-
-You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023].
-
-[...] we defined emergent phenomena to be simply **stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999].
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/homer-emerging.gif){fig-align="center" style="width: 100%; padding-top: 75px;"}
-:::
-::::
-
-::: {.notes}
-Microscopic patterns that accumulate over time, similarly to evolutionary patterns.
-:::
-
-::: {.notes}
-:::
-
-## Emergence {.smaller}
-
-In complex adaptive systems, **emergent properties** often occur when coevolving signals and boundaries generate **new levels of organization**.
-
-A word about emergence [@holland2012, Topic 5.5].
-
-:::: {.columns}
-::: {.column style="width: 66%; padding-top: 0px;"}
-![](images/holland-2012-figure-1.png){fig-align="center" style="width: 100%; padding-top: 25px;"}
-:::
-
-::: {.column style="width: 33%; padding-top: 0px;"}
-![](images/seinfeld-kramer-levels.gif){fig-align="center" style="width: 100%; padding-top: 90px;"}
-:::
-::::
-
-::: footer
-[@holland2012]
-:::
-
-::: {.notes}
-Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).
-:::
-
-## Leverage points {.smaller}
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-There are places within a complex system where **a small shift in one thing can produce big changes in everything** [@meadows1999].
-
-Leverage points are points of power [@meadows2008].
-
-Possible states, even if unlikely: by modelling such interactions, **it can suggest that properties exist in the system that had not been noticed in the real world situation** [@dodig-crnkovic2013a].
-:::
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/encontro.gif){fig-align="center" style="width: 100%; padding-top: 115px;"}
-:::
-::::
-
-::: {.notes}
-:::
-
-## {data-menu-title="NetLogo Web: Fire model" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
-
-::: {.notes}
+Agent-based modeling is “naive” (DeAngelis et al. 1994) in the sense that we are not trying to aggregate agents and what they are doing in some abstract variables like abundance, biomass, overall wealth, demo- graphic rates, or nutrient fluxes. Instead, we naively and directly represent the agents and their behavior. We create these agents, put them in a virtual environment, and then let the virtual world run and see what we can learn from it [@railsback2019, pp. 7-8]
 :::
 
 ## Generative science {.smaller}
@@ -368,9 +305,6 @@ Possible states, even if unlikely: by modelling such interactions, **it can sugg
 ::::
 :::::
 
-::: {.notes}
-:::
-
 ::: footer
 (Artwork by [DaViDa S/Shutterstock](https://www.shutterstock.com/pt/image-illustration/illustrative-drawing-top-down-bottom-hand-1927000661). Flocking model by [Wilenski](https://ccl.northwestern.edu/netlogo/models/Flocking). Video by [National Geographic](https://www.youtube.com/watch?v=V4f_1_r80RY))
 :::
@@ -381,58 +315,6 @@ Like **deduction**, it starts with a set of explicit assumptions. But unlike ded
 Unlike typical **induction**, however, the simulated data comes from a rigorously specified set of rules rather than direct measurement of the real world.
 
 While induction can be used to find patterns in data, and deduction can be used to find consequences of assumptions, simulation modeling can be used as **an aid intuition**.
-:::
-
-## Complexity science(s?) {.nostretch .smaller}
-
-:::: {.columns}
-::: {.column style="width: 40%; padding-top: 0px;"}
-Complexity science seeks to **explain emergent phenomena** or mechanisms that “screen-off” their constituent parts and thereby allow new levels of description and understanding [@krakauer2024].
-:::
-
-::: {.column style="width: 60%; padding-top: 0px;"}
-![](images/sayama-2015-figure-1.png){fig-align="center" style="width: 90%; padding-top: 0px;"}
-:::
-::::
-
-::: footer
-[Artwork by @sayama2015]
-:::
-
-::: {.notes}
-"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015].
-:::
-
-## Other concepts {.smaller}
-
-There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:
-
-(*See the appendices section for more information on these concepts*)
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-- [Power laws & Factor sparsity](https://en.wikipedia.org/wiki/Pareto_principle)
-- [Feedback loops](https://en.wikipedia.org/wiki/Feedback)
-- [Robustness](https://en.wikipedia.org/wiki/Robustness)
-- [Equilibrium states](https://en.wikipedia.org/wiki/List_of_types_of_equilibrium)
-- [Adaptation](https://en.wikipedia.org/wiki/Adaptive_system)
-- [Self-organization](https://en.wikipedia.org/wiki/Self-organization)
-- [Path dependence](https://en.wikipedia.org/wiki/Path_dependence)
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-
-- [Criticality](https://en.wikipedia.org/wiki/Critical_phenomena)
-- [Scaling invariance](https://en.wikipedia.org/wiki/Scale_invariance)
-- [Nonlinear dynamics](https://en.wikipedia.org/wiki/Nonlinear_system)
-- [Phase transitions](https://en.wikipedia.org/wiki/Phase_transition)
-- [Attractors](https://en.wikipedia.org/wiki/Attractor)
-- [Fractal dimensions](https://en.wikipedia.org/wiki/Fractal_dimension)
-- [Network dynamics](https://en.wikipedia.org/wiki/Network_dynamics)
-:::
-::::
-
-::: {.notes}
 :::
 
 
@@ -469,20 +351,6 @@ Agents often represent people or other animals, but **agents can also represent 
 ::: {.notes}
 :::
 
-## Types of models {.smaller .nostretch}
-
-![](images/types-of-models.png){fig-align="center" style="width: 75%; padding-top: 50px; padding-bottom: 25px;"}
-
-::: footer
-(Artwork by [Stevens Institute of Technology](https://www.stevens.edu/))
-:::
-
-::: {.notes}
-ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.
-
-**Agent-Based Models** (Social Science) *versus* **Individual-Based Models** (IBMs) (Ecology) *versus* **Multi-Agent Systems** (MAS) (Engineering) *==* **Computer-Based Models**.
-:::
-
 ## What is a model? {.smaller}
 
 A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical) [@sayama2015].
@@ -517,13 +385,7 @@ A good model is simple, valid, and robust [@sayama2015].
 :::
 
 ::: {.notes}
-:::
-
-## Nonrealistic models
-
-![](images/cool-car.gif){fig-align="center" style="padding-top: 0px;"}
-
-::: {.notes}
+We have to force ourselves to simplify as much as we can, or even more. The modeling cycle must be started with the most simple model possible, because we want to develop understanding gradually, while iterating through the cycle. A common mistake of begin- ners is to throw too much into the first model version—usually arguing that all these factors are well known and can’t possibly be ignored. The modeling expert’s answer to this is, yes, you might be right, but—let us focus on the absolute minimum number of factors first. Put all the other elements that you think might need to be in the model on your “wish list” and check their importance later [@railsback2019, p. 8].
 :::
 
 ## Conceptual models
@@ -537,27 +399,6 @@ A good model is simple, valid, and robust [@sayama2015].
 ::: {.notes}
 :::
 
-## Tools for conceptual modelling
-
-::::: {layout-nrow=2 style="padding-top: 25px"}
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-[![](images/loopy-logo.png){fig-align="center" style="width: 90%; padding-top: 0px;"}](https://ncase.me/loopy/)
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-[![](images/insight-maker-logo.png){fig-align="center" style="width: 90%; padding-top: 0px;"}](https://insightmaker.com/)
-:::
-::::
-
-::: {.center-x}
-[![](images/kumu-logo.png){fig-align="center" style="width: 30%; top: -40px;"}](https://kumu.io/)
-:::
-:::::
-
-::: {.notes}
-:::
-
 ## Key components of ABMs
 
 :::: {.columns}
@@ -567,10 +408,6 @@ Agents
 Environment
 
 Interaction
-
-::: {.fragment .fade-in}
-️🟥
-:::
 :::
 
 ::: {.column style="width: 50%; padding-top: 25px;"}
@@ -579,28 +416,6 @@ Interaction
 ::::
 
 ::: {.notes}
-:::
-
-## Analyzing agent-based models
-
-:::: {.columns}
-::: {.column style="width: 20%; padding-top: 0px;"}
-![](images/meme-r-1.gif){fig-align="center" style="padding-top: 70px;"}
-
-![](images/meme-r-1.gif){fig-align="center" style="padding-top: 0px;"}
-:::
-::: {.column style="width: 60%; padding-top: 0px;"}
-![](images/meme-r-3.png){fig-align="center" style="padding-top: 50px;"}
-:::
-::: {.column style="width: 20%; padding-top: 0px;"}
-![](images/meme-r-2.gif){fig-align="center" style="padding-top: 70px;"}
-
-![](images/meme-r-2.gif){fig-align="center" style="padding-top: 0px;"}
-:::
-::::
-
-::: {.notes}
-Joke: You can always use other tools, but know that I will judge you for that.
 :::
 
 ## Verification and validation {.smaller}
@@ -635,32 +450,6 @@ digraph verification_validation {
 ::: {.notes}
 :::
 
-## Why use ABM?
-
-:::: {.columns}
-::: {.column style="width: 35%; padding-top: 0px;"}
-- Description
-- Explanation
-- Experimentation
-- Analogy
-- Education
-- Prediction
-:::
-::: {.column style="width: 65%; padding-top: 0px;"}
-![](images/mit-papert-figure-5.jpg){fig-align="center" style="padding-top: 0px; padding-bottom: 0px;"}
-:::
-::::
-
-::: footer
-(Seymour Papert (1928–2016) – [Father of educational computing](https://www.nature.com/articles/537308a). Photo by [MIT Museum](https://mitmuseum.mit.edu/collections/person/papert-seymour-aubrey-12338))
-:::
-
-::: {.notes}
-By my own experience. Use of ABM in the classroom (Camilo, 2012).
-
-You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.
-:::
-
 ## A picture is worth a thousand words {.smaller}
 
 :::: {.columns}
@@ -690,6 +479,9 @@ Local (Bottom-Up) approach.
 :::
 
 ::: {.notes}
+Understanding local interactions helps identify potential leverage points or types of interactions that can amplify the spread of a phenomenon. For instance, by analyzing contact interactions, one might recommend mask usage or design specific protocols for tracking and isolating infected individuals. A global approach, on its own, would not reveal these crucial details.
+
+See: [SIR model](https://danielvartan.github.io/sir/); [ Lotka–Volterra's predator–prey model](https://danielvartan.github.io/lotka-volterra/).
 :::
 
 ## When to use ABMs?
@@ -856,19 +648,6 @@ WorldClim 2.1 in NetLogo (*NetLogo/Scala-Java*).
 
 ::: footer
 (Vartanian et al., 2024, Unpublished)
-:::
-
-::: {.notes}
-:::
-
-## Social psychology {.smaller}
-
-How social groups influence political preferences and how these preferences can lead to segregation behaviors? (*NetLogo/Scala-Java*).
-
-![](images/vartanian-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-(Vartanian, 2024, Unpublished)
 :::
 
 ::: {.notes}
@@ -1050,6 +829,17 @@ Murphy's law: "Anything that can go wrong will go wrong" (epigram).
 ::: {.notes}
 :::
 
+## (AP) Complex *versus* Complicated {visibility="uncounted"}
+
+From the **etymological perspective**, “complicated” and “complex” share the same preﬁx “com”, which means together in its Proto-indo-european (PIE) root. But “complicated” comes from the Latin verb **“plicare”** which means fold (noun, as in ten folds) and implies many; “complex” has the Latin root, **“plectere”**, which means **braiding, linking, weave, interlace, and intertwine**. Thus, complex has the implication of interaction and intertwining besides the meaning of “many parts” shared with complicated.
+
+::: footer
+[@sun2016]
+:::
+
+::: {.notes}
+:::
+
 ## (AP) Complex *versus* Complicated {.smaller visibility="uncounted"}
 
 If you think about it, the extensive clock control is like a finely-tuned choreography. Everything is organized to happen at the right time, just like a **Rube Goldberg machine** [@merrow2020].
@@ -1089,17 +879,6 @@ A system can be considered complex if its entities are:
 
 ::: footer
 (Video by [Derek Muller](https://www.youtube.com/watch?v=DxL2HoqLbyA))
-:::
-
-::: {.notes}
-:::
-
-## (AP) Complex *versus* Complicated {visibility="uncounted"}
-
-From the **etymological perspective**, “complicated” and “complex” share the same preﬁx “com”, which means together in its Proto-indo-european (PIE) root. But “complicated” comes from the Latin verb **“plicare”** which means fold (noun, as in ten folds) and implies many; “complex” has the Latin root, **“plectere”**, which means **braiding, linking, weave, interlace, and intertwine**. Thus, complex has the implication of interaction and intertwining besides the meaning of “many parts” shared with complicated.
-
-::: footer
-[@sun2016]
 :::
 
 ::: {.notes}
@@ -1191,6 +970,127 @@ See also: @muller2020 .
 ## (AP) Isn't that psychohistory? {.smaller visibility="uncounted"}
 
 ![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 10px;"}
+
+::: {.notes}
+:::
+
+## (AP) Emergence {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
+**Emergence isn't magic** [@wilson2004].
+
+You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023].
+
+[...] we defined emergent phenomena to be simply **stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999].
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/homer-emerging.gif){fig-align="center" style="width: 100%; padding-top: 75px;"}
+:::
+::::
+
+::: {.notes}
+Microscopic patterns that accumulate over time, similarly to evolutionary patterns.
+:::
+
+::: {.notes}
+:::
+
+## (AP) Emergence {visibility="uncounted"}
+
+![](images/janssen-2020-figure-1.jpg){fig-align="center" style="width: 100%; padding-top: 10px; padding-bottom: 25px;"}
+
+::: footer
+[@janssen2020]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Emergence {.smaller visibility="uncounted"}
+
+In complex adaptive systems, **emergent properties** often occur when coevolving signals and boundaries generate **new levels of organization**.
+
+A word about emergence [@holland2012, Topic 5.5].
+
+:::: {.columns}
+::: {.column style="width: 66%; padding-top: 0px;"}
+![](images/holland-2012-figure-1.png){fig-align="center" style="width: 100%; padding-top: 25px;"}
+:::
+
+::: {.column style="width: 33%; padding-top: 0px;"}
+![](images/seinfeld-kramer-levels.gif){fig-align="center" style="width: 100%; padding-top: 90px;"}
+:::
+::::
+
+::: footer
+[@holland2012]
+:::
+
+::: {.notes}
+Emergence shares similarities with evolution. On shorter time scales, we observe the formation of patterns. Over longer time scales, entirely new levels of organization appear, leading to phenomena that seem unrelated to their origins (e.g., a rock and a human).
+:::
+
+## (AP) Structural levels {.smaller visibility="uncounted"}
+
+![](images/lewin-1993-figure-8.png){fig-align="center" style="padding-top: 10px; padding-bottom: 30px;"}
+
+::: footer
+[@lewin1993, p. 165]
+:::
+
+::: {.notes}
+Fig. 8. Structural levels in the organization of the nervous system, a reflection of the hierarchical systems that may underlie the generation of higher cognitive functions, including consciousness. Courtesy of Patricia Churchland and Terrence Sejnowski.
+:::
+
+## (AP) How can something be more than the sum of its parts? {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
+Is a molecule of $\text{H}_2\text{O}$ water?
+
+Can you understand a anthill by studying a single ant?
+
+Are you just a collection of cells?
+
+*Uma andorinha não faz verão*.
+
+Is love just a chemical?
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/kurzgesagt-2017-emergence-figure-1.gif){fig-align="center" style="width: 100%; padding-top: 75px;"}
+:::
+::::
+
+::: footer
+(Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE))
+:::
+
+::: {.notes}
+:::
+
+## (AP) Reductionism {.smaller visibility="uncounted"}
+
+![](images/moore-1986-figure-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
+
+::: footer
+[@moore1986, p. 22]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Reductionism *versus* Compression {.smaller visibility="uncounted"}
+
+**We're not looking down levels to explain the level of interest**.
+
+![](images/krakauer-2023-figure-1.png){fig-align="center" style="width: 100%; padding-top: 25px; padding-bottom: 35px;"}
+
+::: footer
+[@krakauer2023]
+:::
 
 ::: {.notes}
 :::
@@ -1293,75 +1193,57 @@ Systems in a highly stable state (**deep valley**) have low potential energy, an
 ::: {.notes}
 :::
 
-## (AP) Structural levels {.smaller visibility="uncounted"}
-
-![](images/lewin-1993-figure-8.png){fig-align="center" style="padding-top: 10px; padding-bottom: 30px;"}
-
-::: footer
-[@lewin1993, p. 165]
-:::
-
-::: {.notes}
-Fig. 8. Structural levels in the organization of the nervous system, a reflection of the hierarchical systems that may underlie the generation of higher cognitive functions, including consciousness. Courtesy of Patricia Churchland and Terrence Sejnowski.
-:::
-
-## (AP) How can something be more than the sum of its parts? {visibility="uncounted"}
+## (AP) Leverage points {.smaller visibility="uncounted"}
 
 :::: {.columns}
-::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
-Is a molecule of $\text{H}_2\text{O}$ water?
+::: {.column style="width: 50%; padding-top: 0px;"}
+There are places within a complex system where **a small shift in one thing can produce big changes in everything** [@meadows1999].
 
-Can you understand a anthill by studying a single ant?
+Leverage points are points of power [@meadows2008].
 
-Are you just a collection of cells?
+Possible states, even if unlikely: by modelling such interactions, **it can suggest that properties exist in the system that had not been noticed in the real world situation** [@dodig-crnkovic2013a].
+:::
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/encontro.gif){fig-align="center" style="width: 100%; padding-top: 115px;"}
+:::
+::::
 
-*Uma andorinha não faz verão*.
-
-Is love just a chemical?
+::: {.notes}
 :::
 
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/kurzgesagt-2017-emergence-figure-1.gif){fig-align="center" style="width: 100%; padding-top: 75px;"}
+## {visibility="uncounted" data-menu-title="NetLogo Web: Fire model" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Fire.nlogo" background-interactive=true}
+
+::: {.notes}
+:::
+
+## (AP) Complexity science(s?) {.nostretch .smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 40%; padding-top: 0px;"}
+Complexity science seeks to **explain emergent phenomena** or mechanisms that “screen-off” their constituent parts and thereby allow new levels of description and understanding [@krakauer2024].
+:::
+
+::: {.column style="width: 60%; padding-top: 0px;"}
+![](images/sayama-2015-figure-1.png){fig-align="center" style="width: 90%; padding-top: 0px;"}
 :::
 ::::
 
 ::: footer
-(Video by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE))
+[Artwork by @sayama2015]
 :::
 
 ::: {.notes}
+"Figure 1.1: Visual, organizational map of complex systems science broken into seven topical areas. The three circles on the left (Nonlinear Dynamics, Systems Theory, and Game Theory) are the historical roots of complex systems science, while the other four circles (Pattern Formation, Evolution and Adaptation, Networks, and Collective Behavior) are the more recently studied topical areas." [@sayama2015].
 :::
 
-## (AP) Emergence {visibility="uncounted"}
+## (AP) Map of the complexity sciences {.smaller .nostretch visibility="uncounted"}
 
-![](images/janssen-2020-figure-1.jpg){fig-align="center" style="width: 100%; padding-top: 10px; padding-bottom: 25px;"}
+::: {.center style="padding-top: 0px; padding-left: 35px; padding-right: 35px; padding-bottom: 25px;"}
+[![](images/castellani-2021-map.png)](https://www.art-sciencefactory.com/complexity-map_feb09.html)
+:::
 
 ::: footer
-[@janssen2020]
-:::
-
-::: {.notes}
-:::
-
-## (AP) Reductionism {.smaller visibility="uncounted"}
-
-![](images/moore-1986-figure-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
-
-::: footer
-[@moore1986, p. 22]
-:::
-
-::: {.notes}
-:::
-
-## (AP) Reductionism *versus* Compression {.smaller visibility="uncounted"}
-
-**We're not looking down levels to explain the level of interest**.
-
-![](images/krakauer-2023-figure-1.png){fig-align="center" style="width: 100%; padding-top: 25px; padding-bottom: 35px;"}
-
-::: footer
-[@krakauer2023]
+(Artwork by [Brian Castellani & Lasse Gerrits](https://www.art-sciencefactory.com/complexity-map_feb09.html))
 :::
 
 ::: {.notes}
@@ -1386,15 +1268,34 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 ::: {.notes}
 :::
 
-## (AP) Map of the complexity sciences {.smaller .nostretch visibility="uncounted"}
+## (AP) Other concepts {.smaller visibility="uncounted"}
 
-::: {.center style="padding-top: 0px; padding-left: 35px; padding-right: 35px; padding-bottom: 25px;"}
-[![](images/castellani-2021-map.png)](https://www.art-sciencefactory.com/complexity-map_feb09.html)
+There are several other concepts/subjects in complexity science that were not shown here, but are essential for a good understanding of complex systems and their behavior. Some of these concepts are:
+
+(*See the appendices section for more information on these concepts*)
+
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
+- [Power laws & Factor sparsity](https://en.wikipedia.org/wiki/Pareto_principle)
+- [Feedback loops](https://en.wikipedia.org/wiki/Feedback)
+- [Robustness](https://en.wikipedia.org/wiki/Robustness)
+- [Equilibrium states](https://en.wikipedia.org/wiki/List_of_types_of_equilibrium)
+- [Adaptation](https://en.wikipedia.org/wiki/Adaptive_system)
+- [Self-organization](https://en.wikipedia.org/wiki/Self-organization)
+- [Path dependence](https://en.wikipedia.org/wiki/Path_dependence)
 :::
 
-::: footer
-(Artwork by [Brian Castellani & Lasse Gerrits](https://www.art-sciencefactory.com/complexity-map_feb09.html))
+::: {.column style="width: 50%; padding-top: 0px;"}
+
+- [Criticality](https://en.wikipedia.org/wiki/Critical_phenomena)
+- [Scaling invariance](https://en.wikipedia.org/wiki/Scale_invariance)
+- [Nonlinear dynamics](https://en.wikipedia.org/wiki/Nonlinear_system)
+- [Phase transitions](https://en.wikipedia.org/wiki/Phase_transition)
+- [Attractors](https://en.wikipedia.org/wiki/Attractor)
+- [Fractal dimensions](https://en.wikipedia.org/wiki/Fractal_dimension)
+- [Network dynamics](https://en.wikipedia.org/wiki/Network_dynamics)
 :::
+::::
 
 ::: {.notes}
 :::
@@ -1402,6 +1303,46 @@ Whereas artificial-intelligence researchers seek to understand the mind by mimic
 ## {visibility="uncounted" data-menu-title="NetLogo Web: Climate change" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
 
 ::: {.notes}
+:::
+
+## (AP) Why use ABM? {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 35%; padding-top: 0px;"}
+- Description
+- Explanation
+- Experimentation
+- Analogy
+- Education
+- Prediction
+:::
+::: {.column style="width: 65%; padding-top: 0px;"}
+![](images/mit-papert-figure-5.jpg){fig-align="center" style="padding-top: 0px; padding-bottom: 0px;"}
+:::
+::::
+
+::: footer
+(Seymour Papert (1928–2016) – [Father of educational computing](https://www.nature.com/articles/537308a). Photo by [MIT Museum](https://mitmuseum.mit.edu/collections/person/papert-seymour-aubrey-12338))
+:::
+
+::: {.notes}
+By my own experience. Use of ABM in the classroom (Camilo, 2012).
+
+You don’t need to invest in infrastructure to run simulations. You can use your own machine or cloud computing services to execute them.
+:::
+
+## (AP) Types of models {.smaller .nostretch visibility="uncounted"}
+
+![](images/types-of-models.png){fig-align="center" style="width: 75%; padding-top: 50px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Stevens Institute of Technology](https://www.stevens.edu/))
+:::
+
+::: {.notes}
+ABMs can also be implemented in continuous time, but most are designed as discrete-time simulations.
+
+**Agent-Based Models** (Social Science) *versus* **Individual-Based Models** (IBMs) (Ecology) *versus* **Multi-Agent Systems** (MAS) (Engineering) *==* **Computer-Based Models**.
 :::
 
 ## (AP) Del rigor en la ciencia {.smaller visibility="uncounted"}
@@ -1513,6 +1454,63 @@ We ought then to regard the present state of the universe as the effect of its a
 ::: {.notes}
 :::
 
+## (AP) The modelling cycle {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 35%; font-size: 0.85em; padding-top: 30px;"}
+1. Formulate the question.
+2. Assemble hypotheses for essential processes and structures.
+3. Choose scales, entities, state variables, processes, and parameters.
+4. Implement the model.
+5. Analyze, test, and revise the model.
+6. Communicate the model.
+
+<br>
+
+Popper's hypothetico-deductive method.
+
+:::
+
+::: {.column style="width: 65%; padding-top: 0px;"}
+![](images/railsback-2019-figure-1-3.png){fig-align="center" style="width: 85%; padding-top: 20px;"}
+:::
+::::
+
+::: footer
+[@railsback2019, pp. 7-10]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Tools for conceptual modelling {visibility="uncounted"}
+
+::::: {layout-nrow=2 style="padding-top: 25px"}
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
+[![](images/loopy-logo.png){fig-align="center" style="width: 90%; padding-top: 0px;"}](https://ncase.me/loopy/)
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+[![](images/insight-maker-logo.png){fig-align="center" style="width: 90%; padding-top: 0px;"}](https://insightmaker.com/)
+:::
+::::
+
+::: {.center-x}
+[![](images/kumu-logo.png){fig-align="center" style="width: 30%; top: -40px;"}](https://kumu.io/)
+:::
+:::::
+
+::: {.notes}
+:::
+
+## (AP) Nonrealistic models {visibility="uncounted"}
+
+![](images/cool-car.gif){fig-align="center" style="padding-top: 0px;"}
+
+::: {.notes}
+:::
+
 ## (AP) Nonrealistic models {.smaller visibility="uncounted"}
 
 ![](images/oinonen-2021-figure-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
@@ -1534,6 +1532,28 @@ We ought then to regard the present state of the universe as the effect of its a
 
 ::: {.notes}
 The universe is under no obligation to make sense to you [@tyson2021].
+:::
+
+## (AP) Analyzing agent-based models {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 20%; padding-top: 0px;"}
+![](images/meme-r-1.gif){fig-align="center" style="padding-top: 70px;"}
+
+![](images/meme-r-1.gif){fig-align="center" style="padding-top: 0px;"}
+:::
+::: {.column style="width: 60%; padding-top: 0px;"}
+![](images/meme-r-3.png){fig-align="center" style="padding-top: 50px;"}
+:::
+::: {.column style="width: 20%; padding-top: 0px;"}
+![](images/meme-r-2.gif){fig-align="center" style="padding-top: 70px;"}
+
+![](images/meme-r-2.gif){fig-align="center" style="padding-top: 0px;"}
+:::
+::::
+
+::: {.notes}
+Joke: You can always use other tools, but know that I will judge you for that.
 :::
 
 ## (AP) Pattern-oriented model design {.smaller visibility="uncounted"}
@@ -1609,6 +1629,32 @@ An interactive platform to improve decision-making related to the revitalization
 
 ::: footer
 [@cityscience]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Housing market {.smaller visibility="uncounted"}
+
+An agent-based model of the UK housing market (*NetLogo/Scala-Java*).
+
+![](images/gilbert-2009-figure-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 0px;"}
+
+::: footer
+[@gilbert2009]
+:::
+
+::: {.notes}
+:::
+
+## Social psychology {.smaller}
+
+How social groups influence political preferences and how these preferences can lead to segregation behaviors? (*NetLogo/Scala-Java*).
+
+![](images/vartanian-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Vartanian, 2024, Unpublished)
 :::
 
 ::: {.notes}
