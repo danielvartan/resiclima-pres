@@ -66,8 +66,6 @@ A biological clock is complex, but a mechanical clock is complicated.
 ::: {.notes}
 A look at the internals of a mechanical clock.
 
-Elegant and Precise
-
 A watchmaker designed it. It has a specific function. It has a goal.
 
 It may be hard to understand, but if you take the time and look at all of its parts, you can understand the whole system.
@@ -82,7 +80,7 @@ It may be hard to understand, but if you take the time and look at all of its pa
 :::
 
 ::: footer
-[@perez-villa2023]
+[Artwork by @perez-villa2023]
 :::
 
 ::: {.notes}
@@ -107,7 +105,35 @@ It's adaptive, robust, produces extreme events, and is self-organized.
 
 **Stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999].
 
-When the aggregate exhibits **properties not attained by summation**. In mathematical terms, the interactions of interest are non-linear [@holland2014].
+When the aggregate exhibits **properties not attained by summation** [@holland2014].
+
+::: {layout-nrow=2}
+![](images/kurzgesagt-2017-emergence-figure-1.gif){fig-align="center" style="width: 80%; left: 61.5px;"}
+
+![](images/kurzgesagt-2017-emergence-figure-2.gif){fig-align="center" style="width: 80%; left: -61.5px;"}
+
+![](images/quanta-magazine-2018-figure-1.gif){fig-align="center" style="width: 80%; left: 61.5px; top: -68.5px;"}
+
+![](images/journey-to-the-microcosmos-2019-figure-1.gif){fig-align="center" style="width: 80%; left: -61.5px; top: -68.5px;"}
+:::
+
+::: footer
+(Videos by [Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=16W7c0mb-rE), [Quanta Magazine](https://www.youtube.com/watch?v=TlysTnxF_6c), and [Journey to the Microcosmos](https://www.youtube.com/watch?v=KLi5bl-gdeQ))
+:::
+
+::: {.notes}
+The behavior of each part don't explain how they behave collectively.
+
+Levels of description [@nicolis2012].
+
+In mathematical terms, the interactions of interest are non-linear [@holland2014].
+
+**Emergence isn't magic** [@wilson2004].
+
+You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023].
+:::
+
+## Emergence {.smaller}
 
 **A aggregate behavior emerges** from the interactions of the parts (CAS) [@holland2012].
 
@@ -125,12 +151,6 @@ When the aggregate exhibits **properties not attained by summation**. In mathema
 Illustrative example: Societies; immune cells.
 
 A society is formed by individuals and their interactions. In this case, we are the agents and the society is the aggregate agent. And, as we know, we shape the society, but the society also shapes us.
-
-**Emergence isn't magic** [@wilson2004].
-
-You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023].
-
-Levels of description [@nicolis2012].
 
 <!-- ![](images/homer-emerging.gif) -->
 <!-- ![](images/power-rangers-megazord-1.gif) -->

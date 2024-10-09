@@ -18,7 +18,7 @@
     "href": "index.html#complex-versus-complicated-1",
     "title": "Exploring complexity with agent-based models",
     "section": "Complex versus Complicated",
-    "text": "Complex versus Complicated\n\n\n(Photo by Yarek Baranik)\n\nA look at the internals of a mechanical clock.\nElegant and Precise\nA watchmaker designed it. It has a specific function. It has a goal.\nIt may be hard to understand, but if you take the time and look at all of its parts, you can understand the whole system."
+    "text": "Complex versus Complicated\n\n\n(Photo by Yarek Baranik)\n\nA look at the internals of a mechanical clock.\nA watchmaker designed it. It has a specific function. It has a goal.\nIt may be hard to understand, but if you take the time and look at all of its parts, you can understand the whole system."
   },
   {
     "objectID": "index.html#complex-versus-complicated-2",
@@ -32,7 +32,14 @@
     "href": "index.html#emergence",
     "title": "Exploring complexity with agent-based models",
     "section": "Emergence",
-    "text": "Emergence\nStable macroscopic patterns arising from local interaction of agents (Epstein, 1999).\nWhen the aggregate exhibits properties not attained by summation. In mathematical terms, the interactions of interest are non-linear (Holland, 2014).\nA aggregate behavior emerges from the interactions of the parts (CAS) (Holland, 2012).\n\n\n(Artwork by Holland, 2012)\n\n(joke) Power Rangers Megazord.\n“Esquece o jovem místico”.\nIllustrative example: Societies; immune cells.\nA society is formed by individuals and their interactions. In this case, we are the agents and the society is the aggregate agent. And, as we know, we shape the society, but the society also shapes us.\nEmergence isn’t magic (Wilson, 2004).\nYou are dealing with an emergence phenomenon when there is no need to look under the hood (Krakauer, 2023).\nLevels of description (Nicolis & Nicolis, 2012)."
+    "text": "Emergence\nStable macroscopic patterns arising from local interaction of agents (Epstein, 1999).\nWhen the aggregate exhibits properties not attained by summation (Holland, 2014).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Videos by Kurzgesagt – In a Nutshell, Quanta Magazine, and Journey to the Microcosmos)\n\nThe behavior of each part don’t explain how they behave collectively.\nLevels of description (Nicolis & Nicolis, 2012).\nIn mathematical terms, the interactions of interest are non-linear (Holland, 2014).\nEmergence isn’t magic (Wilson, 2004).\nYou are dealing with an emergence phenomenon when there is no need to look under the hood (Krakauer, 2023)."
+  },
+  {
+    "objectID": "index.html#emergence-1",
+    "href": "index.html#emergence-1",
+    "title": "Exploring complexity with agent-based models",
+    "section": "Emergence",
+    "text": "Emergence\nA aggregate behavior emerges from the interactions of the parts (CAS) (Holland, 2012).\n\n\n(Artwork by Holland, 2012)\n\n(joke) Power Rangers Megazord.\n“Esquece o jovem místico”.\nIllustrative example: Societies; immune cells.\nA society is formed by individuals and their interactions. In this case, we are the agents and the society is the aggregate agent. And, as we know, we shape the society, but the society also shapes us."
   },
   {
     "objectID": "index.html#chaos",
