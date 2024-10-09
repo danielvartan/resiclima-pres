@@ -94,7 +94,7 @@ A mess! A bunch of coupled oscillators
 
 If you look just its parts, you can't understand the whole system.
 
-It's an emergent phenomenon
+It's an emergent phenomenon.
 
 It can be thought as an "aggregate agent" ― aggregate behavior of component agents generates behavior of the aggregate agent. [@holland2012]
 
@@ -103,116 +103,38 @@ Boundaries and signals [@holland2012]
 It's adaptive, robust, produces extreme events, and is self-organized.
 :::
 
-## Complex *versus* Complicated {.smaller}
+## Emergence {.smaller}
 
-If you look at just the parts of a complex system, you can't understand the whole system.
+**Stable macroscopic patterns** arising from **local interaction** of agents [@epstein1999].
 
-**A aggregate behavior emerges** from the interactions of the parts.
+When the aggregate exhibits **properties not attained by summation**. In mathematical terms, the interactions of interest are non-linear [@holland2014].
+
+**A aggregate behavior emerges** from the interactions of the parts (CAS) [@holland2012].
 
 ![](images/holland-2012-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 50px"}
 
 ::: footer
-[@holland2012]
+[Artwork by @holland2012]
 :::
 
 ::: {.notes}
+(joke) Power Rangers Megazord.
+
+"Esquece o jovem místico".
+
 Illustrative example: Societies; immune cells.
 
 A society is formed by individuals and their interactions. In this case, we are the agents and the society is the aggregate agent. And, as we know, we shape the society, but the society also shapes us.
-:::
 
-## Complex *versus* Complicated {.smaller}
+**Emergence isn't magic** [@wilson2004].
 
-:::: {.columns}
-::: {.column style="width: 40%; padding-top: 0px;"}
-**The aggregate behavior influences the agent behavior and vice-versa** [@holland2012].
+You are dealing with an emergence phenomenon when there is no need to look under the hood [@krakauer2023].
 
-Circadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation [@roenneberg2007].
-:::
+Levels of description [@nicolis2012].
 
-::: {.column style="width: 60%; padding-top: 0px;"}
-![](images/flanagan-2021-figure-2.png){fig-align="center" style="padding-top: 50px; padding-bottom: 25px"}
-:::
-::::
-
-::: footer
-[Artwork by @flanagan2021]
-:::
-
-::: {.notes}
-:::
-
-## Complex *versus* Complicated {.nostretch .smaller}
-
-:::: {.columns}
-::: {.column style="width: 50%; font-size: 1.1em; padding-top: 0px;"}
-Its parts define it.
-
-**It does not exhibit aggregate/emergent behavior**.
-
-<br>
-
-It is not **adaptive**.
-
-It is not **robust**.
-
-It does not **produce extreme events**.
-
-It is not **self-organized**.
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 60px;"}
-:::
-::::
-
-::: {.notes}
-:::
-
-## What is a system? {.smaller}
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of system-wide behavior [@vonbertalanffy1968].
-
-A system is **defined by an observer** and may have an arbitrary content domain [@bao2018].
-
-**The structure of complex systems creates their behavior** [@sterman2000] (the system as cause).
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/system.png){fig-align="center" style="width: 100%; padding-top: 80px; padding-bottom: 0px;"}
-:::
-::::
-
-::: footer
-[Artwork by @schindel2013]
-:::
-
-::: {.notes}
-:::
-
-## What is a complex system? {.nostretch .smaller}
-
-:::: {.columns}
-::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
-Systems that don't yield to compact forms of representation or description (David Krakauer in @mitchell2013).
-
-A system of many interacting parts where the system is **more than just the sum of its parts** (Mark Newman in @mitchell2013).
-
-A system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting **aggregate behavior** that cannot be simply derived from the actions of the individual parts [@holland1992b].
-
-Systems with many connected agents that interact and exhibit self-organization and **emergence behavior**, all without the need for a central controller (Camilo Rodrigues Neto).
-
-Dialectics at its finest (my working definition).
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/entangled-threads.jpg){fig-align="center" style="width: 90%; padding-top: 80px;"}
-:::
-::::
-
-::: {.notes}
+<!-- ![](images/homer-emerging.gif) -->
+<!-- ![](images/power-rangers-megazord-1.gif) -->
+<!-- ![](images/seinfeld-kramer-levels.gif) -->
 :::
 
 ## Chaos {.smaller}
@@ -240,6 +162,8 @@ The behavior of some **simple**, **deterministic** systems **can be impossible, 
 :::
 
 ::: {.notes}
+Seemingly random behavior can emerge from deterministic systems, with no external source of randomness [@mitchell2009].
+
 See: [Lorenz system](https://danielvartan.github.io/lorenz-system/).
 :::
 
@@ -268,22 +192,6 @@ Micromotives and macrobehavior [@schelling2006].
 ## {data-menu-title="NetLogo Web: Schelling's segregation model" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Segregation.nlogo" background-interactive=true}
 
 ::: {.notes}
-:::
-
-## Untangling *versus* Entangling
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-![](images/fuck-christmas-lights.gif){fig-align="center" style="width: 100%; padding-top: 10px;"}
-:::
-
-::: {.column style="width: 50%; padding-top: 0px;"}
-[![](images/spontaneous-knotting.gif)](https://doi.org/10.1073/pnas.0611320104)
-:::
-::::
-
-::: {.notes}
-Agent-based modeling is “naive” (DeAngelis et al. 1994) in the sense that we are not trying to aggregate agents and what they are doing in some abstract variables like abundance, biomass, overall wealth, demo- graphic rates, or nutrient fluxes. Instead, we naively and directly represent the agents and their behavior. We create these agents, put them in a virtual environment, and then let the virtual world run and see what we can learn from it [@railsback2019, pp. 7-8]
 :::
 
 ## Generative science {.smaller}
@@ -351,31 +259,6 @@ Agents often represent people or other animals, but **agents can also represent 
 ::: {.notes}
 :::
 
-## What is a model? {.smaller}
-
-A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical) [@sayama2015].
-
-A good model is simple, valid, and robust [@sayama2015].
-
-**All models are wrong**, but some are useful [@box1979, p. 202].
-
-:::: {.columns}
-::: {.column style="width: 50%; text-align: right; padding-top: 0px;"}
-![](images/strebe-2011-mercator-projection.jpg){style="width: 70%; padding-top: 0px;"}
-:::
-
-::: {.column style="width: 50%; text-align: left; padding-top: 0px;"}
-![](images/esa-2022-earth.jpg){style="width: 70%; padding-top: 0px;"}
-:::
-::::
-
-::: footer
-(Mercator projection by [Daniel R. Strebe](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). Earth photo by the [European Space Agency](https://www.esa.int/ESA_Multimedia/Images/2022/04/Earth))
-:::
-
-::: {.notes}
-:::
-
 ## The modeling cycle {.smaller}
 
 ![](images/puccia-1985-figure-1-1.png){fig-align="center" style="padding-top: 0px; padding-bottom: 25px;"}
@@ -416,72 +299,6 @@ Interaction
 ::::
 
 ::: {.notes}
-:::
-
-## Verification and validation {.smaller}
-
-**Verification** is the process of making sure your conceptual model matches your implemented model.
-
-**Validation** is the process of making sure your implemented model corresponds to the real world.
-
-::: {.absolute left=50 bottom=50}
-```{dot}
-digraph verification_validation {
-  rankdir = TD;
-
-  A[label="Real World" shape=box]
-  B[label="Conceptual Model" shape=box]
-  C[label="Implemented Model" shape=box]
-  
-  A -> B [label="Design"];
-  B -> C [label="Construction"];
-  C -> B [label="Verification"];
-  C -> A [label="Validation"];
- 
-  { rank = same; A B C }
-}
-```
-:::
-
-::: footer
-[@rand2024]
-:::
-
-::: {.notes}
-:::
-
-## A picture is worth a thousand words {.smaller}
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 50px;"}
-$$
-\begin{cases}
-\cfrac{\mathrm{d}}{\mathrm{d} t} \text{S} = - \lambda \text{S} \text{I} \\
-\cfrac{\mathrm{d}}{\mathrm{d} t} \text{I} = \lambda \text{S} \text{I} - \gamma \text{I} \\
-\cfrac{\mathrm{d}}{\mathrm{d} t} \text{R} = \gamma \text{I} \\
-\end{cases}
-$$
-
-<br>
-
-Global (Top-Down) approach.
-
-Local (Bottom-Up) approach.
-:::
-
-::: {.column style="width: 50%; padding-top: 25px;"}
-![](images/netlogo-epiden-basic-figure-01.png){fig-align="center" style="border: 1px solid black;"}
-:::
-::::
-
-::: footer
-[@kermack1927]
-:::
-
-::: {.notes}
-Understanding local interactions helps identify potential leverage points or types of interactions that can amplify the spread of a phenomenon. For instance, by analyzing contact interactions, one might recommend mask usage or design specific protocols for tracking and isolating infected individuals. A global approach, on its own, would not reveal these crucial details.
-
-See: [SIR model](https://danielvartan.github.io/sir/); [ Lotka–Volterra's predator–prey model](https://danielvartan.github.io/lotka-volterra/).
 :::
 
 ## When to use ABMs?
@@ -534,31 +351,6 @@ See also: [Comparison of agent-based modeling software](https://en.wikipedia.org
 ::: {.notes}
 :::
 
-## NetLogo
-
-:::: {.columns}
-::: {.column style="width: 50%; padding-top: 0px;"}
-Most used ABM software.
-
-A more intuitive and visual approach to modeling phenomena.
-
-**Low Threshold, No Ceiling** [@tisue2004a].
-
-Open-source and free!
-:::
-::: {.column style="width: 50%; padding-top: 75px;"}
-[![](images/netlogoweb-logo.png){fig-align="center" style="width: 65%;" }](https://ccl.northwestern.edu/netlogo/)
-:::
-::::
-
-::: {.notes}
-- Logo (Seymour Papert: 1967
-- NetLogo (Uri Wilensky): 1999) (Rand, Unit 8).
-:::
-
-::: {.notes}
-:::
-
 
 # Real-world applications
 
@@ -570,32 +362,6 @@ Agent-based model of the ancient Maya social-ecological system (*applied archaeo
 
 ::: footer
 [@heckbert2019]
-:::
-
-::: {.notes}
-:::
-
-## Public health {.smaller}
-
-Inequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach (*NetLogo/Scala-Java*).
-
-![](images/jones-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-[@jones2024]
-:::
-
-::: {.notes}
-:::
-
-## Biophysics {.smaller}
-
-Agent-based models for detecting the driving forces of biomolecular interactions (*Orion/Java*).
-
-![](images/maestri-2022-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-[@maestri2022]
 :::
 
 ::: {.notes}
@@ -627,32 +393,6 @@ Agent-based simulation tool that supports simulation of the evacuation of a city
 ::: {.notes}
 :::
 
-## Epidemiology {.smaller}
-
-Probabilistic Relational Agent-Based Models (PRAM) influenza simulation: a SIR model (*Unity3D/C++*).
-
-![](images/babichenko-2020-figure-5.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-[@babichenko2020]
-:::
-
-::: {.notes}
-:::
-
-## Climatology {.smaller}
-
-WorldClim 2.1 in NetLogo (*NetLogo/Scala-Java*).
-
-![](images/global-syndemic-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-(Vartanian et al., 2024, Unpublished)
-:::
-
-::: {.notes}
-:::
-
 ## ABM + AI: Agent hospital {.smaller}
 
 A simulacrum of hospital with evolvable medical agents.
@@ -669,13 +409,13 @@ A simulacrum of hospital with evolvable medical agents.
 
 # Final remarks
 
-## Summary of key takeaways {.smaller}
+## Summary of key takeaways
 
 **Complex systems** are systems with many interconnected parts that exhibit emergent behavior.
 
 **Complexity science** seeks to explain emergent phenomena or mechanisms that “screen-off” their constituent parts and thereby allow new levels of description and understanding.
 
-**Agent-based models** are bottom-up stochastic computational models with the purpose of simulating the behavior of agents and their interactions, allowing us to study emergent phenomena. They are useful for modeling complex systems and can be used in a wide variety of fields, including social sciences, epidemiology, archaeology, ecology, and many others.
+**Agent-based models** are bottom-up stochastic computational models with the purpose of simulating the behavior of agents and their interactions, allowing us to study emergent phenomena.
 
 ::: {.notes}
 :::
@@ -858,6 +598,111 @@ This is the result of a juggling act of billions of years of evolution. There ar
 You would hate have this clock. You would be late for everything. Its always changing. That's because it's not a clock, it's a timing system.
 :::
 
+## (AP) Complex *versus* Complicated {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 40%; padding-top: 0px;"}
+**The aggregate behavior influences the agent behavior and vice-versa** [@holland2012].
+
+Circadian clocks regulate and/or modulate functions at all levels, ranging from gene expression and physiology to behavior and cogitation [@roenneberg2007].
+:::
+
+::: {.column style="width: 60%; padding-top: 0px;"}
+![](images/flanagan-2021-figure-2.png){fig-align="center" style="padding-top: 50px; padding-bottom: 25px"}
+:::
+::::
+
+::: footer
+[Artwork by @flanagan2021]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Complex *versus* Complicated {.nostretch .smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; font-size: 1.1em; padding-top: 0px;"}
+Its parts define it.
+
+**It does not exhibit aggregate/emergent behavior**.
+
+<br>
+
+It is not **adaptive**.
+
+It is not **robust**.
+
+It does not **produce extreme events**.
+
+It is not **self-organized**.
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/mechanical-clock-figure-2.png){fig-align="center" style="width: 75%; padding-top: 60px;"}
+:::
+::::
+
+::: {.notes}
+:::
+
+## (AP) What is a system? {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
+In a very general sense, a system is a **collection of interacting elements** that together produce, by virtue of their interactions, some form of system-wide behavior [@vonbertalanffy1968].
+
+A system is **defined by an observer** and may have an arbitrary content domain [@bao2018].
+
+**The structure of complex systems creates their behavior** [@sterman2000] (the system as cause).
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/system.png){fig-align="center" style="width: 100%; padding-top: 80px; padding-bottom: 0px;"}
+:::
+::::
+
+::: footer
+[Artwork by @schindel2013]
+:::
+
+::: {.notes}
+:::
+
+## (AP) What is a complex system? {.nostretch .smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; font-size: 0.9em; padding-top: 0px;"}
+Systems that don't yield to compact forms of representation or description (David Krakauer in @mitchell2013).
+
+A system of many interacting parts where the system is **more than just the sum of its parts** (Mark Newman in @mitchell2013).
+
+A system that involves a large number of parts undergoing a kaleidoscopic array of simultaneous interactions, exhibiting **aggregate behavior** that cannot be simply derived from the actions of the individual parts [@holland1992b].
+
+Systems with many connected agents that interact and exhibit self-organization and **emergence behavior**, all without the need for a central controller (Camilo Rodrigues Neto).
+
+Dialectics at its finest (my working definition).
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/entangled-threads.jpg){fig-align="center" style="width: 90%; padding-top: 80px;"}
+:::
+::::
+
+::: {.notes}
+:::
+
+## (AP) What is a complex system? {visibility="uncounted"}
+
+![](images/julia-jabur-figure-1.jpg){fig-align="center" style="width: 100%; padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Artwork by [Julia Jabur](https://www1.folha.uol.com.br/blogs/ciencia-fundamental/2023/09/a-ciencia-da-complexidade-como-chave-da-sustentabilidade.shtml))
+:::
+
+::: {.notes}
+:::
+
 ## (AP) Complex structures {.nostretch .smaller visibility="uncounted"}
 
 :::: {.columns}
@@ -879,17 +724,6 @@ A system can be considered complex if its entities are:
 
 ::: footer
 (Video by [Derek Muller](https://www.youtube.com/watch?v=DxL2HoqLbyA))
-:::
-
-::: {.notes}
-:::
-
-## (AP) What is a complex system? {visibility="uncounted"}
-
-![](images/julia-jabur-figure-1.jpg){fig-align="center" style="width: 100%; padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-(Artwork by [Julia Jabur](https://www1.folha.uol.com.br/blogs/ciencia-fundamental/2023/09/a-ciencia-da-complexidade-como-chave-da-sustentabilidade.shtml))
 :::
 
 ::: {.notes}
@@ -939,22 +773,6 @@ Humans have difficult to simulate steps in their minds. We are not good at under
 
 ## (AP) Chaos {.smaller visibility="uncounted"}
 
-Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.
-
-The behavior of some **simple**, **deterministic** systems **can be impossible, even in principle, to predict in the long term**, due to sensitive dependence on initial conditions.
-
-![](images/mitchell-2009-figure-2-11.png){fig-align="center" style="width: 75%; padding-top: 25px; padding-bottom: 25px;"}
-
-::: footer
-[@mitchell2009]
-:::
-
-::: {.notes}
-Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R [@mitchell2009].
-:::
-
-## (AP) Chaos {.smaller visibility="uncounted"}
-
 Although the detailed behavior of a chaotic system cannot be predicted, **there is some “order in chaos”** seen in universal properties common to large sets of chaotic systems, such as the period-doubling route to chaos and Feigenbaum’s constant. Thus even though “prediction becomes impossible” at the detailed level, there are some higher-level aspects of chaotic systems that are indeed predictable.
 
 ![](images/mitchell-2009-figure-2-11.png){fig-align="center" style="width: 75%; padding-top: 25px; padding-bottom: 25px;"}
@@ -964,14 +782,32 @@ Although the detailed behavior of a chaotic system cannot be predicted, **there 
 :::
 
 ::: {.notes}
+Figure 2.11. Bifurcation diagram for the logistic map, with attractor plotted as a function of R [@mitchell2009].
+
 See also: @muller2020 .
 :::
 
-## (AP) Isn't that psychohistory? {.smaller visibility="uncounted"}
+## (AP) Isn't that psychohistory? {visibility="uncounted"}
 
 ![](images/foundation-figure-1.gif){fig-align="center" style="padding-top: 10px;"}
 
 ::: {.notes}
+:::
+
+## (AP) Untangling *versus* Entangling {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
+![](images/fuck-christmas-lights.gif){fig-align="center" style="width: 100%; padding-top: 10px;"}
+:::
+
+::: {.column style="width: 50%; padding-top: 0px;"}
+[![](images/spontaneous-knotting.gif)](https://doi.org/10.1073/pnas.0611320104)
+:::
+::::
+
+::: {.notes}
+Agent-based modeling is “naive” (DeAngelis et al. 1994) in the sense that we are not trying to aggregate agents and what they are doing in some abstract variables like abundance, biomass, overall wealth, demo- graphic rates, or nutrient fluxes. Instead, we naively and directly represent the agents and their behavior. We create these agents, put them in a virtual environment, and then let the virtual world run and see what we can learn from it [@railsback2019, pp. 7-8]
 :::
 
 ## (AP) Emergence {visibility="uncounted"}
@@ -1178,6 +1014,7 @@ The order in complex systems is said to be robust because, **being distributed a
 :::
 
 ::: {.notes}
+![](images/power-rangers-megazord-2.gif)
 :::
 
 ## (AP) Equilibrium states {.smaller visibility="uncounted"}
@@ -1301,6 +1138,31 @@ There are several other concepts/subjects in complexity science that were not sh
 :::
 
 ## {visibility="uncounted" data-menu-title="NetLogo Web: Climate change" background-iframe="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo" background-interactive=true}
+
+::: {.notes}
+:::
+
+## (AP) What is a model? {.smaller visibility="uncounted"}
+
+A model is a simplified representation of a system. It can be conceptual, verbal, diagrammatic, physical, or formal (mathematical) [@sayama2015].
+
+A good model is simple, valid, and robust [@sayama2015].
+
+**All models are wrong**, but some are useful [@box1979, p. 202].
+
+:::: {.columns}
+::: {.column style="width: 50%; text-align: right; padding-top: 0px;"}
+![](images/strebe-2011-mercator-projection.jpg){style="width: 70%; padding-top: 0px;"}
+:::
+
+::: {.column style="width: 50%; text-align: left; padding-top: 0px;"}
+![](images/esa-2022-earth.jpg){style="width: 70%; padding-top: 0px;"}
+:::
+::::
+
+::: footer
+(Mercator projection by [Daniel R. Strebe](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). Earth photo by the [European Space Agency](https://www.esa.int/ESA_Multimedia/Images/2022/04/Earth))
+:::
 
 ::: {.notes}
 :::
@@ -1556,6 +1418,38 @@ The universe is under no obligation to make sense to you [@tyson2021].
 Joke: You can always use other tools, but know that I will judge you for that.
 :::
 
+## (AP) Verification and validation {.smaller visibility="uncounted"}
+
+**Verification** is the process of making sure your conceptual model matches your implemented model.
+
+**Validation** is the process of making sure your implemented model corresponds to the real world.
+
+::: {.absolute left=50 bottom=50}
+```{dot}
+digraph verification_validation {
+  rankdir = TD;
+
+  A[label="Real World" shape=box]
+  B[label="Conceptual Model" shape=box]
+  C[label="Implemented Model" shape=box]
+  
+  A -> B [label="Design"];
+  B -> C [label="Construction"];
+  C -> B [label="Verification"];
+  C -> A [label="Validation"];
+ 
+  { rank = same; A B C }
+}
+```
+:::
+
+::: footer
+[@rand2024]
+:::
+
+::: {.notes}
+:::
+
 ## (AP) Pattern-oriented model design {.smaller visibility="uncounted"}
 
 ![](images/grimm-2005-figure-2.png){fig-align="center" style="padding-top: 50px; padding-bottom: 50px;"}
@@ -1593,6 +1487,91 @@ Joke: You can always use other tools, but know that I will judge you for that.
 Simple model example: Schelling's segregation model [@schelling1971].
 
 We call this the ‘Medawar zone’ because Medawar described a similar relation between the difficulty of a scientific problem and its payoff [@grimm2005a].
+:::
+
+## (AP) A picture is worth a thousand words {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 50px;"}
+$$
+\begin{cases}
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{S} = - \lambda \text{S} \text{I} \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{I} = \lambda \text{S} \text{I} - \gamma \text{I} \\
+\cfrac{\mathrm{d}}{\mathrm{d} t} \text{R} = \gamma \text{I} \\
+\end{cases}
+$$
+
+<br>
+
+Global (Top-Down) approach.
+
+Local (Bottom-Up) approach.
+:::
+
+::: {.column style="width: 50%; padding-top: 25px;"}
+![](images/netlogo-epiden-basic-figure-01.png){fig-align="center" style="border: 1px solid black;"}
+:::
+::::
+
+::: footer
+[@kermack1927]
+:::
+
+::: {.notes}
+Understanding local interactions helps identify potential leverage points or types of interactions that can amplify the spread of a phenomenon. For instance, by analyzing contact interactions, one might recommend mask usage or design specific protocols for tracking and isolating infected individuals. A global approach, on its own, would not reveal these crucial details.
+
+See: [SIR model](https://danielvartan.github.io/sir/); [ Lotka–Volterra's predator–prey model](https://danielvartan.github.io/lotka-volterra/).
+:::
+
+## (AP) NetLogo {visibility="uncounted"}
+
+:::: {.columns}
+::: {.column style="width: 50%; padding-top: 0px;"}
+Most used ABM software.
+
+A more intuitive and visual approach to modeling phenomena.
+
+**Low Threshold, No Ceiling** [@tisue2004a].
+
+Open-source and free!
+:::
+::: {.column style="width: 50%; padding-top: 75px;"}
+[![](images/netlogoweb-logo.png){fig-align="center" style="width: 65%;" }](https://ccl.northwestern.edu/netlogo/)
+:::
+::::
+
+::: {.notes}
+- Logo (Seymour Papert: 1967
+- NetLogo (Uri Wilensky): 1999) (Rand, Unit 8).
+:::
+
+::: {.notes}
+:::
+
+## (AP) Public health {.smaller visibility="uncounted"}
+
+Inequalities in physical activity as an emergent feature of a complex system: an agent-based modelling approach (*NetLogo/Scala-Java*).
+
+![](images/jones-2024-abm.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@jones2024]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Biophysics {.smaller visibility="uncounted"}
+
+Agent-based models for detecting the driving forces of biomolecular interactions (*Orion/Java*).
+
+![](images/maestri-2022-figure-1.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@maestri2022]
+:::
+
+::: {.notes}
 :::
 
 ## (AP) Geography {.smaller visibility="uncounted"}
@@ -1647,7 +1626,33 @@ An agent-based model of the UK housing market (*NetLogo/Scala-Java*).
 ::: {.notes}
 :::
 
-## Social psychology {.smaller}
+## (AP) Epidemiology {.smaller visibility="uncounted"}
+
+Probabilistic Relational Agent-Based Models (PRAM) influenza simulation: a SIR model (*Unity3D/C++*).
+
+![](images/babichenko-2020-figure-5.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+[@babichenko2020]
+:::
+
+::: {.notes}
+:::
+
+## (AP) Climatology {.smaller visibility="uncounted"}
+
+WorldClim 2.1 in NetLogo (*NetLogo/Scala-Java*).
+
+![](images/global-syndemic-figure-2.png){fig-align="center" style="padding-top: 25px; padding-bottom: 25px;"}
+
+::: footer
+(Vartanian et al., 2024, Unpublished)
+:::
+
+::: {.notes}
+:::
+
+## (AP) Social psychology {.smaller visibility="uncounted"}
 
 How social groups influence political preferences and how these preferences can lead to segregation behaviors? (*NetLogo/Scala-Java*).
 
