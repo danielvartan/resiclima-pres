@@ -11,7 +11,7 @@
     "href": "index.html#complex-versus-complicated",
     "title": "Exploring complexity with agent-based models",
     "section": "Complex versus Complicated",
-    "text": "Complex versus Complicated\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Biological clock illustration by Novel Prize Outreach. Mechanical clock illustration by Mai/Adobe Stock)\n\nA biological clock is complex, but a mechanical clock is complicated."
+    "text": "Complex versus Complicated\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Biological clock illustration by Nobel Prize Outreach. Mechanical clock illustration by Mai/Adobe Stock)\n\nA biological clock is complex, but a mechanical clock is complicated."
   },
   {
     "objectID": "index.html#complex-versus-complicated-1",
@@ -25,7 +25,7 @@
     "href": "index.html#complex-versus-complicated-2",
     "title": "Exploring complexity with agent-based models",
     "section": "Complex versus Complicated",
-    "text": "Complex versus Complicated\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Pérez-Villa et al., 2023)\n\nA look at the internals of a biological clock (a timing system).\nA mess! A bunch of coupled oscillators\n“[…] involve great numbers of parts undergoing a kaleidoscopic array of simultaneous interactions.” (Holland, 1992)\nIf you look just its parts, you can’t understand the whole system.\nIt’s an emergent phenomenon.\nIt can be thought as an “aggregate agent” ― aggregate behavior of component agents generates behavior of the aggregate agent. (Holland, 2012)\nBoundaries and signals (Holland, 2012)\nIt’s adaptive, robust, produces extreme events, and is self-organized."
+    "text": "Complex versus Complicated\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Artwork by Pérez-Villa et al., 2023)\n\nA look at the internals of a biological clock (a timing system).\nA mess! A bunch of coupled oscillators\n“[…] involve great numbers of parts undergoing a kaleidoscopic array of simultaneous interactions.” (Holland, 1992)\nIf you look just its parts, you can’t understand the whole system.\nIt’s an emergent phenomenon.\nIt can be thought as an “aggregate agent” ― aggregate behavior of component agents generates behavior of the aggregate agent. (Holland, 2012)\nBoundaries and signals (Holland, 2012)\nIt’s adaptive, robust, produces extreme events, and is self-organized."
   },
   {
     "objectID": "index.html#emergence",
@@ -164,8 +164,8 @@
     "objectID": "index.html#closing-remarks",
     "href": "index.html#closing-remarks",
     "title": "Exploring complexity with agent-based models",
-    "section": "Closing Remarks",
-    "text": "Closing Remarks\n \nThis presentation was created using the Quarto Publishing System. Code and materials are available on GitHub.\nSeveral of these slides benefited from significant contributions from Bill Rand, Camilo Rodrigues Neto, and others.\n\n\n\n\n\n(Artwork by Allison Horst)"
+    "section": "Closing remarks",
+    "text": "Closing remarks\n \nThis presentation was created using the Quarto Publishing System. Code and materials are available on GitHub.\nSeveral of these slides benefited from significant contributions from Bill Rand, Camilo Rodrigues Neto, and others.\n\n\n\n\n\n(Artwork by Allison Horst)"
   },
   {
     "objectID": "index.html#references",

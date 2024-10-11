@@ -48,7 +48,7 @@ Our journey will follow this path:
 ::::
 
 ::: footer
-(Biological clock illustration by [Novel Prize Outreach](https://www.nobelprize.org/prizes/medicine/2017/press-release/). Mechanical clock illustration by [Mai/Adobe Stock](https://stock.adobe.com/br/images/clock-illustration-flat-design-of-blue-wall-clock-isolated-on-white-background/241899533))
+(Biological clock illustration by [Nobel Prize Outreach](https://www.nobelprize.org/prizes/medicine/2017/press-release/). Mechanical clock illustration by [Mai/Adobe Stock](https://stock.adobe.com/br/images/clock-illustration-flat-design-of-blue-wall-clock-isolated-on-white-background/241899533))
 :::
 
 ::: {.notes}
@@ -497,7 +497,7 @@ Smaldino, P. E. (2023). *Modeling social behavior: mathematical and agent-based 
 ::: {.notes}
 :::
 
-## Closing Remarks {.smaller}
+## Closing remarks {.smaller}
 
 [![License:
 MIT](images/mit-license-badge.svg){style="width: 10.5%; padding-top: 0px;"}](https://choosealicense.com/licenses/mit/)

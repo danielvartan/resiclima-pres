@@ -120,7 +120,7 @@ We have to force ourselves to simplify as much as we can, or even more. The mode
 
 ## How to learn more? [line 479]
 
-## Closing Remarks [line 500]
+## Closing remarks [line 500]
 
 ## References [line 520]
 
